@@ -1,8 +1,7 @@
-# Translation of WikiLearn - Frontend to French (français)
+# Translation of WikiLearn - Frontend to German (Deutsch)
 # Exported from translatewiki.net
 #
-# Author: Gomoko
-# Author: Verdy p
+# Author: Justman10000
 # --
 # This file is part of the WikiLearn Project
 # This file is distributed under the same license as the WikiLearn package.
@@ -10,107 +9,100 @@
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: edx-platform\n"
-"Report-Msgid-Bugs-To: Translatewiki\n"
-"POT-Creation-Date: 2022-10-18 04:22:59.628790\n"
 "PO-Revision-Date: 2023-04-03 11:31:45+0000\n"
-"Last-Translator: \n"
-"Language-Team: Translatewiki\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Generated-By: Babel 2.8.0\n"
-"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
+"Language: de\n"
 "X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-01-24\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Change can not be reverted."
-msgstr "Le changement ne peut pas être annulé."
+msgstr "Die Änderung kann nicht rückgängig gemacht werden."
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Block data would not be sent to server for translations"
-msgstr "Les données de bloc ne seraient pas envoyées au serveur pour les traductions"
+msgstr "Blockdaten würden nicht an den Server für Übersetzungen gesendet werden"
 
 #: cms/templates/js/course-blocks-mapping.underscore
 msgid "Map blocks"
-msgstr "Blocs de carte"
+msgstr "Kartenblöcke"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Enable Translations for this block?"
-msgstr "Activer les traductions pour ce bloc ?"
+msgstr "Übersetzungen für diesen Block aktivieren?"
 
 #: cms/static/js/views/course_blocks_mapping.js
 msgid "Mapping Blocks"
-msgstr "Cartographier les blocs"
+msgstr "Blöcke kartieren"
 
 #: cms/static/js/views/pages/container.js
 msgid "Disable Translations"
-msgstr "Désactiver les traductions"
+msgstr "Übersetzungen deaktivieren"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Updating"
-msgstr "Mise à jour en cours"
+msgstr "Aktualisieren"
 
 #: cms/static/js/views/pages/container.js
 msgid "Enable Translations"
-msgstr "Activer les traductions"
+msgstr "Übersetzungen freigeben"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Disable Translations for this block?"
-msgstr "Désactiver les traductions pour ce bloc ?"
+msgstr "Übersetzungen für diesen Block deaktivieren?"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Edit on Translated rerun?"
-msgstr "Modifier sur la réexécution traduite ?"
+msgstr "Bearbeiten auf Übersetzte Wiederholung?"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Block data would be sent to server for translations"
-msgstr "Les données de bloc seraient envoyées au serveur pour les traductions"
+msgstr "Die Blockdaten werden zur Übersetzung an den Server gesendet"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Yes, Enable Translations"
-msgstr "Oui, activer les traductions"
+msgstr "Ja, Übersetzungen einschalten"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Yes, Update Flag"
-msgstr "Oui, mettre à jour l’indicateur"
+msgstr "Ja, Flagge aktualisieren"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Yes, Disable Translations"
-msgstr "Oui, désactiver les traductions"
+msgstr "Ja, Übersetzungen deaktivieren"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Are you sure you want to update flag as it will not be reverted again."
-msgstr "Voulez-vous vraiment mettre à jour l’indicateur car cela ne sera pas annulé ensuite ?"
+msgstr "Bist du sicher, dass du die Flagge aktualisieren willst, da sie nicht wieder rückgängig gemacht werden kann."
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Continue Editing"
-msgstr "Continuer la modification"
+msgstr "Bearbeitung fortsetzen"
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Edit on Base Course Block?"
-msgstr "Modifier sur le bloc de cours de base ?"
+msgstr "Auf Grundkursblock bearbeiten?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Note that any linked translated rerun blocks mapping will be lost."
-msgstr "Notez que toute correspondance des blocs de réexécution traduits liés sera perdue."
+msgstr "Beachte, dass alle verknüpften übersetzten Wiederholungsblöcke verloren gehen."
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Please disable translations after an edit, otherwise edited component will be overwritten by auto next applied translations."
-msgstr "Veuillez désactiver les traductions après une modification, sinon le composant modifié sera écrasé par les prochaines traductions appliquées automatiquement."
+msgstr "Bitte deaktiviere die Übersetzungen nach einer Bearbeitung, sonst wird die bearbeitete Komponente durch die nächste automatisch angewendete Übersetzung überschrieben."
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "If you edit base block content all linked translated-rerun blocks translations will be lost and all previous version history will be deleted."
-msgstr "Si vous modifiez le contenu du bloc de base, toutes les traductions liées des blocs réexécutés-traduits seront perdues et tout l’historique des versions précédentes sera supprimé."
+msgstr "Wenn du den Inhalt des Basisblocks bearbeitest, gehen alle verlinkten Übersetzungen der übersetzten Blöcke verloren und der gesamte Versionsverlauf wird gelöscht."
 
 #: cms/templates/js/course-blocks-mapping.underscore
 msgid "Course Blocks mapping"
-msgstr "Correspondance des blocs de cours"
+msgstr "Zuordnung der Kursblöcke"
 
 #: lms/templates/student_account/login.underscore
 #, python-format
 msgid "%(providerName)s account"
-msgstr "compte de %(providerName)s"
+msgstr "%(providerName)s Konto"
 

@@ -1,138 +1,136 @@
+# Translation of WikiLearn - Backend to Simplified Chinese (中文（简体）)
+# Exported from translatewiki.net
+#
+# Author: 850710247liu
+# Author: Phoenix3145
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1a\n"
-"Report-Msgid-Bugs-To: Translatewiki\n"
-"POT-Creation-Date: 2022-10-18 04:22:59.511105\n"
-"PO-Revision-Date: 2023-01-16 12:09:03.232769\n"
-"Last-Translator: \n"
-"Language-Team: Translatewiki\n"
-"Language: lv\n"
-"MIME-Version: 1.0\n"
+""
+"PO-Revision-Date: 2023-04-03 11:31:45+0000\n"
+"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: zh-Hans\n"
+"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-01-24\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: themes/edx-platform/wikilearn/lms/lms/templates/courseware/progress.html
 msgid "Course Grade for '{username}' ({email})"
-msgstr ""
+msgstr "“{username}”({email}) 的课程成绩"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to load Course Outline."
-msgstr ""
+msgstr "无法加载课程大纲。"
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt
 #, python-format
-msgid ""
-"%(comment_username)s mentioned you in the comment on post: %(thread_title)s:"
-msgstr ""
+msgid "%(comment_username)s mentioned you in the comment on post: %(thread_title)s:"
+msgstr "%(comment_username)s 在帖子的评论中提到了您：%(thread_title)s："
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Error in sending message. Please try again!"
-msgstr ""
+msgstr "发送消息时出错。请再试一遍！"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Translated Course re-run"
-msgstr ""
+msgstr "翻译课程再次运行"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "You have "
-msgstr ""
+msgstr "您有"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
-msgid ""
-"Identify the course language here. You can request for translation after "
-"creating a course"
-msgstr ""
+msgid "Identify the course language here. You can request for translation after creating a course"
+msgstr "在此处确定课程语言。您可以在创建课程后请求翻译"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/views.py
 msgid "with_user param is required."
-msgstr ""
+msgstr "with_user 参数是必需的。"
 
 #: openedx/features/wikimedia_features/meta_translations/models.py
 msgid "Destination"
-msgstr ""
+msgstr "目标"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Anonymized student ID's"
-msgstr ""
+msgstr "匿名学生证"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "pending translation"
-msgstr ""
+msgstr "待翻译"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "unread message(s) waiting for your response from following users:"
-msgstr ""
+msgstr "以下用户的未读消息："
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Create a copy of a course, It should be considered as a new course"
-msgstr ""
+msgstr "创建一个课程的副本，它应该被视为一个新课程"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Applied"
-msgstr ""
+msgstr "已应用"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Translated rerun for Source Course in selected language already exists."
-msgstr ""
+msgstr "所选语言的源课程的翻译重播已存在。"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "New Message"
-msgstr ""
+msgstr "新消息"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Select Rerun Course"
-msgstr ""
+msgstr "选择重修课程"
 
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
 msgid "TS"
-msgstr ""
+msgstr "TS"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Score column on the Progress Page"
-msgstr ""
+msgstr "在进度页面上启用分数列表"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "applied"
-msgstr ""
+msgstr "已应用"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No Translations Found!, Please apply mapping."
-msgstr ""
+msgstr "未找到翻译！请应用映射。"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "unread message(s) waiting for your response from "
-msgstr ""
+msgstr "以下用户的未读消息："
 
 #: cms/templates/settings.html
 msgid "Convert course to Source"
-msgstr ""
+msgstr "将课程转换为源"
 
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-authenticated.html
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-not-authenticated.html
 msgid "Catalog"
-msgstr ""
+msgstr "目录"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid ""
-"This email message was automatically sent from %(platform_name)s because "
-"someone attempted to create an account using this email address."
-msgstr ""
+msgid "This email message was automatically sent from %(platform_name)s because someone attempted to create an account using this email address."
+msgstr "有人试图使用此电子邮件地址创建帐户，此电子邮件从 %(platform_name)s 自动发送。"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Filter My Courses"
-msgstr ""
+msgstr "过滤我的课程"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
@@ -140,58 +138,56 @@ msgstr ""
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt
 #, python-format
 msgid "This email was automatically sent from %(platform_name)s to %(email)s"
-msgstr ""
+msgstr "这封电子邮件是自动从 %(platform_name)s 发送到 %(email)s"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Create a copy of a course for translation into a new language"
-msgstr ""
+msgstr "创建课程副本以翻译成新语言"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "Login your platform to view all new messages "
-msgstr ""
+msgstr "若想查所有新消息，请登录您的平台\\"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/serializers.py
 msgid "Missing request object."
-msgstr ""
+msgstr "缺少请求对象。"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course Language is required field for Translated rerun."
-msgstr ""
+msgstr "课程语言是翻译重新运行的必填字段。"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to apply this time, Please try again later."
-msgstr ""
+msgstr "本次无法申请，请稍后再试。"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Expand Outline"
-msgstr ""
+msgstr "展开大纲"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Average grade report for multiple courses"
-msgstr ""
+msgstr "多门课程的平均成绩报告"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format
-msgid ""
-"This email was automatically sent from %(platform_name)s because someone "
-"attempted to create an account using this email address."
-msgstr ""
+msgid "This email was automatically sent from %(platform_name)s because someone attempted to create an account using this email address."
+msgstr "有人试图使用此电子邮件地址创建帐户，此电子邮件从 %(platform_name)s 自动发送。"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Incomplete Translation"
-msgstr ""
+msgstr "未完成翻译"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translation is Disabled"
-msgstr ""
+msgstr "翻译被禁用"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Reports Available for Generate"
-msgstr ""
+msgstr "可生成的报告"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Approve"
-msgstr ""
+msgstr "批准"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger.html
 msgid "Messenger - {platform_name}"
@@ -199,40 +195,35 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "APPLY"
-msgstr ""
+msgstr "申请"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Unable to load conversation of user:"
-msgstr ""
+msgstr "无法加载用户对话："
 
 #: themes/edx-platform/wikilearn/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid " All rights reserved"
-msgstr ""
+msgstr "版权所有"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to approve this time, Please try again later."
-msgstr ""
+msgstr "本次无法申请，请稍后再试。"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/views.py
 msgid "User with username: {} does not exist."
-msgstr ""
+msgstr "用户名：{} 的用户不存在。"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Course Version Report (Aggregate)"
-msgstr ""
+msgstr "课程版本报告（汇总）"
 
 #: cms/templates/settings.html
 msgid "Course Direction Flag"
 msgstr ""
 
-#: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/subject.txt
-#, python-format
-msgid "%(subject)s"
-msgstr ""
-
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No Translated Course Found!"
-msgstr ""
+msgstr "找不到翻译的课程！"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Unable to load conversations."
@@ -259,9 +250,7 @@ msgid "Generate Average Grade Report"
 msgstr ""
 
 #: cms/templates/settings.html
-msgid ""
-"The option is disabled because the course is mapped as a base course or a "
-"translated course."
+msgid "The option is disabled because the course is mapped as a base course or a translated course."
 msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
@@ -273,9 +262,7 @@ msgid "Users"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
-msgid ""
-"Translated rerun can not be created for the base course with no language. "
-"Please set base course language from settings."
+msgid "Translated rerun can not be created for the base course with no language. Please set base course language from settings."
 msgstr ""
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
@@ -284,9 +271,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html
 #, python-format
-msgid ""
-"%(comment_username)s mentioned you in the comment on post: <b>"
-"%(thread_title)s</b>:"
+msgid "%(comment_username)s mentioned you in the comment on post: <b>%(thread_title)s</b>:"
 msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/api/v0/serializers.py
@@ -295,7 +280,7 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid "Copyright "
-msgstr ""
+msgstr "版权 "
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Report Name"
@@ -315,7 +300,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 msgid "Hi "
-msgstr ""
+msgstr "您好 "
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Enter Message ..."
@@ -340,7 +325,7 @@ msgstr ""
 #: openedx/features/wikimedia_features/messenger/views.py
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-authenticated.html
 msgid "Inbox"
-msgstr ""
+msgstr "收件箱"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Problem Grade report for all currently enrolled students"
@@ -352,20 +337,16 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/cms/templates/widgets/header.html
 msgid "Translations"
-msgstr ""
+msgstr "翻译"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid ""
-"You're almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. "
+msgid "You're almost there! Use the link below to activate your account to access engaging, high-quality %(platform_name)s courses. "
 msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
-msgid ""
-"Congratulations! Translations are approved. They're also applied "
-"automatically to the Course Blocks"
+msgid "Congratulations! Translations are approved. They're also applied automatically to the Course Blocks"
 msgstr ""
 
 #: openedx/features/wikimedia_features/admin_dashboard/admin_task/api.py
@@ -378,7 +359,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No pending translations to be approved"
-msgstr ""
+msgstr "没有待批准的交易"
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html
 #, python-format
@@ -390,8 +371,7 @@ msgid "recent"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
-msgid ""
-"Enter true or false. If true, students can see score tab on the progress page"
+msgid "Enter true or false. If true, students can see score tab on the progress page"
 msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
@@ -403,9 +383,7 @@ msgid "Unable to load content."
 msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
-msgid ""
-"Congratulations! The translation is approved. It's also applied "
-"automatically to the Course Block"
+msgid "Congratulations! The translation is approved. It's also applied automatically to the Course Block"
 msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-authenticated.html
@@ -490,9 +468,7 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
-msgid ""
-"Note that you will not be able to log back into your account until you have "
-"activated it."
+msgid "Note that you will not be able to log back into your account until you have activated it."
 msgstr ""
 
 #: openedx/features/wikimedia_features/wikimedia_general/tab.py
@@ -568,14 +544,7 @@ msgid "Untranslated"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
-msgid ""
-"\n"
-"            Select course family in which you want to display your course.\n"
-"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-montserrat\", and \"font-source-sans-pro"
-"\".\n"
-"            If value is invalid or empty the default font-family will be "
-"\"Helvetica Neue\".\n"
-"            "
+msgid "\n            Select course family in which you want to display your course.\n            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-montserrat\", and \"font-source-sans-pro\".\n            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n            "
 msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
@@ -665,3 +634,4 @@ msgstr ""
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/wikimedia_progress_fragment.html
 msgid "Problem Score"
 msgstr ""
+

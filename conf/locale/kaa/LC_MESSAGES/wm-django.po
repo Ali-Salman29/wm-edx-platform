@@ -1,7 +1,7 @@
-# Translation of WikiLearn - Backend to Indonesian (Bahasa Indonesia)
+# Translation of WikiLearn - Backend to Kara-Kalpak (Qaraqalpaqsha)
 # Exported from translatewiki.net
 #
-# Author: Agam Riyandana
+# Author: Ajiniyaz Nurniyazov
 # --
 # This file is part of the WikiLearn Project
 # This file is distributed under the same license as the WikiLearn package.
@@ -9,20 +9,13 @@
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: 0.1a\n"
-"Report-Msgid-Bugs-To: Translatewiki\n"
-"POT-Creation-Date: 2022-10-18 04:22:59.511105\n"
 "PO-Revision-Date: 2023-04-03 11:31:45+0000\n"
-"Last-Translator: \n"
-"Language-Team: Translatewiki\n"
-"Language: id\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.8.0\n"
-"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
+"Language: kaa\n"
 "X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-01-24\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: themes/edx-platform/wikilearn/lms/lms/templates/courseware/progress.html
 msgid "Course Grade for '{username}' ({email})"
@@ -39,7 +32,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Error in sending message. Please try again!"
-msgstr ""
+msgstr "Xabarlardı jiberiwde qátelik. Márhámát, taǵı bir márte urınıp kóriń!"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Translated Course re-run"
@@ -52,19 +45,19 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Message"
-msgstr ""
+msgstr "Xabar"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Identify the course language here. You can request for translation after creating a course"
-msgstr ""
+msgstr "Bul jerde kurs tilin anıqlań. Kurstı jaratqanıńızdan keyin awdarmanı sorawıńız múmkin"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/views.py
 msgid "with_user param is required."
-msgstr ""
+msgstr "with_user parametri talap etiledi."
 
 #: openedx/features/wikimedia_features/meta_translations/models.py
 msgid "Destination"
-msgstr ""
+msgstr "Mánzil"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Anonymized student ID's"
@@ -81,11 +74,11 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Create a copy of a course, It should be considered as a new course"
-msgstr ""
+msgstr "Kurstıń kóshirmesin jaratıń. Bul jańa kurs retinde qaralıwı kerek"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Applied"
-msgstr ""
+msgstr "Qollanıldı"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Translated rerun for Source Course in selected language already exists."
@@ -93,7 +86,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "New Message"
-msgstr ""
+msgstr "Jańa xabar"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Select Rerun Course"
@@ -109,11 +102,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "applied"
-msgstr ""
+msgstr "qollanıldı"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No Translations Found!, Please apply mapping."
-msgstr ""
+msgstr "Awdarma tabılmadı! Márhámát, salıstırıw ámelin qollań."
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
@@ -127,7 +120,7 @@ msgstr ""
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-authenticated.html
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-not-authenticated.html
 msgid "Catalog"
-msgstr ""
+msgstr "Katalog"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
@@ -152,11 +145,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "Login your platform to view all new messages "
-msgstr ""
+msgstr "Barlıq jańa xabarlardı kóriw ushın platformańızǵa kiriń "
 
 #: openedx/features/wikimedia_features/messenger/api/v0/serializers.py
 msgid "Missing request object."
-msgstr ""
+msgstr "Soraw obyekti joq."
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course Language is required field for Translated rerun."
@@ -181,7 +174,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Incomplete Translation"
-msgstr ""
+msgstr "Tamamlanbaǵan awdarma"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translation is Disabled"
@@ -189,11 +182,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Reports Available for Generate"
-msgstr ""
+msgstr "Jaratıw ushın tayar esabatlar"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Approve"
-msgstr ""
+msgstr "Tastıyıqlaw"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger.html
 msgid "Messenger - {platform_name}"
@@ -201,7 +194,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "APPLY"
-msgstr ""
+msgstr "QOLLANÍW"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Unable to load conversation of user:"
@@ -209,7 +202,7 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid " All rights reserved"
-msgstr ""
+msgstr "Barlıq huqıqlar qorǵawǵa alınǵan"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to approve this time, Please try again later."
@@ -229,11 +222,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No Translated Course Found!"
-msgstr ""
+msgstr "Awdarmalanǵan kurs tabılmadı!"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Unable to load conversations."
-msgstr ""
+msgstr "Sáwbetlerdi júklew ilajsız."
 
 #: themes/edx-platform/wikilearn/lms/templates/footer.html
 msgid "Edly Privacy Policy"
@@ -245,11 +238,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Select"
-msgstr ""
+msgstr "Saylaw"
 
 #: openedx/features/wikimedia_features/meta_translations/models.py
 msgid "Source"
-msgstr ""
+msgstr "Derek"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Generate Average Grade Report"
@@ -265,7 +258,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Users"
-msgstr ""
+msgstr "Paydalanıwshılar"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Translated rerun can not be created for the base course with no language. Please set base course language from settings."
@@ -281,12 +274,13 @@ msgid "%(comment_username)s mentioned you in the comment on post: <b>%(thread_ti
 msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/api/v0/serializers.py
+#, fuzzy
 msgid "recipient list can not be empty."
-msgstr ""
+msgstr "Qabıllawshı dizimi bos bolıwı múmkin emes."
 
 #: themes/edx-platform/wikilearn/lms/templates/ace_common/edx_ace/common/base_body.html
 msgid "Copyright "
-msgstr ""
+msgstr "Avtorlıq huqıqı "
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Report Name"
@@ -298,27 +292,27 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 msgid "Login your platform to view all new messages."
-msgstr ""
+msgstr "Barlıq jańa xabarlardı kóriw ushın platformańızǵa kiriń."
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Generate"
-msgstr ""
+msgstr "Jaratıw"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html
 msgid "Hi "
-msgstr ""
+msgstr "Sálem "
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Enter Message ..."
-msgstr ""
+msgstr "Xabardı kirgiziń..."
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Send"
-msgstr ""
+msgstr "Jiberiw"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/serializers.py
 msgid "Invalid request - request object not found."
-msgstr ""
+msgstr "Nadurıs talap - talap etilgen obyekt tabılmadı."
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to load Courses."
@@ -331,7 +325,7 @@ msgstr ""
 #: openedx/features/wikimedia_features/messenger/views.py
 #: themes/edx-platform/wikilearn/lms/templates/header/navbar-authenticated.html
 msgid "Inbox"
-msgstr ""
+msgstr "Kiriwshi xatqutı"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Problem Grade report for all currently enrolled students"
@@ -339,11 +333,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Search Users"
-msgstr ""
+msgstr "Paydalanıwshılardı izlew"
 
 #: themes/edx-platform/wikilearn/cms/templates/widgets/header.html
 msgid "Translations"
-msgstr ""
+msgstr "Awdarmalar"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
@@ -365,7 +359,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No pending translations to be approved"
-msgstr "Tidak ada terjemahan tertunda untuk disetujui"
+msgstr ""
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html
 #, python-format
@@ -374,7 +368,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "recent"
-msgstr ""
+msgstr "jaqındaǵı"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students can see score tab on the progress page"
@@ -398,7 +392,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Error in marking messages read."
-msgstr ""
+msgstr "Xabarlardı oqılǵan dep belgilewde qátelik."
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Progress report for all currently enrolled students"
@@ -410,7 +404,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Message(s) have been sent."
-msgstr ""
+msgstr "Xabar(lar) jiberildi."
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Grade report for all currently enrolled students"
@@ -426,11 +420,11 @@ msgstr ""
 
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "Certificate of"
-msgstr ""
+msgstr "Sertifikatı"
 
 #: openedx/features/wikimedia_features/messenger/api/v0/views.py
 msgid "Search query param is required."
-msgstr ""
+msgstr "Izlew sorawı parametri talap etiledi."
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "Base Course ID"
@@ -438,23 +432,23 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "APPROVE"
-msgstr ""
+msgstr "TASTÍYÍQLAW"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Message has been sent."
-msgstr ""
+msgstr "Xabar jiberildi."
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Apply"
-msgstr ""
+msgstr "Qollanıw"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Reply"
-msgstr ""
+msgstr "Juwap beriw"
 
 #: openedx/features/wikimedia_features/messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt
 msgid "Dear "
-msgstr ""
+msgstr "Áziyz "
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "Course Version Report (Detailed - Per Course)"
@@ -462,20 +456,20 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "APPLIED"
-msgstr ""
+msgstr "QOLLANÍLDÍ"
 
 #: themes/edx-platform/wikilearn/cms/templates/course-create-rerun.html
 msgid "The Base Course ID"
-msgstr ""
+msgstr "Tiykarǵı kurs identifikatorı"
 
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "Achievement"
-msgstr ""
+msgstr "Jetiskenlik"
 
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.txt
 msgid "Note that you will not be able to log back into your account until you have activated it."
-msgstr ""
+msgstr "Sonı este tutıń, siz akkauntıńızdı aktivlestirmegenińizge shekem oǵan qayta kire almaysız."
 
 #: openedx/features/wikimedia_features/wikimedia_general/tab.py
 msgid "Wiki Progress"
@@ -487,7 +481,7 @@ msgstr ""
 
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "has successfully completed"
-msgstr ""
+msgstr "tabıslı juwmaqlandı"
 
 #: openedx/features/wikimedia_features/admin_dashboard/templates/course_report/course-reports.html
 msgid "List profile information for enrolled students"
@@ -501,11 +495,11 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "other"
-msgstr ""
+msgstr "basqa"
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Type your message..."
-msgstr ""
+msgstr "Xabarıńızdı jazıń..."
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt
 #, python-format
@@ -523,31 +517,31 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/messenger/views.py
 msgid "Error in sending messages. Please try again!"
-msgstr ""
+msgstr "Xabarlardı jiberiwde qátelik. Márhámát, taǵı bir márte urınıp kóriń!"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translated Course Name"
-msgstr "Nama Kursus yang Diterjemahkan"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translated:"
-msgstr "Diterjemahkan:"
+msgstr "Awdarmalanǵan"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translation"
-msgstr "Terjemahan"
+msgstr "Awdarma"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "To Language"
-msgstr "Ke Bahasa"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Translated"
-msgstr "Diterjemahkan"
+msgstr "Awdarılǵan"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Untranslated"
-msgstr "Belum diterjemahkan"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "\n            Select course family in which you want to display your course.\n            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-montserrat\", and \"font-source-sans-pro\".\n            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n            "
@@ -555,63 +549,63 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Hrs Ago"
-msgstr "Jam Lalu"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Filters"
-msgstr "Filter"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "N/A"
-msgstr "T/A"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No courses found"
-msgstr "Tidak ada kursus yang ditemukan"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Search Course By Name"
-msgstr "Cari Kursus Berdasarkan Nama"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Select Course Font Family"
-msgstr "Pilih Keluarga Font Kursus"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Section Header"
-msgstr "Kepala Bagian"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "No course blocks found"
-msgstr "Blok kursus tidak ditemukan"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "From Language"
-msgstr "Dari Bahasa"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to load courses"
-msgstr "Tidak dapat memuat kursus"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to load a course"
-msgstr "Tidak dapat memuat kursus"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Unable to load course blocks"
-msgstr "Tidak dapat memuat blok kursus"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Load More"
-msgstr "Muat lebih banyak"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Block Type"
-msgstr "Tipe Blok"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Last Updated:"
-msgstr "Pembaruan Terakhir:"
+msgstr ""
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Courses available for translation"
