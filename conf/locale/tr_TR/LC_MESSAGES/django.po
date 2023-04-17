@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-17 13:25+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2021\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/open-edx/teams/6205/tr_TR/)\n"
@@ -13144,7 +13144,7 @@ msgstr "İşlem Sürüyor"
 #. successfully processed
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Ready"
-msgstr "Hazır"
+msgstr ""
 
 #. Translators: This is the status for a video that is uploaded completely
 #: cms/djangoapps/contentstore/views/videos.py
@@ -18006,7 +18006,7 @@ msgstr "Okullar"
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
-msgstr "Son dersinize devam edin"
+msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
@@ -26829,13 +26829,6 @@ msgstr ""
 
 #~ msgid "Put your Copyright Text here!"
 #~ msgstr "Telif Hakları metninizi buraya koyun!"
-
-#~ msgid ""
-#~ "This course run is using an upgraded version of edx discussion forum. "
-#~ "Discussion xblocks will no longer work."
-#~ msgstr ""
-#~ "Bu ders, edx tartışma forumunun yükseltilmiş bir sürümünü kullanıyor. "
-#~ "Discussion xblock'ları artık çalışmayacak."
 
 #~ msgid " Learn more"
 #~ msgstr " Daha fazlasını öğren"
