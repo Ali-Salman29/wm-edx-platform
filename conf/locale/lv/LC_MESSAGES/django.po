@@ -49,10 +49,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-17 13:25+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
-"Language-Team: Latvian (https://www.transifex.com/open-edx/teams/6205/lv/)\n"
+"Language-Team: Latvian (https://app.transifex.com/open-edx/teams/6205/lv/)\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18160,7 +18160,7 @@ msgstr "Skolas"
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
-msgstr "Turpināt Jūsu pēdējo kursu"
+msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html

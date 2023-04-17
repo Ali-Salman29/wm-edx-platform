@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-17 13:25+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: NELC Open edX Translation <openedx@elc.edu.sa>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/open-edx/teams/6205/ar/)\n"
@@ -13201,7 +13201,7 @@ msgstr "قيد المعالجة"
 #. successfully processed
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Ready"
-msgstr "مستعدّ"
+msgstr ""
 
 #. Translators: This is the status for a video that is uploaded completely
 #: cms/djangoapps/contentstore/views/videos.py
@@ -18169,7 +18169,7 @@ msgstr "المدارس"
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
-msgstr "استئناف مساقك الأخير"
+msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
