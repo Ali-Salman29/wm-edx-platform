@@ -119,7 +119,7 @@ class Command(BaseCommand):
                         pomsgs.append(entry)
                 if pomsgs.metadata.get('PO-Revision-Date'):
                     pomsgs.metadata['PO-Revision-Date'] = str(datetime.now())
-                pomsgs.save(output_file)
+                pomsgs.save(output_file, validate=False)
         else:
             po = POFile()
             date = datetime.now()
@@ -136,7 +136,7 @@ class Command(BaseCommand):
                 po.header = ', fuzzy'
             for entry in po_entries:
                 po.append(entry)
-            po.save(output_file)
+            po.save(output_file, validate=False)
 
     def pull_translation_from_transifex(self, locales, base_lang='en'):
         """
@@ -147,7 +147,7 @@ class Command(BaseCommand):
         log.info('Pulling Reviewed Translations from Transifex')
         locales = list(set(locales) - set([base_lang]))
         langs = ','.join(locales)
-        execute(f'tx pull  --mode=reviewed -l {langs}')
+        execute(f'tx pull --mode=proofread -l {langs}')
 
     def msgmerge(self, locales, staged_files, base_lang='en', generate_po_file_if_not_exist=False, output_file_mapping={}):
         """
