@@ -109,6 +109,19 @@ jobs:
         run: |
           rm -r conf/locale/qqq
           paver i18n_fastgenerate
+        continue-on-error: true
+      
+      - name: Check errors
+        run: |
+          export NO_PREREQ_INSTALL='true'
+          export LMS_CFG=$(pwd)/lms/devstack.yml
+          export STUDIO_CFG=$(pwd)/cms/devstack.yml
+
+          python django-admin.py compilemessages
+
+          unset LMS_CFG
+          unset STUDIO_CFG
+        if: steps.generate-i18n-files.outcome != 'success'
 
       - name: Compile JS translations
         id: compile-js-i18n-files
