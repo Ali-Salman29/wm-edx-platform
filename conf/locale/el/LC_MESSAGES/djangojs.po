@@ -83,10 +83,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-18 17:51+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Ioannis Stavrakakis <gsalone@gmail.com>, 2020\n"
-"Language-Team: Greek (http://www.transifex.com/open-edx/edx-platform/language/el/)\n"
+"Language-Team: Greek (http://app.transifex.com/open-edx/edx-platform/language/el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,15 +115,32 @@ msgstr ""
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
 #: lms/static/js/ccx/schedule.js lms/static/js/views/fields.js
 msgid "Saving"
-msgstr "Αποθήκευση σε εξέλιξη"
+msgstr ""
 
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/asset.js cms/static/js/views/list_item.js
 #: cms/static/js/views/manage_users_and_roles.js
 #: cms/static/js/views/show_textbook.js
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-settings-learning-fields.underscore
+#: cms/templates/js/course_grade_policy.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Delete"
-msgstr "Διαγραφή"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -156,13 +173,13 @@ msgstr "Διαγραφή"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 #: lms/templates/learner_dashboard/verification_popover.underscore
 msgid "Cancel"
-msgstr "Ακύρωση"
+msgstr ""
 
 #. Translators: This is the status of an active video upload
 #: cms/static/js/models/active_video_upload.js cms/static/js/views/assets.js
 #: cms/static/js/views/video_thumbnail.js lms/static/js/views/image_field.js
 msgid "Uploading"
-msgstr "Μεταφορτώνεται"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -178,20 +195,25 @@ msgstr "Μεταφορτώνεται"
 #: common/static/common/templates/image-modal.underscore
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Close"
-msgstr "Κλείσιμο"
+msgstr ""
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/assets.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/asset-library.underscore
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
 #: cms/templates/js/signatory-details.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Name"
-msgstr "Όνομα"
+msgstr ""
 
 #: cms/static/js/views/assets.js lms/static/js/Markdown.Editor.js
 #: cms/templates/js/asset-upload-modal.underscore
 msgid "Choose File"
-msgstr "Επιλέξτε αρχείο"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -243,7 +265,7 @@ msgstr ""
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Μεταφόρτωση Αρχείου"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -266,9 +288,14 @@ msgstr "Μεταφόρτωση Αρχείου"
 msgid "Save"
 msgstr ""
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/course_outline_modals.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Advanced"
-msgstr "Προχωρημένο"
+msgstr ""
 
 #: cms/static/js/views/previous_video_upload.js
 #: cms/static/js/views/video/translations_editor.js
@@ -281,7 +308,7 @@ msgstr ""
 #: lms/static/js/discussions_management/views/divided_discussions_inline.js
 #: lms/static/js/views/fields.js
 msgid "Your changes have been saved."
-msgstr "Οι αλλαγές σας αποθηκεύτηκαν."
+msgstr ""
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
@@ -359,7 +386,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Collapse Instructions"
-msgstr "Αναδίπλωση Οδηγιών"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Commentary"
@@ -375,11 +402,7 @@ msgstr ""
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
 msgstr[0] ""
-"{num_points} μονάδα (προσμετράται στη βαθμολογία σας, οι σωστές απαντήσεις "
-"δεν εμφανίζονται)"
 msgstr[1] ""
-"{num_points} μονάδες (προσμετρώνται στη βαθμολογία σας, οι σωστές απαντήσεις δεν εμφανίζονται)\n"
-" "
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
@@ -387,29 +410,23 @@ msgstr[1] ""
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
 msgstr[0] ""
-"{num_points} μονάδα (δεν προσμετράται στη βαθμολογία σας, οι σωστές "
-"απαντήσεις δεν εμφανίζονται)"
 msgstr[1] ""
-"{num_points} μονάδες (δεν προσμετρώνται στη βαθμολογία σας, οι σωστές "
-"απαντήσεις δεν εμφανίζονται)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
-msgstr[0] "{num_points} μονάδα (προσμετράται στη βαθμολογία σας)"
-msgstr[1] "{num_points} μονάδες (προσμετρώνται στη βαθμολογία σας)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "{num_points} μονάδα (δεν προσμετράται στη βαθμολογία σας)"
+msgstr[0] ""
 msgstr[1] ""
-"{num_points} μονάδες (δεν προσμετρώνται στη βαθμολογία σας)\n"
-" "
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -418,10 +435,8 @@ msgstr[1] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned}/{possible} μονάδα (προσμετράται στη βαθμολογία σας)"
+msgstr[0] ""
 msgstr[1] ""
-"{earned}/{possible} μονάδες (προσμετρώνται στη βαθμολογία σας)\n"
-" "
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -430,10 +445,8 @@ msgstr[1] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} μονάδα (δεν προσμετράται στη βαθμολογία σας)"
+msgstr[0] ""
 msgstr[1] ""
-"{earned}/{possible} μονάδες (δεν προσμετρώνται στη βαθμολογία σας)\n"
-" "
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -584,7 +597,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: lms/static/js/Markdown.Editor.js
 msgid "Blockquote"
-msgstr "Ένθεση"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -883,7 +896,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find and replace"
-msgstr "Αναζήτηση και αντικατάσταση"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1339,9 +1352,13 @@ msgstr ""
 msgid "Prev"
 msgstr ""
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js lms/static/js/customwmd.js
 #: cms/templates/js/asset-library.underscore
 msgid "Preview"
-msgstr "Προεπισκόπηση"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1365,13 +1382,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Replace all"
-msgstr "Αντικατάσταση όλων"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Replace with"
-msgstr "Αντικατάσταση με"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -1381,7 +1398,7 @@ msgstr "Αντικατάσταση με"
 #: cms/templates/js/video-transcripts.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Replace"
-msgstr "Αντικατάσταση"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1595,7 +1612,7 @@ msgstr ""
 #: cms/templates/js/signatory-details.underscore
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Title"
-msgstr "Τίτλος"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1651,10 +1668,14 @@ msgstr ""
 msgid "Vertical space"
 msgstr ""
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
-msgstr "Προβολή"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1723,15 +1744,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "incorrect"
-msgstr "λανθασμένο"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "correct"
-msgstr "σωστό"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "answer"
-msgstr "απάντηση"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Short explanation"
@@ -1757,7 +1778,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 msgid "Bookmarked"
-msgstr "Αποθηκεύτηκε στους σελιδοδείκτες σας"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
@@ -1997,7 +2018,7 @@ msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
-msgstr "Υποχρεωτικό πεδίο."
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces in this field."
@@ -2006,7 +2027,6 @@ msgstr ""
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces or special characters in this field."
 msgstr ""
-"Παρακαλώ μην χρησιμοποιείτε κενά ή ειδικούς χαρακτήρες σε αυτό το πεδίο."
 
 #: common/static/common/js/components/views/paginated_view.js
 #: common/static/common/js/components/views/paging_footer.js
@@ -2018,19 +2038,14 @@ msgid ""
 "Your request could not be completed. Reload the page and try again. If the "
 "issue persists, click the Help tab to report the problem."
 msgstr ""
-"Το αίτημά σας δεν μπόρεσε να ολοκληρωθεί. Ανανεώστε τη σελίδα και "
-"προσπαθήστε ξανά. Αν το πρόβλημα συνεχιστεί, επιλέξτε την καρτέλα Βοήθεια "
-"και αναφέρετε το πρόβλημα."
 
 #: common/static/common/js/components/views/paging_header.js
 msgid "Showing {firstIndex} out of {numItems} total"
-msgstr "Βλέπετε {firstIndex} από συνολικά {numItems} σελιδοδείκτη "
+msgstr ""
 
 #: common/static/common/js/components/views/paging_header.js
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
 msgstr ""
-"Βλέπετε τους σελιδοδείκτες {firstIndex}-{lastIndex} από τους συνολικά "
-"{numItems} σελιδοδείκτες "
 
 #: common/static/common/js/discussion/utils.js
 msgid "Loading content"
@@ -2039,8 +2054,6 @@ msgstr ""
 #: common/static/common/js/discussion/utils.js
 msgid "Your request could not be processed. Refresh the page and try again."
 msgstr ""
-"Δεν μπορέσαμε να επεξεργαστούμε το αίτημά σας. Ανανεώστε τη σελίδα και "
-"προσπαθήστε ξανά."
 
 #: common/static/common/js/discussion/utils.js
 #: common/static/common/templates/discussion/templates.underscore
@@ -2058,14 +2071,14 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] "{numVotes} ψήφος μέχρι στιγμής"
-msgstr[1] "{numVotes} ψήφοι μέχρι στιγμής"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
-msgstr[0] "{numVotes} ψήφος"
-msgstr[1] "{numVotes} ψήφοι"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid ""
@@ -2103,8 +2116,6 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "This vote could not be processed. Refresh the page and try again."
 msgstr ""
-"Η ψήφος σας δεν μπόρεσε να καταχωρηθεί. Ανανεώστε τη σελίδα και προσπαθήστε "
-"ξανά"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "This post could not be pinned. Refresh the page and try again."
@@ -2113,8 +2124,6 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid "This post could not be unpinned. Refresh the page and try again."
 msgstr ""
-"Δεν μπορέσαμε να ξεκαρφιτσώσουμε την ανάρτηση. Ανανεώστε τη σελίδα σας και "
-"προσπαθήστε ξανά."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js
 msgid ""
@@ -2136,25 +2145,23 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Show Discussion"
-msgstr "Εμφάνιση συζήτησης"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Hide Discussion"
-msgstr "Απόκρυψη συζήτησης"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "This discussion could not be loaded. Refresh the page and try again."
 msgstr ""
-"Δεν είναι εφικτή η εμφάνιση της συζήτησης. Ανανεώστε τη σελίδα και "
-"προσπαθήστε ξανά."
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "There are no posts in this topic yet."
-msgstr "Δεν υπάρχουν ακόμα αναρτήσεις σε αυτό το θέμα."
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Loading more threads"
-msgstr "Εμφάνιση περισσότερων συζητήσεων"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Additional posts could not be loaded. Refresh the page and try again."
@@ -2176,11 +2183,11 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "No posts matched your query."
-msgstr "Δεν βρέθηκαν αναρτήσεις που να ταιριάζουν με το ερώτημά σας."
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Show posts by {username}."
-msgstr "Εμφάνιση αναρτήσεων από {username}."
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "The post you selected has been deleted."
@@ -2189,56 +2196,54 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Responses could not be loaded. Refresh the page and try again."
 msgstr ""
-"Απέτυχε η εμφάνιση των αποκρίσεων. Ανανεώστε τη σελίδα και προσπαθήστε ξανά."
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid ""
 "Additional responses could not be loaded. Refresh the page and try again."
 msgstr ""
-"Απέτυχε η εμφάνιση περισσότερων αποκρίσεων. Ανανεώστε τη σελίδα και "
-"προσπαθήστε ξανά."
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "{numResponses} other response"
 msgid_plural "{numResponses} other responses"
-msgstr[0] "{numResponses} ακόμη απόκριση"
-msgstr[1] "{numResponses} ακόμη αποκρίσεις"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "{numResponses} response"
 msgid_plural "{numResponses} responses"
-msgstr[0] "{numResponses} απόκριση"
-msgstr[1] "{numResponses} αποκρίσεις"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Showing all responses"
-msgstr "Εμφάνιση όλων των αποκρίσεων"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Showing first response"
 msgid_plural "Showing first {numResponses} responses"
-msgstr[0] "Δείτε την πρώτη απόκριση"
-msgstr[1] "Εμφανίζονται οι πρώτες {numResponses} αποκρίσεις"
+msgstr[0] ""
+msgstr[1] ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Load all responses"
-msgstr "Φόρτωση όλων των αποκρίσεων"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Load next {numResponses} responses"
-msgstr "Δείτε τις επόμενες {numResponses} αποκρίσεις"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js
 msgid "Are you sure you want to delete this post?"
-msgstr "Είστε σίγουρος ότι θέλετε να διαγράψετε την ανάρτηση;"
+msgstr ""
 
 #: common/static/common/js/discussion/views/new_post_view.js
 msgid "Your post will be discarded."
-msgstr "Η ανάρτησή σας θα διαγραφεί"
+msgstr ""
 
 #: common/static/common/js/discussion/views/response_comment_show_view.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "anonymous"
-msgstr "ανώνυμος"
+msgstr ""
 
 #: common/static/common/js/discussion/views/response_comment_view.js
 msgid "Are you sure you want to delete this comment?"
@@ -2250,20 +2255,19 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/thread_response_view.js
 msgid "Are you sure you want to delete this response?"
-msgstr "Είστε σίγουρος ότι θέλετε να διαγράψετε την απόκριση;"
+msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "The email address you've provided isn't formatted correctly."
-msgstr "Το e-mail που χρησιμοποιήσατε δεν έχει την σωστή μορφή."
+msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s must have at least %(count)d characters."
 msgstr ""
-"Το πεδίο %(field)s θα πρέπει να έχει τουλάχιστον %(count)d χαρακτήρες."
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s can only contain up to %(count)d characters."
-msgstr "Το πεδίο %(field)s θα πρέπει να έχει μέχρι %(count)d χαρακτήρες."
+msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "Please enter your %(field)s."
@@ -2398,7 +2402,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
-msgstr "Προέκυψε ένα μη αναμενόμενο σφάλμα. Παρακαλούμε δοκιμάστε ξανά."
+msgstr ""
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js
 msgid "Financial Assistance"
@@ -2406,7 +2410,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js
 msgid "Upset Learner"
-msgstr "Δυσαρεστημένος σπουδαστής"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js
 msgid "Teaching Assistant"
@@ -2453,7 +2457,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Name"
-msgstr "Τίτλος μαθήματος"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid ""
@@ -2474,9 +2478,10 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
-msgstr "Ρυθμίσεις λογαριασμού"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Billing/Payment Options"
@@ -2632,7 +2637,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Name (Required) *"
-msgstr "Όνομα Ομάδας (Υποχρεωτικό πεδίο)*"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "A name that identifies your team (maximum 255 characters)."
@@ -2640,7 +2645,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Description (Required) *"
-msgstr "Περιγραφή Ομάδας (Υποχρεωτικό πεδίο)*"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
@@ -2652,7 +2657,7 @@ msgstr ""
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Language"
-msgstr "Γλώσσα"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
@@ -2673,7 +2678,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/views/fields.js
 msgid "An error occurred. Please try again."
-msgstr "Προέκυψε σφάλμα. Παρακαλούμε δοκιμάστε ξανά."
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Check the highlighted fields below and try again."
@@ -2707,7 +2712,7 @@ msgstr ""
 #. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Joined %(date)s"
-msgstr "Γίνατε μέλος %(date)s"
+msgstr ""
 
 #. Translators: 'date' is a placeholder for a fuzzy,
 #. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
@@ -2767,7 +2772,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
-msgstr "Προέκυψε κάποιο πρόβλημα. Δοκιμάστε ξανά."
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "No assignments for team"
@@ -2831,8 +2836,6 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Your request could not be completed. Reload the page and try again."
 msgstr ""
-"Το αίτημά σας δεν μπόρεσε να ολοκληρωθεί. Ανανεώστε τη σελίδα και δοκιμάστε "
-"ξανά."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2840,9 +2843,6 @@ msgid ""
 " and try again. If the issue persists, click the Help tab to report the "
 "problem."
 msgstr ""
-"Το αίτημά σας δεν μπόρεσε να ολοκληρωθεί λόγω προβλήματος του διακομιστή. "
-"Ανανεώστε τη σελίδα και προσπαθήστε ξανά. Αν το πρόβλημα συνεχιστεί, "
-"επιλέξτε την καρτέλα Βοήθεια και αναφέρετε το πρόβλημα."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Team Search"
@@ -2881,11 +2881,11 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Showing results for \"{searchString}\""
-msgstr "Εμφάνιση αποτελεσμάτων για {searchString}\""
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Search teams"
-msgstr "Αναζήτηση ομάδων"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2907,7 +2907,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
 msgid "All Topics"
-msgstr "Όλες οι αναρτήσεις"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "The page \"{route}\" could not be found."
@@ -2950,7 +2950,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js
 msgid "All topics"
-msgstr "Όλες οι αναρτήσεις"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Insert Hyperlink"
@@ -2974,16 +2974,13 @@ msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Insert Image (upload file or type URL)"
-msgstr "Εισάγετε εικόνα (ανεβάστε αρχείο ή εισάγετε URL)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid ""
 "Type in a URL or use the \"Choose File\" button to upload a file from your "
 "machine. (e.g. 'http://example.com/img/clouds.jpg')"
 msgstr ""
-"Εισάγετε το URL, ή χρησιμοποιήστε το κουμπί \"Επιλογή αρχείου\", για να "
-"μεταφορτώσετε ένα αρχείο από τον υπολογιστή σας. (π.χ. "
-"'http://example.com/img/clouds.jpg')"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Image Description"
@@ -3015,9 +3012,9 @@ msgstr ""
 msgid "Markdown Editing Help"
 msgstr ""
 
-#: cms/templates/js/asset-library.underscore
+#: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
 msgid "URL"
-msgstr "Διεύθυνση URL"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Please provide a valid URL."
@@ -3032,23 +3029,23 @@ msgstr[1] ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Bold (Ctrl+B)"
-msgstr "Έντονα (Ctrl+B)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Italic (Ctrl+I)"
-msgstr "Πλάγια (Ctrl+I)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Hyperlink (Ctrl+L)"
-msgstr "Υπερσύνδεσμος (Ctrl+L)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Blockquote (Ctrl+Q)"
-msgstr "Ένθεση κειμένου (Ctrl+Q)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Code Sample (Ctrl+K)"
-msgstr "Τμήμα κώδικα (Ctrl+K)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Image (Ctrl+G)"
@@ -3056,15 +3053,15 @@ msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Numbered List (Ctrl+O)"
-msgstr "Αριθμημένη Λίστα (Ctrl+O)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Bulleted List (Ctrl+U)"
-msgstr "Λίστα κουκίδων (Ctrl+U)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Heading (Ctrl+H)"
-msgstr "Επικεφαλίδα (Ctrl+H)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Horizontal Rule (Ctrl+R)"
@@ -3072,15 +3069,15 @@ msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Undo (Ctrl+Z)"
-msgstr "Αναίρεση (Ctrl+Z)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Redo (Ctrl+Y)"
-msgstr "Επανάληψη (Ctrl+Y)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Redo (Ctrl+Shift+Z)"
-msgstr "Επανάληψη (Ctrl+Shift+Z)"
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "strong text"
@@ -3104,7 +3101,7 @@ msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Heading"
-msgstr "Επικεφαλίδα"
+msgstr ""
 
 #: lms/static/js/ajax-error.js
 msgid ""
@@ -3147,7 +3144,7 @@ msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Please enter valid start date and time."
-msgstr "Παρακαλούμε εισάγετε έγκυρη ημερομηνία και ώρα έναρξης."
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Due date cannot be before start date."
@@ -3155,7 +3152,7 @@ msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Due Date and Time"
-msgstr "Εισάγατε ημερομηνία και ώρα λήξης της προθεσμίας υποβολής"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Start Date and Time"
@@ -3291,7 +3288,7 @@ msgstr ""
 #: lms/templates/discovery/facet.underscore
 #: lms/templates/edxnotes/note-item.underscore
 msgid "More"
-msgstr "Περισσότερα"
+msgstr ""
 
 #: lms/static/js/courseware/credit_progress.js
 #: lms/templates/discovery/facet.underscore
@@ -3304,12 +3301,13 @@ msgid "HTML preview of post"
 msgstr ""
 
 #: lms/static/js/customwmd.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Your question or idea (required)"
-msgstr "Γράψτε το ερώτημα ή το σχόλιό σας (απαιτείται)"
+msgstr ""
 
 #: lms/static/js/dashboard/donation.js
 msgid "Please enter a valid donation amount."
-msgstr "Παρακαλούμε εισάγετε ένα έγκυρο ποσό δωρεάς."
+msgstr ""
 
 #: lms/static/js/dashboard/donation.js
 msgid "Your donation could not be submitted."
@@ -3332,8 +3330,6 @@ msgstr ""
 #: lms/static/js/dashboard/legacy.js
 msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
 msgstr ""
-"Είστε σίγουροι πως θέλετε να διαγραφείτε από το μάθημα {courseName} "
-"({courseNumber});"
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
@@ -3459,7 +3455,7 @@ msgstr ""
 #: lms/static/js/discovery/views/search_form.js
 #: openedx/features/course_search/static/course_search/templates/search_error.underscore
 msgid "There was an error, try searching again."
-msgstr "Παρουσιάστηκε κάποιο σφάλμα, επαναλάβετε την αναζήτησή σας. "
+msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Not divided"
@@ -3508,7 +3504,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Your changes have been saved. {details}"
-msgstr "Οι αλλαγές σας αποθηκεύτηκαν.  {details}"
+msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "We have encountered an error. Refresh your browser and then try again."
@@ -3528,8 +3524,6 @@ msgid ""
 "An error has occurred. Make sure that you are connected to the Internet, and"
 " then try refreshing the page."
 msgstr ""
-"Παρουσιάστηκε κάποιο σφάλμα. Βεβαιωθείτε οτι είστε συνδεδεμένοι στο "
-"διαδίκτυο και δοκιμάστε να ανανεώσετε τη σελίδα σας."
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Hide notes"
@@ -3570,7 +3564,7 @@ msgstr ""
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
-msgstr "Αποτελέσματα Αναζήτησης"
+msgstr ""
 
 #. Translators: this is a title shown before all Notes that have no associated
 #. tags. It is put within
@@ -3599,7 +3593,6 @@ msgstr ""
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An error has occurred. Check your Internet connection and try again."
 msgstr ""
-"Προέκυψε σφάλμα. Παρακαλούμε ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά."
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js
 msgid "Choose one"
@@ -3620,7 +3613,7 @@ msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Enter a username or email."
-msgstr "Εισάγετε ψευδώνυμο ή e-mail"
+msgstr ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numUsersAdded} learner has been added to this cohort. "
@@ -3874,12 +3867,12 @@ msgstr ""
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Username"
-msgstr "Ψευδώνυμο"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Revoke access"
@@ -3891,7 +3884,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Enter username or email"
-msgstr "Εισάγετε το ψευδώνυμο ή το e-mail σας"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Please enter a username or email."
@@ -3926,7 +3919,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "The following errors were generated:"
-msgstr "Δημιουργήθηκαν τα εξής σφάλματα:"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Warnings"
@@ -4000,7 +3993,6 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Successfully enrolled and sent email to the following users:"
 msgstr ""
-"Επιτυχής δήλωση και αποστολή ηλεκτρονικού ταχυδρομείου στους εξής χρήστες:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js
@@ -4125,7 +4117,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Please enter a student email address or username."
-msgstr "Παρακαλούμε εισάγετε το e-mail ή το ψευδώνυμο κάποιου σπουδαστή."
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4195,7 +4187,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Enter a student's username or email address."
-msgstr "Πακαλούμε εισάγετε το ψευδώνυμο ή το e-mail κάποιου σπουδαστή.."
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid ""
@@ -4208,8 +4200,6 @@ msgid ""
 "An error occurred. Make sure that the student's username or email address is"
 " correct and try again."
 msgstr ""
-"Προέκυψε σφάλμα. Παρακαλούμε βεβαιωθείτε ότι το ψευδώνυμο ή το e-mail του "
-"σπουδαστή είναι σωστά και προσπαθήστε ξανά."
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Entrance exam state is being deleted for student '{student_id}'."
@@ -4554,28 +4544,28 @@ msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Enter and confirm your new password."
-msgstr "Εισάγετε και επιβεβαιώστε το νέο σας κωδικό."
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "New Password"
-msgstr "Νέος κωδικός"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Confirm Password"
-msgstr "Επιβεβαιώστε τον κωδικό σας"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Passwords do not match."
-msgstr "Οι κωδικοί δεν συμπίπτουν"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Reset My Password"
-msgstr "Αλλαγή του κωδικού μου"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Reset Your Password"
-msgstr "Αλλαγή του κωδικού μου"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetInput.jsx
 msgid "Error: "
@@ -4589,11 +4579,6 @@ msgid ""
 "these for your records before proceeding with deletion, follow the "
 "instructions for {htmlStart}printing or downloading a certificate{htmlEnd}."
 msgstr ""
-"Είναι επίσης πιθανό να μην έχετε πλέον πρόσβαση στις βεβαιώσεις επιτυχούς "
-"παρακολούθησης που έχετε λάβει. Αν επιθυμείτε να δημιουργήσετε αντίγραφο "
-"αυτών των αρχείων προτού προχωρήσετε στη διαγραφή του λογαριασμού σας, "
-"ακολουθήστε τις οδηγίες για την {htmlStart}εκτύπωση και λήψη βεβαίωσης "
-"επιτυχούς παρακολούθησης{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -4609,8 +4594,6 @@ msgstr ""
 msgid ""
 "{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
 msgstr ""
-"{htmlStart}Μήπως αντί της οριστικής διαγραφής, θα προτιμούσατε να αλλάξετε "
-"απλώς το e-mail, το ονοματεπώνυμό ή τον κωδικό σας;{htmlEnd}"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -4642,16 +4625,16 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "We’re sorry to see you go!"
-msgstr "Λυπούμαστε για την αποχώρησή σας!"
+msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Delete My Account"
-msgstr "Διαγραφή του Λογαριασμού μου"
+msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Password is incorrect"
-msgstr "Ο κωδικός είναι λανθασμένος"
+msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Unable to delete account"
@@ -4659,7 +4642,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Please re-enter your password."
-msgstr "Παρακαλούμε επανεισάγετε τον κωδικό σας."
+msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -4669,7 +4652,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "A Password is required"
-msgstr "Απαιτείται η εισαγωγή κωδικού"
+msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -4690,8 +4673,6 @@ msgid ""
 "If you still wish to continue and delete your account, please enter your "
 "account password:"
 msgstr ""
-"Αν εξακολουθείτε να θέλετε να προχωρήσετε στη διαγραφή του λογαριασμού σας, "
-"παρακαλούμε εισάγετε τον κωδικό σας:"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Yes, Delete"
@@ -4710,7 +4691,7 @@ msgstr ""
 
 #: lms/static/js/student_account/tos_modal.js
 msgid "Terms of Service and Honor Code"
-msgstr "Όροι χρήσης και Κώδικας Τιμής"
+msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Saving your email preference"
@@ -4731,18 +4712,18 @@ msgstr ""
 #: lms/static/js/student_account/views/FormView.js
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "An error occurred."
-msgstr "Προέκυψε σφάλμα."
+msgstr ""
 
 #. Translators: This string is appended to optional field labels on the
 #. student login, registration, and
 #. profile forms.
 #: lms/static/js/student_account/views/FormView.js
 msgid "(optional)"
-msgstr "(προαιρετικό)"
+msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "We couldn't sign you in."
-msgstr "Η σύνδεσή σας δεν είναι δυνατή"
+msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 #, javascript-format
@@ -4752,7 +4733,7 @@ msgstr ""
 #: lms/static/js/student_account/views/LoginView.js
 #: lms/templates/verify_student/intro_step.underscore
 msgid "Check Your Email"
-msgstr "Ελέγξτε το e-mail σας"
+msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -4764,22 +4745,12 @@ msgid ""
 "or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
-"{paragraphStart}Έχετε δώσει το e-mail {boldStart}{email}{boldEnd}. Εάν αυτή "
-"η διεύθυνση είναι πράγματι αυτή με την οποία έχετε δημιουργήσει το "
-"λογαριασμό σας στο {platform_name}, θα λάβετε από εμάς μήνυμα με οδηγίες για"
-" την αλλαγή του κωδικού σας.{paragraphEnd}{paragraphStart}Εάν δεν λάβετε "
-"μήνυμα αλλαγής του κωδικού σας μέσα στο επόμενο 1 λεπτό, επιβεβαιώστε ότι "
-"έχετε εισάγει το σωστό e-mail ή ελέγξτε τον φάκελο με τα ανεπιθύμητα "
-"μηνύματα.{paragraphEnd}{paragraphStart}Εάν χρειαστείτε περαιτέρω βοήθεια, "
-"επικοινωνήστε με το τεχνικό μας τμήμα.{anchorStart}{anchorEnd}{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
 "An error has occurred. Try refreshing the page, or check your Internet "
 "connection."
 msgstr ""
-"Παρουσιάστηκε σφάλμα. Προσπαθήστε να ανανεώσετε τη σελίδα ή ελέγξτε τη "
-"σύνδεσή σας."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -4789,16 +4760,10 @@ msgid ""
 "your spam folders or  {anchorStart}contact {platform_name} "
 "Support{anchorEnd}."
 msgstr ""
-"Για να μπορέσετε να συνδεθείτε, θα πρέπει να ενεργοποιήσετε πρώτα τον "
-"λογαριασμό σας.{line_break} {line_break}Σας έχουμε αποστείλει σύνδεσμο για "
-"την ενεργοποίηση του λογαριασμού σας στο e-mail {strong_start} {email} "
-"{strong_end}.  Εάν δεν λάβετε το e-mail με τον σύνδεσμο, ελέγξτε το φάκελό "
-"σας με τα ανεπιθύμητα μηνύματα ή {anchorStart}επικοινωνήστε με το "
-"{platform_name} Τεχνικό Τμήμα{anchorEnd}. "
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
-msgstr "¨Εχει προκύψει ένα μη αναμενόμενο σφάλμα"
+msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -4809,16 +4774,16 @@ msgstr ""
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "We couldn't create your account."
-msgstr "Δεν μπορέσαμε να δημιουργήσουμε τον λογαριασμό σας"
+msgstr ""
 
 #: lms/static/js/student_account/views/RegisterView.js
 #: lms/templates/student_account/register.underscore
 msgid "Create Account"
-msgstr "Πατήστε εδώ για να γίνει η εγγραφή σας"
+msgstr ""
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "(required)"
-msgstr "(υποχρεωτικό πεδίο)"
+msgstr ""
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "You've successfully signed into %(currentProvider)s."
@@ -4838,14 +4803,12 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Email Address (Sign In)"
-msgstr "Email (Αυτό που δηλώσατε κατά την εγγραφή σας)"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr ""
-"Σε αυτή τη διεύθυνση ηλεκτρονικού ταχυδρομείου θα λαμβάνετε ενημερώσεις από "
-"το {platform_name} για τα μαθήματά σας."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Recovery Email Address"
@@ -4860,52 +4823,44 @@ msgstr ""
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Full Name"
-msgstr "Ονοματεπώνυμο"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
 msgstr ""
-"Το ονοματεπώνυμο χρησιμεύει για την επαλήθευση της ταυτότητάς σας και είναι "
-"αυτό που εμφανίζεται στις βεβαιώσεις σας. "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
-msgstr "Χώρα Διαμονής"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "The country or region where you live."
-msgstr "Η χώρα στην οποία διαμένετε."
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Basic Account Information"
-msgstr "Βασικές Πληροφορίες Λογαριασμού"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "These settings include basic information about your account."
 msgstr ""
-"Στη σελίδα των ρυθμίσεων υπάρχουν οι βασικές πληροφορίες που αφορούν τον "
-"λογαριασμό σας. "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr ""
-"Το όνομα με το οποίο εμφανίζεστε στο {platform_name}. Δεν μπορείτε να το "
-"αλλάξετε."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
 msgid "Password"
-msgstr "Κωδικός"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Check your email account for instructions to reset your password."
 msgstr ""
-"Αναζητήστε στο e-mail σας τις οδηγίες που σας έχουν σταλεί για την αλλαγή "
-"του κωδικού σας."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4913,12 +4868,10 @@ msgid ""
 "a limited number of languages. Changing the value of this field will cause "
 "the page to refresh."
 msgstr ""
-"Η γλώσσα στην οποία θα βλέπετε τον ιστότοπο. Προς το παρόν ο ιστότοπος είναι"
-" διαθέσιμος μόνο στην ελληνική γλώσσα."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Time Zone"
-msgstr "Ζώνη Ώρας"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4926,40 +4879,35 @@ msgid ""
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr ""
-"Επιλέξτε τη ζώνη ώρας στην οποία επιθυμείτε να εμφανίζονται οι προθεσμίες "
-"του μαθήματος. Εάν δεν προσδιορίσετε κάποια ζώνη ώρας, οι προθεσμίες του "
-"μαθήματος, περιλαμβανομένων και των προθεσμιών που αφορούν βαθμολογούμενα "
-"τεστ και εργασίες, θα εμφανίζονται στη ζώνη ώρας όπως αυτή έχει οριστεί στον"
-" φυλλομετρητή σας."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "All Time Zones"
-msgstr "Όλες οι Ζώνες Ώρας"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Default (Local Time Zone)"
-msgstr "Προεπιλογή (Τοπική Ζώνη Ώρας)"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Additional Information"
-msgstr "Συμπληρωματικές πληροφορίες"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Education Completed"
-msgstr "Επίπεδο Εκπαίδευσης"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Gender"
-msgstr "Φύλο"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Year of Birth"
-msgstr "Έτος γέννησης"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Preferred Language"
-msgstr "Προτιμώμενη Γλώσσα"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4969,15 +4917,13 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Social Media Links"
-msgstr "Σύνδεσμοι προς τις προσωπικές σας σελίδες στα Κοινωνικά Δίκτυα"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "Optionally, link your personal accounts to the social media icons on your "
 "edX profile."
 msgstr ""
-"Μπορείτε, αν φυσικά το επιθυμείτε, να συνδέσετε τις προσωπικές σας σελίδες "
-"στα κοινωνικά δίκτυα με το λογαριασμό σας στο Mathesis"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "{platform_display_name} Link"
@@ -4988,9 +4934,6 @@ msgid ""
 "Enter your {platform_display_name} username or the URL to your "
 "{platform_display_name} page. Delete the URL to remove the link."
 msgstr ""
-"Εισάγετε το όνομα χρήστη σας στο {platform_display_name} ή τη διεύθυνση URL "
-"προς τη σελίδα σας στο {platform_display_name}. Διαγράψτε τη διεύθυνση URL "
-"για να αφαιρέσετε το σύνδεσμο."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/static/js/student_account/views/account_settings_view.js
@@ -5013,7 +4956,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "TOTAL"
-msgstr "ΣΥΝΟΛΟ"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "ORDER NUMBER"
@@ -5034,16 +4977,11 @@ msgid ""
 "We've sent a confirmation message to {new_email_address}. Click the link in "
 "the message to update your email address."
 msgstr ""
-"Σας έχουμε στείλει μήνυμα στο νέο e-mail {new_email_address} που ορίσατε. "
-"Κάντε κλικ στο σύνδεσμο που θα βρείτε στο μήνυμα για να αλλάξετε το e-mail "
-"σας."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
 "You must sign out and sign back in before your language changes take effect."
 msgstr ""
-"Θα πρέπει να αποσυνδεθείτε και να ξανασυνδεθείτε, για να εφαρμοστούν οι "
-"αλλαγές γλώσσας."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
@@ -5051,9 +4989,6 @@ msgid ""
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
 msgstr ""
-"Έχουμε αποστείλει μήνυμα στη διεύθυνση {email}. Κάντε κλικ στο σύνδεσμο που "
-"θα βρείτε στο μήνυμα για να αλλάξετε τον κωδικό σας. Εάν δεν λάβατε το "
-"μήνυμα, επικοινωνήστε με την  {anchorStart}τεχνική υποστήριξη{anchorEnd}."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Link your {accountName} account"
@@ -5106,7 +5041,7 @@ msgstr ""
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
 msgid "An error has occurred. Please try again later."
-msgstr "Προέκυψε σφάλμα. Παρακαλούμε προσπαθήστε αργότερα."
+msgstr ""
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
@@ -5127,7 +5062,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate"
-msgstr "Πιστοποιητικό επαληθευμένο"
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Checkout"
@@ -5155,7 +5090,7 @@ msgstr ""
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js
 msgid "An error has occurred. Please try again."
-msgstr "Προέκυψε σφάλμα. Παρακαλούμε δοκιμάστε ξανά."
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Could not submit order"
@@ -5171,7 +5106,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/step_view.js
 msgid "An error has occurred. Please try reloading the page."
-msgstr "Προέκυψε σφάλμα. Παρακαλούμε δοκιμάστε να ανανεώσετε τη σελιδα."
+msgstr ""
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Video Capture Error"
@@ -5218,8 +5153,9 @@ msgid "Validation Error"
 msgstr ""
 
 #: lms/static/js/views/fields.js
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "In Progress"
-msgstr "Σε εξέλιξη"
+msgstr ""
 
 #: lms/static/js/views/fields.js
 msgid "Placeholder"
@@ -5247,7 +5183,7 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "An error has occurred. Refresh the page, and then try again."
-msgstr "Προέκυψε σφάλμα. Ανανεώστε τη σελίδα και δοκιμάστε ξανά. "
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "The file must be at least {size} in size."
@@ -5262,16 +5198,12 @@ msgid ""
 "Upload is in progress. To avoid errors, stay on this page until the process "
 "is complete."
 msgstr ""
-"Η μεταφόρτωση είναι σε εξέλιξη. Για την αποφυγή σφαλμάτων παραμείνετε στη "
-"σελίδα μέχρι να ολοκληρωθεί η διαδικασία.  "
 
 #: lms/static/js/views/image_field.js
 msgid ""
 "Removal is in progress. To avoid errors, stay on this page until the process"
 " is complete."
 msgstr ""
-"Η διαδικασία διαγραφής είναι ενεργή. Για την αποφυγή σφαλμάτων, παραμείνετε "
-"στη σελίδα μέχρι να ολοκληρωθεί η διαδικασία. "
 
 #: lms/static/js/views/image_field.js
 msgid "bytes"
@@ -5294,8 +5226,6 @@ msgid ""
 "You cannot view the course as a student or beta tester before the course "
 "release date."
 msgstr ""
-"Δεν μπορείτε να δείτε το μάθημα ούτε ως σπουδαστής ούτε ως beta tester πριν "
-"την ημερομηνία έναρξής του."
 
 #: lms/templates/courseware/progress_graph.js
 msgid "Overall Score"
@@ -5317,51 +5247,55 @@ msgstr ""
 msgid "There was an error updating your goal."
 msgstr ""
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
-msgstr "Εμφάνιση όλων"
+msgstr ""
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
-msgstr "Αναδίπλωση όλων"
+msgstr ""
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show More"
-msgstr "Δείτε περισσότερα"
+msgstr ""
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show Less"
-msgstr "Δείτε Λιγότερα"
+msgstr ""
 
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
-msgstr[0] "Βρέθηκε {total_results} αποτέλεσμα για τον όρο \"{search_term}\""
-msgstr[1] " Βρέθηκαν {total_results} αποτελέσματα για τον όρο \"{search_term}\""
+msgstr[0] ""
+msgstr[1] ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Profile Visibility:"
-msgstr "Οι σπουδαστές μπορούν να δουν: "
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Limited Profile"
-msgstr "Προσωπική σελίδα με περιορισμένες τις διαθέσιμες πληροφορίες"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Full Profile"
-msgstr "Την πλήρη προσωπική μου σελίδα"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined"
-msgstr "Εγγραφή"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined Date"
-msgstr "Ημερομηνία εγγραφής"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Location"
-msgstr "Τόπος διαμονής"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Add Country"
@@ -5373,7 +5307,7 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "About me"
-msgstr "Σχετικά με εμένα"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid ""
@@ -5387,25 +5321,19 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Account Settings page."
-msgstr "Ρυθμίσεις Λογαριασμού."
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must specify your birth year before you can share your full profile. To "
 "specify your birth year, go to the {account_settings_page_link}"
 msgstr ""
-"Για να μπορέσετε να κοινοποιήσετε όλες τις προσωπικές σας πληροφορίες, θα "
-"πρέπει να εισαγάγετε το έτος γέννησής σας. Για να ορίσετε το έτος γέννησής "
-"σας, μεταβείτε στη σελίδα {account_settings_page_link}"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
 msgstr ""
-"Θα πρέπει να είσαστε άνω των 13 ετών για να κοινοποιήσετε τα πλήρη στοιχεία "
-"της προσωπικής σας σελίδας. Εάν είσαστε άνω των 13 ετών, βεβαιωθείτε ότι "
-"έχετε ορίσει το έτος γέννησης στη σελίδα {account_settings_page_link}"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Profile Image"
@@ -5417,7 +5345,7 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "About Me"
-msgstr "Σχετικά με εμένα"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Accomplishments"
@@ -5437,7 +5365,7 @@ msgstr ""
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
-msgstr "Ο σύνδεσμος αυτός θα ανοίξει σε νέο παράθυρο/καρτέλα του περιηγητή"
+msgstr ""
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
@@ -5538,13 +5466,14 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
-msgstr "ΠΡΟΣΩΠΙΚΟ"
+msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Admin"
-msgstr "Διαχειριστής"
+msgstr ""
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Already a library team member"
@@ -5586,7 +5515,7 @@ msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid "Choose new file"
-msgstr "Επιλογή νέου αρχείου"
+msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid ""
@@ -5656,7 +5585,7 @@ msgstr ""
 #. completed successfully
 #: cms/static/js/models/active_video_upload.js
 msgid "Upload completed"
-msgstr "Η μεταφόρτωση ολοκληρώθηκε."
+msgstr ""
 
 #. Translators: This is the status of a video upload that has failed
 #: cms/static/js/models/active_video_upload.js
@@ -5826,7 +5755,7 @@ msgstr ""
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "Supported file types: {supportedVideoTypes}"
-msgstr "Συμβατοί τύποι αρχείων: {supportedVideoTypes}"
+msgstr ""
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "Your video uploads are not complete."
@@ -5878,10 +5807,10 @@ msgstr ""
 msgid "Date Added"
 msgstr ""
 
-#: cms/templates/js/asset-library.underscore
+#: cms/static/js/views/assets.js cms/templates/js/asset-library.underscore
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Type"
-msgstr "Τύπος"
+msgstr ""
 
 #: cms/static/js/views/assets.js
 msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
@@ -5900,7 +5829,7 @@ msgstr ""
 #: cms/static/js/views/assets.js
 #: cms/templates/js/asset-upload-modal.underscore
 msgid "Upload New File"
-msgstr "Μεταφόρτωση νέου αρχείου"
+msgstr ""
 
 #: cms/static/js/views/assets.js
 msgid "Load Another File"
@@ -5962,7 +5891,7 @@ msgstr ""
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Required"
-msgstr "Απαιτείται"
+msgstr ""
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Automatic transcripts are disabled."
@@ -5982,7 +5911,7 @@ msgstr ""
 
 #: cms/static/js/views/export.js
 msgid "There has been an error while exporting."
-msgstr "Παρουσιάστηκε σφάλμα κατά την εξαγωγή των δεδομένων σας."
+msgstr ""
 
 #: cms/static/js/views/export.js
 msgid ""
@@ -6028,7 +5957,7 @@ msgstr ""
 
 #: cms/static/js/views/export.js
 msgid "There has been an error with your export."
-msgstr "Προέκυψε σφάλμα με την εξαγωγή των δεδομένων σας."
+msgstr ""
 
 #. Translators: 'count' is number of groups that the group
 #. configuration contains.
@@ -6078,7 +6007,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js cms/templates/js/license-selector.underscore
 msgid "All Rights Reserved"
-msgstr "Με την επιφύλαξη κάθε νόμιμου δικαιώματος"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
@@ -6151,25 +6080,23 @@ msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "There was an error changing the user's role"
-msgstr "Παρουσιάστηκε σφάλμα στην τροποποίηση του ρόλου του χρήστη"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Error adding user"
-msgstr "Σφάλμα κατά τη διαδικασία προσθήκης χρήστη"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Error removing user"
-msgstr "Σφάλμα κατά τη διαδικασία αφαίρεσης χρήστη"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "A valid email address is required"
-msgstr "Απαιτείται έγκυρο e-mail."
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "You must enter a valid email address in order to add a new team member"
 msgstr ""
-"Θα πρέπει να εισαγάγετε μια έγκυρη διεύθυνση email, ώστε να προσθέσετε νέο "
-"μέλος στην ομάδα"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Return and add email address"
@@ -6184,12 +6111,10 @@ msgid ""
 "{email} is already on the {container} team. Recheck the email address if you"
 " want to add a new member."
 msgstr ""
-"Η διεύθυνση {email} βρίσκεται ήδη στην ομάδα {container}. Ελέγξτε τη "
-"διεύθυνση e-mail εάν θέλετε να προσθέσετε νέο μέλος."
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Return to team listing"
-msgstr "Επιστρέψτε στον κατάλογο των ομάδων"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
@@ -6254,7 +6179,7 @@ msgstr ""
 #: cms/static/js/views/modals/edit_xblock.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Unit"
-msgstr "Κεφάλαιο"
+msgstr ""
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
@@ -6274,11 +6199,11 @@ msgstr ""
 
 #: cms/static/js/views/modals/validation_error_modal.js
 msgid "Validation Error While Saving"
-msgstr "Σφάλμα επικύρωσης κατά την αποθήκευση"
+msgstr ""
 
 #: cms/static/js/views/modals/validation_error_modal.js
 msgid "Undo Changes"
-msgstr "Αναίρεση αλλαγών"
+msgstr ""
 
 #: cms/static/js/views/modals/validation_error_modal.js
 msgid "Change Manually"
@@ -6338,8 +6263,11 @@ msgid "Publishing"
 msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore
+#: cms/templates/js/publish-xblock.underscore
 msgid "Discard Changes"
-msgstr "Απόρριψη Αλλαγών"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid ""
@@ -6349,7 +6277,7 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Discarding Changes"
-msgstr "Απόρριψη Αλλαγών"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Hiding from Students"
@@ -6677,9 +6605,10 @@ msgstr ""
 msgid "subsection"
 msgstr ""
 
+#: cms/static/js/views/utils/xblock_utils.js
 #: cms/templates/js/container-access.underscore
 msgid "unit"
-msgstr "μονάδα περιεχομένου"
+msgstr ""
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes"
@@ -6692,14 +6621,11 @@ msgstr ""
 #: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
 msgstr ""
-"Έχετε πραγματοποιήσει κάποιες αλλαγές, προέκυψαν όμως ορισμένα σφάλματα"
 
 #: cms/static/js/views/validation.js
 msgid ""
 "Please address the errors on this page first, and then save your progress."
 msgstr ""
-"Παρακαλούμε διευθετήστε πρώτα τα σφάλματα σε αυτήν τη σελίδα και στη "
-"συνέχεια αποθηκεύστε τις αλλαγές στην εργασία σας."
 
 #: cms/static/js/views/validation.js
 msgid "Save Changes"
@@ -6739,7 +6665,7 @@ msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
-msgstr "Λανθασμένη μορφή url."
+msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid ""
@@ -6925,11 +6851,11 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_view.js
 msgid "Account Information"
-msgstr "Ρυθμίσεις λογαριασμού"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_view.js
 msgid "Order History"
-msgstr "Ιστορικό Παραγγελιών"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_view.js
 msgid ""
@@ -7051,6 +6977,13 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Released:"
+msgstr ""
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Scheduled:"
 msgstr ""
@@ -7071,6 +7004,11 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Graded as:"
+msgstr ""
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Due:"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore
@@ -7144,7 +7082,7 @@ msgstr ""
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Search"
-msgstr "Αναζήτηση"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
@@ -7161,7 +7099,7 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Submit"
-msgstr "Υποβολή"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7207,8 +7145,6 @@ msgstr ""
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
-"Προσθέστε έναν σαφή και περιγραφικό τίτλο για να ενθαρρύνετε τους "
-"συμφοιτητές σας να συμμετάσχουν στην ανάρτησή σας. (Απαιτείται)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
@@ -7284,7 +7220,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
-msgstr "Ακολουθώ"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
@@ -7308,7 +7244,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr "Νέα ανάρτηση"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
@@ -7326,7 +7262,7 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr "Ακολουθήστε αυτή την ανάρτηση"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
@@ -7351,13 +7287,11 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
-msgstr "ΘΕΜΑ:"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
 msgstr ""
-"Καταχωρήστε την ανάρτησή σας σε κάποια από τις εβδομάδες, ώστε να βοηθήσετε "
-"τους συμφοιτητές σας να την βρουν. (Απαιτείται)."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
@@ -7370,7 +7304,7 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
 msgid "All Posts"
-msgstr "Όλες οι αναρτήσεις"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
@@ -7386,20 +7320,17 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr "ΜΟΡΦΗ:"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
 msgstr ""
-"Επιλέξτε \"Ερώτηση\" αν θέλετε να θέσετε κάποιο θέμα στο οποίο ζητάτε "
-"απάντηση. Επιλέξτε \"Συζήτηση\" για να κοινοποιήσετε κάποιο σχόλιο ή ιδέα "
-"σας που μπορεί να αποτελέσει έναυσμα για συζήτηση. (Απαιτείται)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr "Ερώτηση"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
@@ -7459,51 +7390,49 @@ msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
-msgstr "ΑΡΧΙΚΗ ΣΕΛΙΔΑ ΤΟΥ ΦΟΡΟΥΜ ΣΥΖΗΤΗΣΕΩΝ"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 #, python-format
 msgid "How to use %(platform_name)s discussions"
-msgstr "Πώς να χρησιμοποιείτε το φόρουμ συζητήσεων του%(platform_name)s"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Find discussions"
-msgstr "Αναζήτηση συζητήσεων"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Use the All Topics menu to find specific topics."
 msgstr ""
-"Κάντε κλικ στο κουμπί \"Όλες οι αναρτήσεις\" για να δείτε όλα τα αναρτημένα "
-"νήματα."
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore
 msgid "Search all posts"
-msgstr "Αναζήτηση"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Filter and sort topics"
-msgstr "Ταξινόμηση βάση ημερομηνίας, σχολίων κ.τ.λ"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Engage with posts"
-msgstr "Διαχείριση αναρτήσεων"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Vote for good posts and responses"
-msgstr "Υπερψηφίστε τις καλές αναρτήσεις και αποκρίσεις"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Report abuse, topics, and responses"
-msgstr "Αναφορά ανάρτησης που παραβιάζει τους όρους χρήσης του φόρουμ"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Follow or unfollow posts"
-msgstr "Παρακολούθηση αναρτήσεων που σας ενδιαφέρουν"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Receive updates"
-msgstr "Ενημερώσεις"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Toggle Notifications Setting"
@@ -7514,9 +7443,6 @@ msgid ""
 "Check this box to receive an email digest once a day notifying you about "
 "new, unread activity from posts you are following."
 msgstr ""
-"Κάντε κλικ στο κουτάκι που βρίσκεται μέσα στο πλαίσιο για να ενημερώνεστε  "
-"μέσω e-mail -μία φορά την ημέρα- για νέα σχόλια σε αναρτήσεις που "
-"ακολουθείτε και δεν έχετε διαβάσει"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "username or email"
@@ -7524,7 +7450,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "course id"
-msgstr "Ταυτότητα μαθήματος"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
@@ -7603,11 +7529,11 @@ msgstr ""
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Username or email address"
-msgstr "Ψευδώνυμο ή e-mail"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course ID"
-msgstr "Ταυτότητα μαθήματος"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course Start"
@@ -7660,7 +7586,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Date Joined"
-msgstr "Ημερομηνία Εγγραφής"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Password Status"
@@ -7785,8 +7711,6 @@ msgid ""
 "There was an error retrieving preview results for this catalog. Please check"
 " that your query is correct and try again."
 msgstr ""
-"Υπήρξε σφάλμα κατά τη διαδικασία προεπισκόπησης του καταλόγου. Παρακαλούμε "
-"ελέγξτε πως το ερωτηματολόγιό σας είναι σωστό και προσπαθήστε ξανά."
 
 #: lms/templates/api_admin/catalog-results.underscore
 msgid "This catalog's courses:"
@@ -7794,11 +7718,11 @@ msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
 msgid "Start Date"
-msgstr "Ημερομηνία Έναρξης"
+msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
 msgid "Due Date"
-msgstr "Υποβολή μέχρι"
+msgstr ""
 
 #: lms/templates/ccx/schedule.underscore
 msgid "remove all"
@@ -7882,11 +7806,11 @@ msgstr ""
 #: lms/templates/discovery/course_card.underscore
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr "Έναρξη: %(start_date)s"
+msgstr ""
 
 #: lms/templates/discovery/course_card.underscore
 msgid "Starts"
-msgstr "Έναρξη"
+msgstr ""
 
 #: lms/templates/discovery/filter_bar.underscore
 msgid "Clear All"
@@ -7918,7 +7842,7 @@ msgstr ""
 
 #: lms/templates/edxnotes/tab-item.underscore
 msgid "Clear search results"
-msgstr "Εκκαθάριση αποτελεσμάτων αναζήτησης"
+msgstr ""
 
 #: lms/templates/fields/field_dropdown.underscore
 #: lms/templates/fields/field_dropdown_account.underscore
@@ -7973,7 +7897,7 @@ msgstr ""
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Email address"
-msgstr "E-mail"
+msgstr ""
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore
 msgid "Legal name"
@@ -8039,7 +7963,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Student"
-msgstr "Σπουδαστής"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore
 msgid "Invalidated By"
@@ -8131,7 +8055,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "(Required Field)"
-msgstr "(Υποχρεωτικό Πεδίο)"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
@@ -8343,7 +8267,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Course"
-msgstr "ΔΕΙΤΕ ΤΟ ΜΑΘΗΜΑ"
+msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Select a session:"
@@ -8355,7 +8279,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Coming Soon"
-msgstr "Προσεχώς"
+msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Enrollment Opens on"
@@ -8363,7 +8287,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Not Currently Available"
-msgstr "Το μάθημα δεν είναι ακόμα διαθέσιμο"
+msgstr ""
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "More sessions coming soon."
@@ -8424,7 +8348,7 @@ msgstr[1] ""
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
-msgstr "Ολοκληρώθηκε"
+msgstr ""
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Remaining"
@@ -8508,7 +8432,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "COMPLETED COURSES"
-msgstr "ΜΑΘΗΜΑΤΑ ΠΟΥ ΕΧΟΥΝ ΟΛΟΚΛΗΡΩΘΕΙ"
+msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "As you complete courses, you will see them listed here."
@@ -8537,11 +8461,11 @@ msgstr ""
 
 #: lms/templates/student_account/account.underscore
 msgid "Change My Email Address"
-msgstr "Αλλαγή του Email μου"
+msgstr ""
 
 #: lms/templates/student_account/account.underscore
 msgid "Reset Password"
-msgstr "Αλλαγή κωδικού πρόσβασης"
+msgstr ""
 
 #: lms/templates/student_account/account_settings.underscore
 msgid "Switch Language Back"
@@ -8549,15 +8473,15 @@ msgstr ""
 
 #: lms/templates/student_account/account_settings_section.underscore
 msgid "An error occurred. Please reload the page."
-msgstr "Προέκυψε σφάλμα. Παρακαλούμε επαναφορτώστε τη σελίδα."
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need help signing in?"
-msgstr "Χρειάζεστε βοήθεια;"
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Forgot my password"
-msgstr "Ξεχάσατε τον κωδικό σας;"
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
@@ -8573,7 +8497,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
-msgstr "Δημιουργία νέου λογαριασμού"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8605,7 +8529,7 @@ msgstr ""
 
 #: lms/templates/student_account/institution_login.underscore
 msgid "Back to sign in"
-msgstr "Επιστροφή στη σελίδα σύνδεσης"
+msgstr ""
 
 #: lms/templates/student_account/institution_register.underscore
 msgid "Register with Institution/Campus Credentials"
@@ -8614,15 +8538,15 @@ msgstr ""
 #: lms/templates/student_account/institution_register.underscore
 #: lms/templates/student_account/register.underscore
 msgid "Create an Account"
-msgstr "Δημιουργία νέου λογαριασμού"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
-msgstr "Είναι η πρώτη σας επίσκεψη στην πλατφόρμα μας;"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr "Δημιουργία νέου λογαριασμού"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in to continue learning as {email}"
@@ -8655,19 +8579,17 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
-msgstr "Σύνδεση"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
 msgstr ""
-"Συνδεθείτε χρησιμοποιώντας το email και τον κωδικό σας ή χρησιμοποιήστε "
-"κάποιον από τους ακόλουθους παρόχους"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in here using your email address and password."
-msgstr "Συνδεθείτε χρησιμοποιώντας το email και τον κωδικό σας."
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "If you do not yet have an account, use the button below to register."
@@ -8689,31 +8611,29 @@ msgstr ""
 #: lms/templates/student_account/login.underscore
 #, python-format
 msgid "Sign in with %(providerName)s"
-msgstr "Συνδεθείτε μέσω %(providerName)s"
+msgstr ""
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
-msgstr "Ξεχάσατε τον κωδικό σας;"
+msgstr ""
 
 #: lms/templates/student_account/password_reset.underscore
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
 msgstr ""
-"Παρακαλούμε, εισάγετε το email σας και θα σας αποστείλουμε οδηγίες για τη "
-"δημιουργία νέου κωδικού."
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr "Ανάκτηση του κωδικού μου"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
-msgstr "Έχετε ήδη λογαριασμό στο {platformName};"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr "Συνδεθείτε."
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an account using"
@@ -8735,7 +8655,6 @@ msgstr ""
 #: lms/templates/student_account/register.underscore
 msgid "Support education research by providing additional information"
 msgstr ""
-"Συνεισφέρετε στην εκπαιδευτική έρευνα δίνοντας κάποιες επιπλέον πληροφορίες."
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
@@ -8749,7 +8668,6 @@ msgstr ""
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "A list of courses you have just enrolled in as a verified student"
 msgstr ""
-"Κατάλογος μαθημάτων στα οποία είστε εγγεγραμμένος ως πιστοποιημένος φοιτητής"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Explore your course!"
@@ -8831,7 +8749,7 @@ msgstr ""
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Frequently Asked Questions"
-msgstr "Συχνές ερωτήσεις"
+msgstr ""
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -8973,7 +8891,7 @@ msgstr ""
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
-msgstr "Προεπισκόπηση της μεταφορτωμένης εικόνας"
+msgstr ""
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Upload an image or capture one with your web or phone camera."
@@ -9028,15 +8946,10 @@ msgid ""
 "your inbox for an activation email. After you complete activation you can "
 "return and refresh this page."
 msgstr ""
-"Για να μπορέσετε να εγγραφείτε στα μαθήματα, θα πρέπει προηγουμένως να "
-"ενεργοποιήσετε το λογαριασμό σας. Αναζητήστε στα εισερχόμενα μηνύματά σας, "
-"το e-mail ενεργοποίησης που σας αποστείλαμε. Αφού ολοκληρώσετε την "
-"διαδικασία ενεργοποίησης επιστρέψετε σε αυτή τη σελίδα και ανανεώστε την για"
-" να μπορέσετε να εγγραφείτε στο μάθημα."
 
 #: lms/templates/verify_student/intro_step.underscore
 msgid "Activate Your Account"
-msgstr "Ενεργοποιήστε τον Λογαριασμό σας"
+msgstr ""
 
 #: lms/templates/verify_student/intro_step.underscore
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
@@ -9127,7 +9040,7 @@ msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Account Not Activated"
-msgstr "Ο λογαριασμός δεν ενεργοποιήθηκε"
+msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Upgrade to a Verified Certificate for {courseName}"
@@ -9140,11 +9053,11 @@ msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Check your email for an activation message."
-msgstr "Ελέγξτε το e-mail σας για το μήνυμα ενεργοποίησης του λογαριασμού σας"
+msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Total"
-msgstr "Σύνολο"
+msgstr ""
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore
 msgid "Professional Certificate for {courseName}"
@@ -9213,7 +9126,7 @@ msgstr ""
 #: lms/templates/verify_student/review_photos_step.underscore
 #, python-format
 msgid "Photo of %(fullName)s's ID"
-msgstr "Φωτογραφία του %(fullName)s"
+msgstr ""
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo requirements:"
@@ -9234,7 +9147,7 @@ msgstr ""
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Edit Your Name"
-msgstr "Επεξεργασία του Ονοματεπώνυμού σας."
+msgstr ""
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid ""
@@ -9273,23 +9186,17 @@ msgstr ""
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "Bookmarked on"
-msgstr "Αποθηκεύτηκε στους σελιδοδείκτες σας"
+msgstr ""
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
 msgstr ""
-"Δεν έχετε ακόμη προσθέσει κάποια σελίδα του μαθήματος στους σελιδοδείκτες "
-"σας."
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
 msgstr ""
-"Χρησιμοποιήστε τους σελιδοδείκτες για να μπορείτε εύκολα και γρήγορα να "
-"μεταβείτε σε σελίδες του μαθήματος που σας ενδιαφέρουν. Για να προσθέσετε "
-"σελιδοδείκτη σε μία σελίδα, κάντε κλικ στο κουμπί \"Προσθέστε σελιδοδείκτη "
-"σε αυτή τη σελίδα\" που θα βρείτε κάτω από τον τίτλο της."
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -9301,7 +9208,7 @@ msgstr[1] ""
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Sorry, no results were found."
-msgstr "Λυπούμαστε, δεν βρέθηκαν αποτελέσματα"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/templates/badge.underscore
 #, python-format
@@ -9332,13 +9239,10 @@ msgstr ""
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "You are currently sharing a limited profile."
 msgstr ""
-"Οι προσωπικές πληροφορίες που κοινοποιείτε δημόσια είναι περιορισμένες"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/section_two.underscore
 msgid "This learner is currently sharing a limited profile."
 msgstr ""
-"Οι προσωπικές πληροφορίες που κοινοποιεί ο σπουδαστής είναι προς το παρόν "
-"περιορισμένες"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
 msgid "Share on Mozilla Backpack"
@@ -9366,7 +9270,7 @@ msgstr ""
 
 #: cms/templates/js/access-editor.underscore
 msgid "Limit Access"
-msgstr "Περιορισμένη Πρόσβαση"
+msgstr ""
 
 #: cms/templates/js/access-editor.underscore
 msgid ""
@@ -9377,7 +9281,7 @@ msgstr ""
 
 #: cms/templates/js/access-editor.underscore
 msgid "Prerequisite:"
-msgstr "Προαπαιτούμενο:"
+msgstr ""
 
 #: cms/templates/js/access-editor.underscore
 msgid "No prerequisite"
@@ -9485,11 +9389,11 @@ msgstr ""
 
 #: cms/templates/js/asset-upload-modal.underscore
 msgid "close"
-msgstr "Κλείσιμο"
+msgstr ""
 
 #: cms/templates/js/asset.underscore
 msgid "No description available"
-msgstr "Δεν υπάρχει διαθέσιμη περιγραφή"
+msgstr ""
 
 #: cms/templates/js/asset.underscore
 msgid "Open/download this file"
@@ -9538,7 +9442,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-details.underscore
 msgid "Course Number"
-msgstr "Κωδικός Μαθήματος"
+msgstr ""
 
 #: cms/templates/js/certificate-details.underscore
 msgid "Course Number Override"
@@ -9597,7 +9501,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-web-preview.underscore
 msgid "Preview Certificate"
-msgstr "Προεπισκόπηση Βεβαίωσης"
+msgstr ""
 
 #: cms/templates/js/certificate-web-preview.underscore
 msgid "Activate"
@@ -9917,7 +9821,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid "Course Handouts"
-msgstr "Εκτυπώσιμα Μαθήματος"
+msgstr ""
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid "You have no handouts defined"
@@ -9939,11 +9843,11 @@ msgstr ""
 
 #: cms/templates/js/due-date-editor.underscore
 msgid "Due Date:"
-msgstr "Υποβολή μέχρι:"
+msgstr ""
 
 #: cms/templates/js/due-date-editor.underscore
 msgid "Due Time in UTC:"
-msgstr "Ώρα λήξης της προθεσμίας υποβολής σε UTC:"
+msgstr ""
 
 #: cms/templates/js/due-date-editor.underscore
 msgid "Clear Grading Due Date"
@@ -10013,7 +9917,7 @@ msgstr ""
 
 #: cms/templates/js/grading-editor.underscore
 msgid "Grading"
-msgstr "ΒΑΘΜΟΛΟΓΙΑ"
+msgstr ""
 
 #: cms/templates/js/grading-editor.underscore
 msgid "Grade as:"
@@ -10425,7 +10329,7 @@ msgstr ""
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Title "
-msgstr "Τίτλος"
+msgstr ""
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Title of the signatory"
@@ -10873,9 +10777,3 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr ""
-
-#~ msgid "Released:"
-#~ msgstr "Δημοσιεύθηκε:"
-
-#~ msgid "Due:"
-#~ msgstr "Υποβολή μέχρι:"

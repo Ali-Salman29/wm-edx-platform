@@ -89,10 +89,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-18 17:52+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Bas Scholte in 't Hoff <bas@fusely.nl>, 2020\n"
-"Language-Team: Dutch (Netherlands) (https://www.transifex.com/open-edx/teams/6205/nl_NL/)\n"
+"Language-Team: Dutch (Netherlands) (https://app.transifex.com/open-edx/teams/6205/nl_NL/)\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,9 +178,11 @@ msgid ""
 "file."
 msgstr ""
 
+#: cms/djangoapps/contentstore/views/videos.py
+#: lms/djangoapps/instructor/views/api.py
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 msgid "Name"
-msgstr "Naam"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/videos.py
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
@@ -4468,9 +4470,10 @@ msgstr ""
 msgid "Do not show bumper again"
 msgstr ""
 
+#: common/lib/xmodule/xmodule/word_cloud_module.py
 #: lms/templates/annotatable.html lms/templates/peer_grading/peer_grading.html
 msgid "Instructions"
-msgstr "Instructies"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/word_cloud_module.py
 msgid ""
@@ -4531,8 +4534,13 @@ msgstr ""
 msgid "Unlock Account"
 msgstr ""
 
+#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
 #. interface (a menu or piece of UI that takes the full focus of the screen)
+#: common/templates/admin/student/loginfailures/change_form_template.html
+#: lms/templates/wiki/edit.html lms/templates/wiki/history.html
+#: lms/templates/wiki/includes/cheatsheet.html
+#: openedx/features/wikimedia_features/messenger/views.py
 #: lms/templates/ccx/schedule.html lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html
 #: lms/templates/forgot_password_modal.html
@@ -4544,7 +4552,7 @@ msgstr ""
 #: lms/templates/modal/_modal-settings-language.html
 #: lms/templates/signup_modal.html
 msgid "Close"
-msgstr "Sluit"
+msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: themes/edx-platform/wikilearn/lms/templates/student/edx_ace/accountactivation/email/body.html
@@ -4649,7 +4657,7 @@ msgstr ""
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 msgid "Thanks for using our site!"
-msgstr "Bedankt voor het gebruiken van onze site!"
+msgstr ""
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
@@ -4992,19 +5000,20 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
-#: lms/templates/footer.html lms/templates/static_templates/about.html
+#: lms/djangoapps/branding/api.py lms/templates/footer.html
+#: lms/templates/static_templates/about.html
 #: themes/edx-platform/wikilearn/lms/templates/footer.html
 msgid "About"
-msgstr "Over"
+msgstr ""
 
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
 msgid "{platform_name} for Business"
 msgstr ""
 
-#: lms/templates/static_templates/contact.html
+#: lms/djangoapps/branding/api.py lms/templates/static_templates/contact.html
 msgid "Contact"
-msgstr "Contact"
+msgstr ""
 
 #: lms/djangoapps/branding/api.py
 msgid "Careers"
@@ -5905,15 +5914,16 @@ msgstr ""
 msgid "Disable the dynamic upgrade deadline for this organization."
 msgstr ""
 
-#: lms/templates/courseware/syllabus.html
+#: lms/djangoapps/courseware/tabs.py lms/templates/courseware/syllabus.html
 msgid "Syllabus"
-msgstr "Syllabus"
+msgstr ""
 
+#: lms/djangoapps/courseware/tabs.py
 #: lms/templates/peer_grading/peer_grading.html
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/wikimedia_progress_fragment.html
 msgid "Progress"
-msgstr "Voortgang"
+msgstr ""
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: 'Textbooks' refers to the tab in the course that leads to the
@@ -6416,10 +6426,22 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
+#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: This label appears above a field on the login form
+#. meant to hold the user's email address.
+#. Translators: This label appears above a field on the password reset
+#. form meant to hold the user's email address.
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's email address.
+#: lms/djangoapps/instructor/views/api.py
+#: lms/djangoapps/instructor/views/instructor_dashboard.py
+#: openedx/core/djangoapps/user_authn/views/login_form.py
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 msgid "Email"
-msgstr "E-mail"
+msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Language"
@@ -8138,17 +8160,30 @@ msgid "Create article"
 msgstr ""
 
 #: lms/templates/wiki/create.html lms/templates/wiki/delete.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html
+#: wiki/plugins/images/templates/wiki/plugins/images/purge.html
+#: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html
+#: wiki/templates/wiki/create.html wiki/templates/wiki/delete.html
 msgid "Go back"
-msgstr "Ga terug"
+msgstr ""
 
 #: lms/templates/wiki/delete.html lms/templates/wiki/edit.html
+#: wiki/templates/wiki/delete.html wiki/templates/wiki/edit.html
 msgid "Delete article"
-msgstr "Verwijder artikel"
+msgstr ""
 
 #: lms/templates/wiki/delete.html
 #: lms/templates/wiki/plugins/attachments/index.html
+#: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
+#: themes/edx-platform/wikilearn/cms/templates/studio_xblock_wrapper.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
+#: wiki/templates/wiki/delete.html
 msgid "Delete"
-msgstr "Verwijderen"
+msgstr ""
 
 #: lms/templates/wiki/delete.html wiki/templates/wiki/delete.html
 msgid "You cannot delete a root article."
@@ -8170,9 +8205,9 @@ msgstr ""
 msgid "Articles that will be deleted"
 msgstr ""
 
-#: lms/templates/wiki/delete.html
+#: lms/templates/wiki/delete.html wiki/templates/wiki/delete.html
 msgid "...and more!"
-msgstr "... en meer!"
+msgstr ""
 
 #: lms/templates/wiki/delete.html wiki/templates/wiki/delete.html
 msgid "You are deleting an article. Please confirm."
@@ -8241,9 +8276,10 @@ msgstr ""
 msgid "Auto log:"
 msgstr ""
 
-#: lms/templates/wiki/history.html
+#: lms/templates/wiki/history.html cms/templates/videos_index_pagination.html
+#: wiki/templates/wiki/history.html
 msgid "Change"
-msgstr "Verander"
+msgstr ""
 
 #: lms/templates/wiki/history.html wiki/templates/wiki/history.html
 msgid "Merge selected with current..."
@@ -8455,8 +8491,9 @@ msgstr ""
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html
 #: themes/edx-platform/wikilearn/lms/templates/courseware/courseware.html
 #: themes/edx-platform/wikilearn/lms/templates/index.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
 msgid "Search"
-msgstr "Zoeken"
+msgstr ""
 
 #: lms/templates/wiki/plugins/attachments/index.html
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
@@ -8479,8 +8516,12 @@ msgid "Uploaded by"
 msgstr ""
 
 #: lms/templates/wiki/plugins/attachments/index.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html
+#: wiki/plugins/images/templates/wiki/plugins/images/index.html
 msgid "Size"
-msgstr "Grootte"
+msgstr ""
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "File History"
@@ -9841,9 +9882,11 @@ msgid ""
 "Try again later."
 msgstr ""
 
+#: openedx/core/djangoapps/user_api/accounts/views.py
+#: openedx/core/djangoapps/user_authn/views/login.py
 #: lms/templates/provider_login.html
 msgid "Email or password is incorrect."
-msgstr "Ongeldig e-mail of wachtwoord."
+msgstr ""
 
 #: openedx/core/djangoapps/user_api/admin.py
 #: wiki/templates/wiki/permission_denied.html
@@ -10762,9 +10805,10 @@ msgid ""
 "learning!"
 msgstr ""
 
+#: openedx/features/enterprise_support/utils.py
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Continue"
-msgstr "Ga Door"
+msgstr ""
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py
 #: lms/templates/dates_banner.html
@@ -11475,7 +11519,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
-msgstr "Uploaden voltooid"
+msgstr ""
 
 #: cms/djangoapps/contentstore/views/assets.py
 #, python-brace-format
@@ -12331,7 +12375,7 @@ msgstr ""
 
 #: cms/templates/html_error.html lms/templates/module-error.html
 msgid "Error:"
-msgstr "Error:"
+msgstr ""
 
 #: cms/templates/index.html cms/templates/widgets/user_dropdown.html
 #: openedx/features/wikimedia_features/meta_translations/templates/discover_courses.html
@@ -13102,7 +13146,7 @@ msgstr ""
 #: lms/templates/user_dropdown.html
 #: themes/edx-platform/wikilearn/lms/templates/header/user_dropdown.html
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr ""
 
 #: lms/templates/dashboard.html
 msgid "results successfully populated,"
@@ -13326,7 +13370,7 @@ msgstr ""
 
 #: lms/templates/forgot_password_modal.html
 msgid "Password Reset"
-msgstr "Wachtwoord Reset"
+msgstr ""
 
 #: lms/templates/forgot_password_modal.html
 msgid ""
@@ -13873,11 +13917,11 @@ msgstr ""
 
 #: lms/templates/staticbook.html
 msgid "Previous page"
-msgstr "Vorige pagina"
+msgstr ""
 
 #: lms/templates/staticbook.html
 msgid "Next page"
-msgstr "Volgende pagina"
+msgstr ""
 
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
@@ -14653,7 +14697,7 @@ msgstr ""
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Hints"
-msgstr "Hints"
+msgstr ""
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid ""
@@ -15426,7 +15470,7 @@ msgstr ""
 
 #: lms/templates/courseware/course_updates.html
 msgid "Hide"
-msgstr "Verberg"
+msgstr ""
 
 #: lms/templates/courseware/course_updates.html
 msgid "Show"
@@ -16124,7 +16168,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html
 msgid "Email Settings"
-msgstr "E-mail Instellingen"
+msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "View Archived Course"
@@ -16472,7 +16516,7 @@ msgstr ""
 
 #: lms/templates/debug/run_python_form.html
 msgid "Results:"
-msgstr "Resultaten:"
+msgstr ""
 
 #: lms/templates/discussion/_discussion_inline.html
 msgid "Topic:"
@@ -17995,7 +18039,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Send to:"
-msgstr "Verzenden naar:"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Myself"
@@ -18485,7 +18529,7 @@ msgstr ""
 
 #: lms/templates/peer_grading/peer_grading.html
 msgid "Available"
-msgstr "Beschikbaar"
+msgstr ""
 
 #: lms/templates/peer_grading/peer_grading.html
 msgid "Required"
@@ -18595,7 +18639,7 @@ msgstr ""
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Go Back"
-msgstr "Ga Terug"
+msgstr ""
 
 #: lms/templates/registration/account_activation_sidebar_notice.html
 msgid "Account Activation Info"
@@ -18631,7 +18675,7 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_done.html
 msgid "Password reset successful"
-msgstr "Wachtwoord succesvol gereset"
+msgstr ""
 
 #: lms/templates/registration/password_reset_done.html
 msgid ""
@@ -18680,11 +18724,11 @@ msgstr ""
 
 #: lms/templates/static_templates/faq.html
 msgid "FAQ"
-msgstr "FAQ"
+msgstr ""
 
 #: lms/templates/static_templates/jobs.html
 msgid "Jobs"
-msgstr "Banen"
+msgstr ""
 
 #: lms/templates/static_templates/news.html
 #: lms/templates/static_templates/press.html
