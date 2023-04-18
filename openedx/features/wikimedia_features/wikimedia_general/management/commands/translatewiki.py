@@ -113,15 +113,15 @@ class Command(BaseCommand):
         """
         if os.path.exists(output_file):
             if po_entries:
-                pomsgs = pofile(output_file)
+                pomsgs = pofile(output_file, wrapwidth=1000)
                 for entry in po_entries:
                     if not pomsgs.find(entry.msgid):
                         pomsgs.append(entry)
                 if pomsgs.metadata.get('PO-Revision-Date'):
                     pomsgs.metadata['PO-Revision-Date'] = str(datetime.now())
-                pomsgs.save(output_file, validate=False)
+                pomsgs.save(output_file)
         else:
-            po = POFile()
+            po = POFile(wrapwidth=1000)
             date = datetime.now()
             po_meta_files = {
                 'POT-Creation-Date': str(date),
@@ -136,7 +136,7 @@ class Command(BaseCommand):
                 po.header = ', fuzzy'
             for entry in po_entries:
                 po.append(entry)
-            po.save(output_file, validate=False)
+            po.save(output_file)
 
     def pull_translation_from_transifex(self, locales, base_lang='en'):
         """
