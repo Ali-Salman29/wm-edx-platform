@@ -107,7 +107,7 @@ jobs:
       - name: Generate i18n files
         id: generate-i18n-files
         run: |
-          rmdir -r conf/locale/ppp
+          rm -r conf/locale/qqq
           paver i18n_fastgenerate
 
       - name: Compile JS translations
