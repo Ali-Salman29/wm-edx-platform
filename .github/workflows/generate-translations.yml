@@ -117,7 +117,7 @@ jobs:
           export LMS_CFG=$(pwd)/lms/devstack.yml
           export STUDIO_CFG=$(pwd)/cms/devstack.yml
 
-          python django-admin.py compilemessages
+          django-admin.py compilemessages
 
           unset LMS_CFG
           unset STUDIO_CFG
