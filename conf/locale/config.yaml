@@ -86,7 +86,8 @@ locales:
     # - ur  # Urdu
     # - uz  # Uzbek
     - vi  # Vietnamese
-    - zh_CN  # Chinese (China)
+    # # Error in the reviewed transaltions
+    # - zh_CN  # Chinese (China)
     # - zh_HK  # Chinese (Hong Kong)
     - zh_TW  # Chinese (Taiwan)
 
