@@ -164,7 +164,7 @@ class Command(BaseCommand):
 
     def get_line_number_from_output(self, output):
         output_mappings = {}
-        pattern = r"(/conf/locale/)(.+)(:\d+)"
+        pattern = r"(conf/locale/)(.+)(:\d+)"
         
         for output_line in output.split('\n'):
             match = re.search(pattern, output_line)
