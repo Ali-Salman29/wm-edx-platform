@@ -52,3 +52,7 @@ msgstr "درجتك النهائية:"
 msgid "Course Handouts"
 msgstr "النشرة"
 
+msgid "After this date, course content will be archived."
+msgstr "سيتم أرشفة محتوى المادة بعد هذا التاريخ."
+
+
