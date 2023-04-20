@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-04-20 15:05+0000\n"
+"POT-Creation-Date: 2023-04-20 16:16+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: NELC Open edX Translation <openedx@elc.edu.sa>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/open-edx/teams/6205/ar/)\n"
@@ -6536,7 +6536,7 @@ msgstr "هذا هو ويكي _{course_name}_ الخاص بـ**{organization}**."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
-msgstr "جرى إنشاء صفحة المساق تلقائيًّا."
+msgstr "تم إنشاء صفحة المساق تلقائيًا."
 
 #: lms/djangoapps/course_wiki/views.py
 #, python-brace-format
@@ -6650,16 +6650,16 @@ msgstr "لا تنس إضافة تنبيه لمذكرتك"
 #: lms/djangoapps/courseware/date_summary.py
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} on {course_start_date}."
-msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_start_date}."
+msgstr "يبدأ المساق بعد {time_remaining_string} في {course_start_date}."
 
 #: lms/djangoapps/courseware/date_summary.py
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} at {course_start_time}."
-msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_start_time}."
+msgstr "يبدأ المساق بعد {time_remaining_string} في {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
-msgstr "تاريخ انتهاء المساق"
+msgstr "نهاية المساق"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -17511,7 +17511,7 @@ msgstr "موثق فقط"
 
 #: lms/templates/courseware/dates.html
 msgid "Due Next"
-msgstr "موعد الاستحقاق التالي"
+msgstr "التالي"
 
 #: lms/templates/courseware/dates.html
 msgid "Not yet released"
@@ -17719,12 +17719,12 @@ msgstr "استعراض عملية التقييم في استوديو"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for '{username}' ({email})"
-msgstr "مستوى التقدم في المساق ل '{اسم المستخدم}' ({عنوان البريد الالكتروني})"
+msgstr "حالة تقدم المتعلم: '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html
 #: themes/edx-platform/wikilearn/lms/lms/templates/courseware/progress.html
 msgid "View Certificate"
-msgstr "معاينة الشهادة"
+msgstr "معاينة شهادة التخرج"
 
 #: lms/templates/courseware/progress.html
 #: themes/edx-platform/wikilearn/lms/lms/templates/courseware/progress.html
@@ -21370,7 +21370,7 @@ msgstr "مواعيد القادمة"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html
 msgid "View all course dates"
-msgstr ""
+msgstr "إظهار كل تواريخ المساق"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Goal: "
@@ -21625,7 +21625,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/wikimedia_progress_fragment.html
 msgid "Not Graded"
-msgstr ""
+msgstr "غير مقيَّم"
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/wikimedia_progress_fragment.html
 msgid "Problem Score"
@@ -21679,7 +21679,7 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/index.html
 msgid "Unlock The World’s Knowledge"
-msgstr ""
+msgstr "استكشف المعرفة العالمية"
 
 #: themes/edx-platform/wikilearn/lms/templates/index.html
 msgid "Featured"
@@ -21782,7 +21782,7 @@ msgstr "العودة إلى {الصفحة الرئيسية}."
 
 #: cms/templates/404.html
 msgid "<a href=\"/\">homepage</a>"
-msgstr ""
+msgstr "<a href=\"/\">الصفحة الرئيسية</a>"
 
 #: cms/templates/500.html
 msgid "{studio_name} Server Error"
