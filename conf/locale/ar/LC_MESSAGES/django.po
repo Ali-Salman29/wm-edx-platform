@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-04-20 16:56+0000\n"
+"POT-Creation-Date: 2023-04-20 18:11+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: NELC Open edX Translation <openedx@elc.edu.sa>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/open-edx/teams/6205/ar/)\n"
@@ -3273,7 +3273,7 @@ msgstr ""
 #: lms/templates/courseware/info.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Course Handouts"
-msgstr ""
+msgstr "النشرة"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -6599,7 +6599,7 @@ msgstr "لاستحقاق شهادة التخرج، يتوجب  اتمام  جم�
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "After this date, course content will be archived."
-msgstr ""
+msgstr "سيتم أرشفة محتوى المادة بعد هذا التاريخ."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -16963,7 +16963,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your final grade:"
-msgstr ""
+msgstr "درجتك النهائية:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grades will be finalized on {cert_available_date}"
