@@ -45,3 +45,10 @@ msgstr "حالة تقدم المتعلم: '{username}' ({email})"
 
 msgid "View Certificate"
 msgstr "معاينة شهادة التخرج"
+
+msgid "Your final grade:"
+msgstr "درجتك النهائية: "
+
+msgid "Course Handouts"
+msgstr "النشرة"
+
