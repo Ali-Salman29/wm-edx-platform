@@ -178,10 +178,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-20 15:05+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Jesica Greco, 2023\n"
-"Language-Team: Spanish (Latin America) (http://www.transifex.com/open-edx/edx-platform/language/es_419/)\n"
+"Language-Team: Spanish (Latin America) (http://app.transifex.com/open-edx/edx-platform/language/es_419/)\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2792,7 +2792,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Search the {platform} Help Center"
-msgstr ""
+msgstr "Busca en el Centro de Ayuda de {platform}"
 
 #: lms/djangoapps/support/static/support/jsx/success.jsx
 msgid "Go to my Dashboard"
@@ -3362,6 +3362,9 @@ msgid ""
 "now. Click Cancel to stay on this page (you must log in again to save your "
 "work)."
 msgstr ""
+"Su sesión ha sido cerrada. Haga clic en Aceptar para volver a iniciar "
+"sesión. Haga clic en Cancelar para permanecer en esta página (Deberá iniciar"
+" sesión nuevamente para guardar su trabajo)."
 
 #: lms/static/js/api_admin/views/catalog_preview.js
 msgid "Preview this query"
@@ -3431,52 +3434,66 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
-msgstr ""
+msgstr "estudiantes fueron agregados a la lista de excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is successfully added to the exception list"
-msgstr ""
+msgstr "el estudiante fue agregado a la lista de excepción"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " records are not in correct format and not added to the exception list"
 msgstr ""
+"los registros no están en el formato correcto y no se añadieron a la lista "
+"de excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " record is not in correct format and not added to the exception list"
 msgstr ""
+"el registro no está en el formato correcto y no se añadió a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners do not exist in LMS and not added to the exception list"
 msgstr ""
+"los estudiantes no existen en el LMS y no se añadieron a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner does not exist in LMS and not added to the exception list"
 msgstr ""
+"estudiante no existe en el LMS y no se añadió a la lista de excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are already white listed and not added to the exception list"
 msgstr ""
+"los estudiantes ya están en la lista blanca y no se añadieron a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is already white listed and not added to the exception list"
 msgstr ""
+"el estudiante ya está en la lista blanca y no se añadió a las excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid ""
 " learners are not enrolled in course and not added to the exception list"
 msgstr ""
+"los estudiantes no están inscritos en el curso y no se añadieron a la lista "
+"de excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is not enrolled in course and not added to the exception list"
 msgstr ""
+"el estudiante no está inscrito en el curso y no se añadió a la lista de "
+"excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners already appear on the certificate invalidation list"
-msgstr ""
+msgstr "los alumnos ya aparecen en la lista de invalidación de certificados"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner already appears on the certificate invalidation list"
-msgstr ""
+msgstr "el alumno ya aparece en la lista de invalidación de certificados"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners encountered unknown errors"
@@ -3527,12 +3544,15 @@ msgstr ""
 #: lms/static/js/certificates/views/certificate_whitelist.js
 msgid "Student Removed from certificate white list successfully."
 msgstr ""
+"El estudiante fue eliminado exitosamente de la lista blanca de certificados."
 
 #: lms/static/js/certificates/views/certificate_whitelist.js
 msgid ""
 "Could not find Certificate Exception in white list. Please refresh the page "
 "and try again"
 msgstr ""
+"No se pudo encontrar la excepción de certificado en la lista blanca. Por "
+"favor recarga la página e intenta nuevamente."
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid "<%- user %> already in exception list."
@@ -4063,6 +4083,11 @@ msgid ""
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
 msgstr ""
+"Este curso utiliza la función de cohortes automáticamente para estudiantes "
+"en el modo verificado. No se puede desactivar los cohortes, ni se puede "
+"cambiarle el nombre al cohorte manual nombrado '{verifiedCohortName}'. Para "
+"modificar la configuración de los cohortes del modo verificado, comunícate "
+"con tu punto de contacto en edX."
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
@@ -4070,12 +4095,19 @@ msgid ""
 " the required cohort does not exist. You must create a manually-assigned "
 "cohort named '{verifiedCohortName}' for the feature to work."
 msgstr ""
+"Este curso tiene la función de cohortes habilitada automáticamente para "
+"estudiantes en el modo verificado, pero el cohorte requerido no existe. Tu "
+"debes crear un cohorte asignado manualmente con el título "
+"'{verifiedCohortName}' para que esta característica funcione."
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " cohorts are disabled. You must enable cohorts for the feature to work."
 msgstr ""
+"Este curso tiene la función de cohortes habilitada automáticamente para los "
+"estudiantes del modo verificado, pero los cohortes están inhabilitados. Tu "
+"debes habilitar los cohortes para que esta característica funcione. "
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Allow students to generate certificates for this course?"
@@ -5057,7 +5089,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
-msgstr ""
+msgstr "Antes de continuar, por favor {htmlStart} active su cuenta {htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid ""
@@ -5804,28 +5836,32 @@ msgstr "Marcar esta página"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
 msgid "Thank you for setting your course goal to {goal}!"
-msgstr ""
+msgstr "¡ Gracias por establecer su objetivo para este curso en {goal}!"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js
 msgid "You have successfully updated your goal."
-msgstr ""
+msgstr "Ha actualizado exitosamente su objetivo."
 
 #: openedx/features/course_experience/static/course_experience/js/CourseHome.js
 msgid "There was an error updating your goal."
-msgstr ""
+msgstr "Hubo un error actualizando su objetivo."
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
 msgstr "Expandir todo"
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
 msgstr "Colapsar todo"
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show More"
 msgstr "Mostrar más"
 
+#: openedx/features/course_experience/static/course_experience/js/WelcomeMessage.js
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "Show Less"
 msgstr "Mostrar menos"
@@ -6288,6 +6324,7 @@ msgstr "Por favor ingrese un número entero no negativo."
 #: cms/static/js/models/settings/course_grader.js
 msgid "Cannot drop more <%- types %> assignments than are assigned."
 msgstr ""
+"No se pueden eliminar más asignaciones de <% - types%> de las asignadas."
 
 #: cms/static/js/models/settings/course_grading_policy.js
 msgid "Grace period must be specified in HH:MM format."
@@ -6769,6 +6806,9 @@ msgid "Publish all unpublished changes for this {item}?"
 msgstr "Publicar todos los cambios no publicados para este {item}?"
 
 #: cms/static/js/views/modals/course_outline_modals.js
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Publish"
 msgstr "Publicar"
 
@@ -7567,11 +7607,166 @@ msgid "Actions"
 msgstr "Acciones"
 
 #: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Prerequisite: %(prereq_display_name)s"
+msgstr "Prerrequisito: %(prereq_display_name)s "
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Contains staff only content"
+msgstr "Contiene solo contenido del equipo del curso"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished changes to live content"
+msgstr "Cambios no publicados en el contenido en vivo"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished units will not be released"
+msgstr "Las unidades no publicadas no serán liberadas"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished changes to content that will release in the future"
+msgstr "Cambios no publicados del contenido que será liberado en el futuro"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
+msgstr "El acceso a esta unidad está restringida a: {selectedGroupsLabel}"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid ""
+"Access to some content in this unit is restricted to specific groups of "
+"learners"
+msgstr ""
+"Acceso a ciertos contenidos en esta unidad está restringido a grupos "
+"específicos de estudiantes."
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Ungraded"
+msgstr "No calificado"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Onboarding Exam"
+msgstr "Examen de Integración"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Practice proctored Exam"
+msgstr "Practica de examen supervisado"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Proctored Exam"
+msgstr "Examen supervisado"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Timed Exam"
+msgstr "Examen cronometrado"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Collapse/Expand this %(xblock_type)s"
+msgstr "Contraer/Expandir esta %(xblock_type)s"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Proctoring Settings"
+msgstr "Configuración de supervisión"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Configure"
+msgstr "Configurar"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Drag to reorder"
+msgstr "Arrastre para reorganizar"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Release Status:"
+msgstr "Estado de liberación:"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Released:"
+msgstr "Liberado:"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Scheduled:"
+msgstr "Programado:"
+
+#: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
 #: lms/templates/ccx/schedule.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Unscheduled"
 msgstr "No programado"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/highlights-editor.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Section Highlights"
+msgstr "Destacados de la sección"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Graded as:"
+msgstr "Calificado como:"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Due:"
+msgstr "Fecha de entrega:"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Subsection is hidden after course end date"
+msgstr ""
+"La subsección está oculta después de la fecha de terminación del curso."
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Subsection is hidden after due date"
+msgstr "La subsección estará oculta después de la fecha límite"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "You haven't added any content to this course yet."
+msgstr "Todavía no ha añadido ningún contenido a este curso."
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Click to add a new %(xblock_type)s"
+msgstr "Haga clic para añadir una nueva %(xblock_type)s"
 
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
@@ -7813,7 +8008,7 @@ msgstr "sigue esta publicación"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr ""
+msgstr "Escribe una publicación de forma anónima"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
@@ -8022,7 +8217,7 @@ msgstr "Estado"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
-msgstr ""
+msgstr "URL de descarga"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Grade"
@@ -8034,11 +8229,11 @@ msgstr "Última Actualización"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
-msgstr ""
+msgstr "Descargar el certificado del usuario"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
-msgstr ""
+msgstr "No disponible"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
@@ -9029,6 +9224,8 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
+"Para completar el programa, deberás ganar un certificado verificado en cada "
+"curso."
 
 #: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
@@ -11109,12 +11306,17 @@ msgid ""
 "incorrect, nor the score received, until after the course end date has "
 "passed."
 msgstr ""
+"Los estudiantes no ven si sus respuestas a las evaluaciones fueron correctas"
+" o incorrectas, ni la puntuación recibida, hasta después que la fecha de "
+"caducidad del curso haya pasado."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
 msgstr ""
+"Si el curso no tiene fecha de caducidad,  los estudiantes siempre ven sus "
+"puntajes cuando envían las respuestas de las evaluaciones."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
@@ -11282,6 +11484,10 @@ msgid ""
 " back to a basic exam. You may not configure it as a special exam now. "
 "Contact edX Support for assistance."
 msgstr ""
+"Esta subsección fue lanzada a los estudiantes como un examen especial, pero "
+"fue revertida a un examen básico. Ahora no puede configurarlo como un examen"
+" especial. Ponte en contacto con el servicio de asistencia de edX para "
+"obtener ayuda."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
@@ -11290,6 +11496,11 @@ msgid ""
 " basic exam by selecting 'None', but you will NOT be able to configure it as"
 " a special exam in the future."
 msgstr ""
+"Este examen especial ha sido lanzado a los estudiantes. Ahora no puede "
+"configurarlo como otro tipo de examen especial. Puedes revertir esta "
+"subsección para que vuelva a hacer un examen basico seleccionado la opción "
+"''Ninguno'', pero NO podrás configurar nuevamente este examen como especial "
+"en el futuro. "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Timed"
@@ -11317,6 +11528,9 @@ msgid ""
 "exam. The videos are then reviewed to ensure that learners follow all "
 "examination rules."
 msgstr ""
+"Los exámenes supervisados son cronometrados y un software graba a cada "
+"estudiante que toma el examen. Los videos luego son revisados para "
+"garantizar que el estudiante cumplió con todas las reglas del examen."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
@@ -11848,95 +12062,6 @@ msgstr "Usar la transcripción actual"
 #~ msgstr ""
 #~ "Studio esta presentando problemas para analizar el contenido del componente "
 #~ "problema"
-
-#~ msgid "Prerequisite: %(prereq_display_name)s"
-#~ msgstr "Prerrequisito: %(prereq_display_name)s "
-
-#~ msgid "Contains staff only content"
-#~ msgstr "Contiene solo contenido del equipo del curso"
-
-#~ msgid "Unpublished changes to live content"
-#~ msgstr "Cambios no publicados en el contenido en vivo"
-
-#~ msgid "Unpublished units will not be released"
-#~ msgstr "Las unidades no publicadas no serán liberadas"
-
-#~ msgid "Unpublished changes to content that will release in the future"
-#~ msgstr "Cambios no publicados del contenido que será liberado en el futuro"
-
-#~ msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
-#~ msgstr "El acceso a esta unidad está restringida a: {selectedGroupsLabel}"
-
-#~ msgid ""
-#~ "Access to some content in this unit is restricted to specific groups of "
-#~ "learners"
-#~ msgstr ""
-#~ "Acceso a ciertos contenidos en esta unidad está restringido a grupos "
-#~ "específicos de estudiantes."
-
-#~ msgid "Ungraded"
-#~ msgstr "No calificado"
-
-#~ msgid "Onboarding Exam"
-#~ msgstr "Examen de Integración"
-
-#~ msgid "Practice proctored Exam"
-#~ msgstr "Practica de examen supervisado"
-
-#~ msgid "Proctored Exam"
-#~ msgstr "Examen supervisado"
-
-#~ msgid "Timed Exam"
-#~ msgstr "Examen cronometrado"
-
-#~ msgid "Collapse/Expand this %(xblock_type)s"
-#~ msgstr "Contraer/Expandir esta %(xblock_type)s"
-
-#~ msgid "Display Name"
-#~ msgstr "Nombre para mostrar:"
-
-#~ msgid "Proctoring Settings"
-#~ msgstr "Configuración de supervisión"
-
-#~ msgid "Configure"
-#~ msgstr "Configurar"
-
-#~ msgid "Duplicate"
-#~ msgstr "Duplicar"
-
-#~ msgid "Drag to reorder"
-#~ msgstr "Arrastre para reorganizar"
-
-#~ msgid "Release Status:"
-#~ msgstr "Estado de liberación:"
-
-#~ msgid "Released:"
-#~ msgstr "Liberado:"
-
-#~ msgid "Scheduled:"
-#~ msgstr "Programado:"
-
-#~ msgid "Section Highlights"
-#~ msgstr "Destacados de la sección"
-
-#~ msgid "Graded as:"
-#~ msgstr "Calificado como:"
-
-#~ msgid "Due:"
-#~ msgstr "Fecha de entrega:"
-
-#~ msgid "Subsection is hidden after course end date"
-#~ msgstr ""
-#~ "La subsección está oculta después de la fecha de terminación del curso."
-
-#~ msgid "Subsection is hidden after due date"
-#~ msgstr "La subsección estará oculta después de la fecha límite"
-
-#~ msgid "You haven't added any content to this course yet."
-#~ msgstr "Todavía no ha añadido ningún contenido a este curso."
-
-#~ msgid "Click to add a new %(xblock_type)s"
-#~ msgstr "Haga clic para añadir una nueva %(xblock_type)s"
 
 #~ msgid "Certificate exceptions group selection"
 #~ msgstr "Selección de grupo de excepciones de certificado"
