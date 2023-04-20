@@ -43,7 +43,7 @@ jobs:
         with:
           repository: wikimedia/wikilearn-edx-theme
           path: ./themes
-          ref: develop
+          ref: alisalman/localize-theme-strings
           token: ${{ secrets.THEME_ACCESS_TOKEN }}
 
       - name: Checkout master as feature branch does not exist
