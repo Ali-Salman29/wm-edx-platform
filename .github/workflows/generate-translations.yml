@@ -66,7 +66,23 @@ jobs:
         run: |
           rm -r conf/locale/qqq
           paver i18n_fastgenerate
+      
+      - name: Genereate custom strings
+        id: generate-custom-strings
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+          TX_HOSTNAME: https://rest.api.transifex.com
+        run: |
+          export PATH="$PWD:$PATH"
+          export NO_PREREQ_INSTALL='true'
+          export LMS_CFG=$(pwd)/lms/devstack.yml
+          export STUDIO_CFG=$(pwd)/cms/devstack.yml
 
+          python manage.py cms translatewiki generate_custom_strings
+
+          unset LMS_CFG
+          unset STUDIO_CFG
+      
       - name: Pull latest translations from Transifex and Remove errors
         id: pull-latest-translations-from-transifex
         env:
@@ -127,22 +143,6 @@ jobs:
           unset LMS_CFG
           unset STUDIO_CFG
 
-      - name: Genereate custom strings
-        id: generate-custom-strings
-        env:
-          TX_TOKEN: ${{ secrets.TX_TOKEN }}
-          TX_HOSTNAME: https://rest.api.transifex.com
-        run: |
-          export PATH="$PWD:$PATH"
-          export NO_PREREQ_INSTALL='true'
-          export LMS_CFG=$(pwd)/lms/devstack.yml
-          export STUDIO_CFG=$(pwd)/cms/devstack.yml
-
-          python manage.py cms translatewiki generate_custom_strings
-
-          unset LMS_CFG
-          unset STUDIO_CFG
-      
       - name: Restore qqq files
         run: git restore conf/locale/qqq/
       
