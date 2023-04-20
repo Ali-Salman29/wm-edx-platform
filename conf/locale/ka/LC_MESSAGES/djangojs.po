@@ -56,10 +56,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-03-29 05:38+0000\n"
+"POT-Creation-Date: 2023-04-20 15:05+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Lasha Kokilashvili, 2018\n"
-"Language-Team: Georgian (http://www.transifex.com/open-edx/edx-platform/language/ka/)\n"
+"Language-Team: Georgian (http://app.transifex.com/open-edx/edx-platform/language/ka/)\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,6 +74,8 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
+"მიზეზი შესაძლოა ჩვენი სერვერის, ან თქვენი ინტერნეტ კავშირის გაუმართაობა "
+"იყოს. სცადეთ გვერდის განახლება, ან დარწმუნდით რომ იმყოფებით ონლაინ. "
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 #: cms/static/js/certificates/views/signatory_details.js
@@ -95,6 +97,23 @@ msgstr "შენახვა"
 #: cms/static/js/views/manage_users_and_roles.js
 #: cms/static/js/views/show_textbook.js
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course-instructor-details.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-settings-learning-fields.underscore
+#: cms/templates/js/course_grade_policy.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/partition-group-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: cms/templates/js/video-transcripts.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: common/static/common/templates/discussion/templates.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Delete"
 msgstr "წაშლა"
 
@@ -153,6 +172,11 @@ msgstr "ატვირთვა"
 msgid "Close"
 msgstr "დახურვა"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/assets.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/asset-library.underscore
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
@@ -177,6 +201,11 @@ msgstr "ფაილის არჩევა"
 msgid "OK"
 msgstr "დიახ"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/course_video_settings.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "None"
 msgstr "არცერთი"
@@ -197,7 +226,7 @@ msgstr "წაშლა"
 #: cms/static/js/views/manage_users_and_roles.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Ok"
-msgstr ""
+msgstr "დიახ"
 
 #: cms/static/js/views/manage_users_and_roles.js
 #: lms/static/js/instructor_dashboard/util.js
@@ -207,12 +236,18 @@ msgstr "უცნობი"
 #: cms/static/js/views/manage_users_and_roles.js
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Are you sure?"
-msgstr ""
+msgstr "დარწმუნებული ბრძანდებით?"
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
 msgstr "ფაილის ატვირთვა"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/base_modal.js
+#: cms/static/js/views/modals/course_outline_modals.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/course_info_handouts.underscore
@@ -228,6 +263,11 @@ msgstr "ფაილის ატვირთვა"
 msgid "Save"
 msgstr "შენახვა"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: cms/static/js/views/modals/course_outline_modals.js
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Advanced"
 msgstr "განვითარებული დონე"
@@ -251,7 +291,7 @@ msgstr "ცვლილებები შენახულია."
 #: cms/static/js/views/xblock_validation.js
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Warning"
-msgstr ""
+msgstr "გაფრთხილება"
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -276,7 +316,7 @@ msgstr "ბიბლიოთეკის უახლესი შინაა�
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Loading..."
-msgstr ""
+msgstr "იტვირთება..."
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Selected blocks"
@@ -293,43 +333,43 @@ msgstr "დაკარგული ჯგუფების შექმნა"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "{start_strong}{total}{end_strong} words submitted in total."
-msgstr ""
+msgstr "სულ გაგზავნილია {start_strong}{total}{end_strong} სიტყვა."
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "text_word_{uniqueId} title_word_{uniqueId}"
-msgstr ""
+msgstr "text_word_{uniqueId} title_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "title_word_{uniqueId}"
-msgstr ""
+msgstr "title_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "text_word_{uniqueId}"
-msgstr ""
+msgstr "text_word_{uniqueId}"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
-msgstr ""
+msgstr "ანოტაციების ჩვენება"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Hide Annotations"
-msgstr ""
+msgstr "ანოტაციების დამალვა"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Expand Instructions"
-msgstr ""
+msgstr "ინსტრუქციების ჩვენება"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Collapse Instructions"
-msgstr ""
+msgstr "ინსტრუქციების დახურვა"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Commentary"
-msgstr ""
+msgstr "კომენტარი"
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Reply to Annotation"
-msgstr ""
+msgstr "ანოტაციაზე პასუხი"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
@@ -386,10 +426,12 @@ msgstr[1] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
+"შეფასების პროცესი კვლავ მიმდინარეობს. განაახლეთ გვერდი განახლებული ვერსიის "
+"სანახავად."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "Could not grade your answer. The submission was aborted."
-msgstr ""
+msgstr "თქვენი პასუხის შეფასება ვერ მოხერხდა. პასუხების მიღბა შეწყვეტილია."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid ""
@@ -397,36 +439,41 @@ msgid ""
 "you can, please use Chrome or Safari which have been verified to support "
 "file uploads."
 msgstr ""
+"პასუხების მიღება შეწყდა! სამწუხაროდ თქვენს ბრაუზერს ფაილის ატვირთვის "
+"მხარდაჭერა არ აქვს. თუ შეგიძლიათ, გთხოვთ, გამოიყენოთ Chrome და Safari, "
+"რომლის მხარდაჭერაც ფაილის ატვირთვის მხრივ შემოწმებულია."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr ""
+"თქვენ გაგზავნეთ {filename}; ნებადართულია მხოლოდ {allowedFiles} ფაილები."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
+"თქვენი ფაილი {filename} ზედმეტად დიდია (მაქსიმალური ზომა: {maxSize}MB)."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "You did not submit the required files: {requiredFiles}."
-msgstr ""
+msgstr "თქვენ არ გაგიგზავნიათ საჭირო ფაილები: {requiredFiles}."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "You did not select any files to submit."
-msgstr ""
+msgstr "თქვენ არ შეგირჩევიათ არცერთი ფაილი გასაგზავნად."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{label}: {status}"
-msgstr ""
+msgstr "{label}: {status}"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "This problem has been reset."
-msgstr ""
+msgstr "მოცემული ამოცანის მონაცემები ჩამოყრილია."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "unsubmitted"
-msgstr ""
+msgstr "გასაგზავნი"
 
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid ""
@@ -437,95 +484,95 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paragraph"
-msgstr ""
+msgstr "პარაგრაფი"
 
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Preformatted"
-msgstr ""
+msgstr "წინასწარ დაფორმატებული"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 3"
-msgstr ""
+msgstr "სათაური 3"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 4"
-msgstr ""
+msgstr "სათაური 4"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 5"
-msgstr ""
+msgstr "სათაური 5"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 6"
-msgstr ""
+msgstr "სათაური 6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Add to Dictionary"
-msgstr ""
+msgstr "ლექსიკონში დამატება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align center"
-msgstr ""
+msgstr "სწორება ცენტრზე"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align left"
-msgstr ""
+msgstr "მარცხნივ გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align right"
-msgstr ""
+msgstr "მარჯვნივ გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Alignment"
-msgstr ""
+msgstr "გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Alternative source"
-msgstr ""
+msgstr "ალტერნატიული წყარო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Anchor"
-msgstr ""
+msgstr "ღუზა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Anchors"
-msgstr ""
+msgstr "ღუზები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Author"
-msgstr ""
+msgstr "ავტორი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Background color"
-msgstr ""
+msgstr "ფონის ფერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -538,97 +585,97 @@ msgstr "ციტატის ბლოკი"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Blocks"
-msgstr ""
+msgstr "ბლოკები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Body"
-msgstr ""
+msgstr "სხეული"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Bold"
-msgstr ""
+msgstr "მუქი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Border color"
-msgstr ""
+msgstr "ჩარჩოს ფერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Border"
-msgstr ""
+msgstr "ჩარჩო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Bottom"
-msgstr ""
+msgstr "ქვედა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Bullet list"
-msgstr ""
+msgstr "ბურთულებიანი სია"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Caption"
-msgstr ""
+msgstr "წარწერა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell padding"
-msgstr ""
+msgstr "უჯრის ველები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell properties"
-msgstr ""
+msgstr "უჯრის თვისებები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell spacing"
-msgstr ""
+msgstr "უჯრებს შორის დაშორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell type"
-msgstr ""
+msgstr "უჯრის ტიპი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell"
-msgstr ""
+msgstr "უჯრა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Center"
-msgstr ""
+msgstr "ცენტრი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Circle"
-msgstr ""
+msgstr "წრეწირი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Clear formatting"
-msgstr ""
+msgstr "ფორმატირების გასუფთავება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -636,8 +683,12 @@ msgstr ""
 #. displayed in the browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Code block"
-msgstr ""
+msgstr "კოდის ბლოკი"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Code"
 msgstr "კოდი"
@@ -646,103 +697,103 @@ msgstr "კოდი"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Color"
-msgstr ""
+msgstr "ფერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cols"
-msgstr ""
+msgstr "სვეტები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Column group"
-msgstr ""
+msgstr "სვეტების ჯგუფი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Column"
-msgstr ""
+msgstr "სვეტი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Constrain proportions"
-msgstr ""
+msgstr "პროპორციების შეზღუდვა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Copy row"
-msgstr ""
+msgstr "სტრიქონის კოპირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Copy"
-msgstr ""
+msgstr "კოპირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Could not find the specified string."
-msgstr ""
+msgstr "ვერ მოხერხდა მითითებული სტრიქონის პოვნა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Custom color"
-msgstr ""
+msgstr "მორგებული ფერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Custom..."
-msgstr ""
+msgstr "მორგებული..."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cut row"
-msgstr ""
+msgstr "სტრიქონის ამოჭრა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cut"
-msgstr ""
+msgstr "ამოჭრა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Decrease indent"
-msgstr ""
+msgstr "აბზაცის შემცირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Default"
-msgstr ""
+msgstr "ნაგულისხმევი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete column"
-msgstr ""
+msgstr "სვეტის წაშლა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete row"
-msgstr ""
+msgstr "სტრიქონის წაშლა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete table"
-msgstr ""
+msgstr "ცხრილის წაშლა"
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -751,37 +802,37 @@ msgstr ""
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Dimensions"
-msgstr ""
+msgstr "ზომები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Disc"
-msgstr ""
+msgstr "დისკო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Div"
-msgstr ""
+msgstr "Div"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Document properties"
-msgstr ""
+msgstr "დოკუმენტის თვისებები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Edit HTML"
-msgstr ""
+msgstr "HTML-ის რედაქტირება"
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -797,92 +848,96 @@ msgstr ""
 #: cms/templates/js/xblock-string-field-editor.underscore
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit"
-msgstr ""
+msgstr "რედაქტირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Embed"
-msgstr ""
+msgstr "ჩაშენება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Emoticons"
-msgstr ""
+msgstr "სიცილაკები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Encoding"
-msgstr ""
+msgstr "კოდირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "File"
-msgstr ""
+msgstr "ფაილი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find and replace"
-msgstr ""
+msgstr "პოვნა და ჩანაცვლება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find next"
-msgstr ""
+msgstr "შემდეგის პოვნა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find previous"
-msgstr ""
+msgstr "წინას პოვნა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find"
-msgstr ""
+msgstr "პოვნა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Finish"
-msgstr ""
+msgstr "დასრულება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Font Family"
-msgstr ""
+msgstr "შრიფტის ოჯახი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Font Sizes"
-msgstr ""
+msgstr "შრიფტის ზომები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Footer"
-msgstr ""
+msgstr "ქვედა კოლონტიტული"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Format"
-msgstr ""
+msgstr "ფორმატირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Formats"
-msgstr ""
+msgstr "ფორმატები"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/static/common/templates/image-modal.underscore
 msgid "Fullscreen"
 msgstr "სრულეკრანიანი რეჟიმი"
@@ -891,303 +946,308 @@ msgstr "სრულეკრანიანი რეჟიმი"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "General"
-msgstr ""
+msgstr "ძირითადი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "H Align"
-msgstr ""
+msgstr "ჰორიზონტალური გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 1"
-msgstr ""
+msgstr "1 სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 2"
-msgstr ""
+msgstr "2 სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 3"
-msgstr ""
+msgstr "3 სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 4"
-msgstr ""
+msgstr "4 სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 5"
-msgstr ""
+msgstr "5 სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 6"
-msgstr ""
+msgstr "6 სატაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header cell"
-msgstr ""
+msgstr "სათაურის სექცია"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Header"
-msgstr ""
+msgstr "სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Headers"
-msgstr ""
+msgstr "ზედა კოლონტიტულები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 1"
-msgstr ""
+msgstr "სათაური 1"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 2"
-msgstr ""
+msgstr "სათაური 2"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Headings"
-msgstr ""
+msgstr "სათაურები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Height"
-msgstr ""
+msgstr "სიმაღლე"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Horizontal line"
-msgstr ""
+msgstr "ჰორიზონტალური ხაზი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Horizontal space"
-msgstr ""
+msgstr "ჰორიზონტალური დაცილება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "HTML source code"
-msgstr ""
+msgstr "HTML საწყისი კოდი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Ignore all"
-msgstr ""
+msgstr "ყველას უგულვებელყოფა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Ignore"
-msgstr ""
+msgstr "უგულვებელყოფა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Image description"
-msgstr ""
+msgstr "სურათის აღწერა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Increase indent"
-msgstr ""
+msgstr "აბზაცის გაზრდა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Inline"
-msgstr ""
+msgstr "ხაზში"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert column after"
-msgstr ""
+msgstr "შემდეგ ჩასვი სვეტი შემდეგ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert column before"
-msgstr ""
+msgstr "ჩასვი სვეტი წინ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert date/time"
-msgstr ""
+msgstr "შეიყვანე თარიღი/დრო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert image"
-msgstr ""
+msgstr "ფოტოსურათის ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert link"
-msgstr ""
+msgstr "ბმულის ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert row after"
-msgstr ""
+msgstr "ჩასვი მწკრივი შემდეგ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert row before"
-msgstr ""
+msgstr "ჩასვი მწკრივი წინ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert table"
-msgstr ""
+msgstr "ცხრილის ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert template"
-msgstr ""
+msgstr "შაბლონის ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert video"
-msgstr ""
+msgstr "ვიდეოს ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert"
-msgstr ""
+msgstr "ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert/edit image"
-msgstr ""
+msgstr "სურათის ჩასმა/რედაქტირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert/edit link"
-msgstr ""
+msgstr "ბმულის ჩასმა/რედაქტირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert/edit video"
-msgstr ""
+msgstr "ვიდეოს ჩასმა/რედაქტირება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Italic"
-msgstr ""
+msgstr "დახრილი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Justify"
-msgstr ""
+msgstr "ორივე მხარეს გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Keywords"
-msgstr ""
+msgstr "საკვანძო სიტყვები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Left to right"
-msgstr ""
+msgstr "მარცხნიდან მარჯვნივ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Left"
-msgstr ""
+msgstr "მარცხენა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Lower Alpha"
-msgstr ""
+msgstr "ქვედა ალფა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Lower Greek"
-msgstr ""
+msgstr "ქვედა ბერძნული"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Lower Roman"
-msgstr ""
+msgstr "ქვედა ლათინური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Match case"
-msgstr ""
+msgstr "მთავრულის გათვალისწინებით"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Merge cells"
-msgstr ""
+msgstr "უჯრების შერწყმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Middle"
-msgstr ""
+msgstr "საშუალო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "New document"
-msgstr ""
+msgstr "ახალი დოკუმენტი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "New window"
-msgstr ""
+msgstr "ახალი ფანჯარა"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: lms/static/js/demographics_collection/Wizard.jsx
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
 #: common/static/common/templates/discussion/templates.underscore
@@ -1198,31 +1258,31 @@ msgstr "მომდევნო"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "No color"
-msgstr ""
+msgstr "ფერის გარეშე"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Nonbreaking space"
-msgstr ""
+msgstr "უწყვეტი დაცილება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Numbered list"
-msgstr ""
+msgstr "დანომრილი სია"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Page break"
-msgstr ""
+msgstr "გვერდის წყვეტა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste as text"
-msgstr ""
+msgstr "ტექსტად ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1231,49 +1291,55 @@ msgid ""
 "Paste is now in plain text mode. Contents will now be pasted as plain text "
 "until you toggle this option off."
 msgstr ""
+"ამჟამად ჩასმა ჩვეულებრივი ტექსტის რეჟიმში ხდება. სანამ ამ პარამეტრს არ "
+"გამორთავთ, შინაარსი ჩვეულებრივი ტექსტის სახით ჩაჯდება."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste row after"
-msgstr ""
+msgstr "ჩასვი მწკრივი შემდეგ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste row before"
-msgstr ""
+msgstr "ჩასვი მწკრივი წინ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste your embed code below:"
-msgstr ""
+msgstr "ჩასვით ჩაშენების კოდი:"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste"
-msgstr ""
+msgstr "ჩასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Poster"
-msgstr ""
+msgstr "პოსტერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Pre"
-msgstr ""
+msgstr "წინასწარ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Prev"
-msgstr ""
+msgstr "წინა"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js lms/static/js/customwmd.js
 #: cms/templates/js/asset-library.underscore
 msgid "Preview"
 msgstr "გადახედვა"
@@ -1282,32 +1348,36 @@ msgstr "გადახედვა"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Print"
-msgstr ""
+msgstr "დაბეჭდვა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Redo"
-msgstr ""
+msgstr "მოქმედების გამეორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Remove link"
-msgstr ""
+msgstr "ბმულის წაშლა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Replace all"
-msgstr ""
+msgstr "ყველას ჩანაცვლება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Replace with"
-msgstr ""
+msgstr "ჩაანაცვლოს:"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video-transcripts.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
@@ -1318,7 +1388,7 @@ msgstr "ჩანაცვლება"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Restore last draft"
-msgstr ""
+msgstr "ბოლო მონახაზის აღდგენა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1327,180 +1397,182 @@ msgid ""
 "Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
 "ALT-0 for help"
 msgstr ""
+"გაფართოებული ტექსტური სივრცე. დააჭირეთ ALT-F9 მენიუსთვის. დააჭირეთ  ALT-F10 "
+"ინსტრუმენტთა პანელისთვის. დააჭირეთ ALT-0 დახმარებისთვის."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Right to left"
-msgstr ""
+msgstr "მარჯვნიდან მარცხნივ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Right"
-msgstr ""
+msgstr "მარჯვნივ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Robots"
-msgstr ""
+msgstr "რობოტები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Row group"
-msgstr ""
+msgstr "სტრიქონთა ჯგუფი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Row properties"
-msgstr ""
+msgstr "სტრიქონის პარამეტრები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Row type"
-msgstr ""
+msgstr "სტრიქონის ტიპი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Row"
-msgstr ""
+msgstr "სტრიქონი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Rows"
-msgstr ""
+msgstr "სტრიქონები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Scope"
-msgstr ""
+msgstr "ფარგლები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Select all"
-msgstr ""
+msgstr "ყველაფრის მონიშვნა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Show blocks"
-msgstr ""
+msgstr "ბლოკების ჩვენება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Show invisible characters"
-msgstr ""
+msgstr "უხილავი სიმბოლოების ჩვენება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Source code"
-msgstr ""
+msgstr "საწყისი კოდი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Source"
-msgstr ""
+msgstr "წყარო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Special character"
-msgstr ""
+msgstr "სპეციალური სიმბოლო"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Spellcheck"
-msgstr ""
+msgstr "მართლწერის შემოწმება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Split cell"
-msgstr ""
+msgstr "უჯრის გაყოფა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Square"
-msgstr ""
+msgstr "კვადრატი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Start search"
-msgstr ""
+msgstr "ძიების დაწყება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Strikethrough"
-msgstr ""
+msgstr "გადახაზვა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Style"
-msgstr ""
+msgstr "სტილი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Subscript"
-msgstr ""
+msgstr "ქვედა ინდექსი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Superscript"
-msgstr ""
+msgstr "ზედა ინდექსი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Table properties"
-msgstr ""
+msgstr "ცხრილის თვისებები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Table"
-msgstr ""
+msgstr "ცხრილი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Target"
-msgstr ""
+msgstr "მიზანი/სამიზნე"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Templates"
-msgstr ""
+msgstr "შაბლონები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Text color"
-msgstr ""
+msgstr "ტექსტის ფერი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Text to display"
-msgstr ""
+msgstr "საჩვენებელი ტექსტი"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1509,6 +1581,8 @@ msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
 msgstr ""
+"როგორც ჩანს, თქვენი შეყვანილი URL-ი ელფოსტის მისამართია. გსურთ დაამატოთ "
+"სავალდებულო mailto: პრეფიქსი?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1517,6 +1591,8 @@ msgid ""
 "The URL you entered seems to be an external link. Do you want to add the "
 "required http:// prefix?"
 msgstr ""
+"როგორც ჩანს, თქვენი შეყვანილი URL-ი გარე ბმულია. გსურთ დაამატოთ სავალდებულო "
+"http:// პრეფიქსი?"
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -1526,62 +1602,66 @@ msgstr ""
 #: cms/templates/js/signatory-details.underscore
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Title"
-msgstr ""
+msgstr "სათაური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Tools"
-msgstr ""
+msgstr "ხელსაწყოები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Top"
-msgstr ""
+msgstr "ზემოთ"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Underline"
-msgstr ""
+msgstr "ხაზგასმა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Undo"
-msgstr ""
+msgstr "მოქმედების გაუქმება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Upper Alpha"
-msgstr ""
+msgstr "ზედა ალფა"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Upper Roman"
-msgstr ""
+msgstr "ზედა ლათინური"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Url"
-msgstr ""
+msgstr "Url"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "V Align"
-msgstr ""
+msgstr "ვერტ. გასწორება"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Vertical space"
-msgstr ""
+msgstr "ვერტიკალური დაცილება"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
@@ -1591,31 +1671,31 @@ msgstr "ნახვა"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Visual aids"
-msgstr ""
+msgstr "ვიზუალური საშუალებები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Whole words"
-msgstr ""
+msgstr "მთლიანი სიტყვები"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Width"
-msgstr ""
+msgstr "სიგანე"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Words: {0}"
-msgstr ""
+msgstr "სიტყვები: {0}"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "You have unsaved changes are you sure you want to navigate away?"
-msgstr ""
+msgstr "თქვენ გაქვთ შესანახი ცვლილებები. დარწმუნებული ხართ, რომ გასვლა გსურთ?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1624,6 +1704,8 @@ msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
 "Ctrl+X/C/V keyboard shortcuts instead."
 msgstr ""
+"თქვენი ბრაუზერი ვერ უზრუნველყოფს გაცვლის ბუფერზე პირდაპირ წვდომას. გთხოვთ, "
+"გამოიყენოთ Ctrl+X/C/V კლავიატურის მალსახმობები."
 
 #. Translators: this is a toolbar button tooltip from the raw HTML editor
 #. displayed in the browser when a user needs to edit HTML
@@ -1637,6 +1719,9 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
+"დააწკაპუნეთ OK თქვენი მომხმარებლის სახელისა და ელფოსტის მისამართის მე-3 მხარის აპლიკაციისთვის გასაგზავნად.\n"
+"\n"
+"დააწკაპუნეთ გაუქმებას, რომ მოცემულ გვერდზე ინფორმაციის გაგზავნის გარეშე დაბრუნდეთ."
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
 msgid ""
@@ -1644,6 +1729,9 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
+"დააწკაპუნეთ OK თქვენი მომხმარებლის სახელის მე-3 მხარის აპლიკაციისთვის გასაგზავნად.\n"
+"\n"
+"დააწკაპუნეთ გაუქმებას, რომ მოცემულ გვერდზე ინფორმაციის გაგზავნის გარეშე დაბრუნდეთ."
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
 msgid ""
@@ -1651,22 +1739,25 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
+"დააწკაპუნეთ OK თქვენი ელფოსტის მისამართის მე-3 მხარის აპლიკაციისთვის გასაგზავნად.\n"
+"\n"
+"დააწკაპუნეთ გაუქმებას, რომ მოცემულ გვერდზე ინფორმაციის გაგზავნის გარეშე დაბრუნდეთ."
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "incorrect"
-msgstr ""
+msgstr "არასწორი"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "correct"
-msgstr ""
+msgstr "სწორი"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "answer"
-msgstr ""
+msgstr "პასუხი"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Short explanation"
-msgstr ""
+msgstr "მოკლე განმარტება"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid ""
@@ -1674,16 +1765,20 @@ msgid ""
 "\n"
 "Proceed to the Advanced Editor and convert this problem to XML?"
 msgstr ""
+"თუ გაუმჯობესებულ რედაქტორს გამოიყენებთ, მოცემული ამოცანა კონვერტირდება XML "
+"ფორმატში და თქვენ ვეღარ შეძლებთ მარტივი რედაქტორის ინტერფეისზე დაბრუნებას."
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Explanation"
-msgstr ""
+msgstr "განმარტება"
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr ""
+"თანმიმდევრობის შეცდომა! ვერ ხდება %(tab_name)s-ზე ნავიგაცია მოცემულ "
+"თანმიმდევრობის მოდულში. გთხოვთ, დაუკავშირდეთ კურსის პერსონალს."
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
@@ -1694,35 +1789,35 @@ msgstr "სანიშნეებში შენახული"
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
 msgid "Play"
-msgstr ""
+msgstr "დაკვრა"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
 msgid "Pause"
-msgstr ""
+msgstr "პაუზა"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Mute"
-msgstr ""
+msgstr "დადუმება"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Unmute"
-msgstr ""
+msgstr "ხმის ჩართვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Exit full browser"
-msgstr ""
+msgstr "სრულეკრანიანი რეჟიმიდან გასვლა"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Fill browser"
-msgstr ""
+msgstr "სრულეკრანიანი რეჟიმი"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid "Speed"
-msgstr ""
+msgstr "სიჩქარე"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_auto_advance_control.js
@@ -1732,62 +1827,62 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
 msgid "Volume"
-msgstr ""
+msgstr "ხმის სიძლიერე"
 
 #. Translators: Volume level equals 0%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Muted"
-msgstr ""
+msgstr "დადუმებული"
 
 #. Translators: Volume level in range ]0,20]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Very low"
-msgstr ""
+msgstr "ძალიან დაბალი"
 
 #. Translators: Volume level in range ]20,40]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Low"
-msgstr ""
+msgstr "დაბალი"
 
 #. Translators: Volume level in range ]40,60]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Average"
-msgstr ""
+msgstr "საშუალო"
 
 #. Translators: Volume level in range ]60,80]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Loud"
-msgstr ""
+msgstr "ხმამაღალი"
 
 #. Translators: Volume level in range ]80,99]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Very loud"
-msgstr ""
+msgstr "ძალიან ხმამაღალი"
 
 #. Translators: Volume level equals 100%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Maximum"
-msgstr ""
+msgstr "მაქსიმუმი"
 
 #: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
 msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr ""
+msgstr "მოცემული ბრაუზერი ვერ უკრავს mp4, .ogg, ან .webm ფაილებს."
 
 #: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
 msgid "Try using a different browser, such as Google Chrome."
-msgstr ""
+msgstr "სცადეთ სხვა ბრაუზერის გამოყენება, მაგალითად Google Chrome."
 
 #: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
 msgid "High Definition"
-msgstr ""
+msgstr "მაღალი გარჩევადობა"
 
 #: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
 msgid "off"
-msgstr ""
+msgstr "გამორთვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
 msgid "on"
-msgstr ""
+msgstr "ჩართვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video position. Press space to toggle playback"
@@ -1795,11 +1890,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video ended"
-msgstr ""
+msgstr "ვიდეო დასრულდა"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video position"
-msgstr ""
+msgstr "ვიდეოს პოზიცია"
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "%(value)s hour"
@@ -1824,10 +1919,13 @@ msgid ""
 "Click on this button to mute or unmute this video or press UP or DOWN "
 "buttons to increase or decrease volume level."
 msgstr ""
+"ამ ვიდეოს ხმის გამოსართავად ან ჩასართავად დააწკაპუნეთ მოცემულ ღილაკზე, ან "
+"ხმის სიძლიერის მოსამატებლად, ან დასაკლებად დააჭირეთ „ზემოთ“ და „ქვემოთ“ "
+"კლავიშებს."
 
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
 msgid "Adjust video volume"
-msgstr ""
+msgstr "ვიდეოს ხმის სიძლიერის რეგულირება"
 
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid ""
@@ -1835,52 +1933,55 @@ msgid ""
 "navigate the different speeds, then press ENTER to change to the selected "
 "speed."
 msgstr ""
+"დააჭირეთ კლავიშს „ზემოთ“ სიჩქარის მენიუში შესასვლელად. შემდეგ გამოიყენეთ "
+"ისრიანი კლავიშები „ზემოთ“ და „ქვემოთ“ სიჩქარეებს შორის გადასასვლელად.  "
+"შერჩეულ სიჩქარეზე გადასასვლელად დააჭირეთ „შეყვანის“ კლავიშს."
 
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid "Adjust video speed"
-msgstr ""
+msgstr "ვიდეოს სიჩქარის დარეგულირება"
 
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid "Video speed: "
-msgstr ""
+msgstr "ვიდეოს სიჩქარე:"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
 msgid "Skip"
-msgstr ""
+msgstr "გამოტოვება"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_poster.js
 msgid "Play video"
-msgstr ""
+msgstr "ვიდეოს დაკვრა"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
 msgid "Do not show again"
-msgstr ""
+msgstr "ხელმეორედ აღარ მაჩვენოთ"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Open language menu"
-msgstr ""
+msgstr "ენის მენიუს გახსნა"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Transcript will be displayed when you start playing the video."
-msgstr ""
+msgstr "სუბტიტრები გამოჩნდება ვიდეოს ჩართვის შემდეგ."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
-msgstr ""
+msgstr "ამ ჯგუფში ბმულის გააქტიურებით, გადხტება ვიდეოს შესაბამის ადგილას."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Video transcript"
-msgstr ""
+msgstr "ვიდეოს სუბტიტრები"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Start of transcript. Skip to the end."
-msgstr ""
+msgstr "სუბტიტრების დაწყება. ბოლოსკენ გადასვლა."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "End of transcript. Skip to the start."
-msgstr ""
+msgstr "სუბტიტრების დასასრული. დასაწყისში გადასვლა."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid ""
@@ -1888,26 +1989,29 @@ msgid ""
 " keys to navigate language options. Press ENTER to change to the selected "
 "language."
 msgstr ""
+"ენის მენიუში შესასვლელად დააჭირეთ ისრიან კლავიშს \"ზემოთ\"  შემდეგ "
+"გამოიყენეთ \"ზემოთ\" და \"ქვემოთ\" ისრიანი კლავიშები ენის პარამეტრებში "
+"ნავიგაციისთვის. შერჩეული ენის ასარჩევად დააჭირეთ ENTER."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Hide closed captions"
-msgstr ""
+msgstr "დახურული წარწერების დამალვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "(Caption will be displayed when you start playing the video.)"
-msgstr ""
+msgstr "(წარწერა გამოჩნდება ვიდეოს დაკვრის დროს.)"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn on closed captioning"
-msgstr ""
+msgstr "დახურული წარწერების ჩართვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn on transcripts"
-msgstr ""
+msgstr "სუბტიტრების ჩართვა"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn off transcripts"
-msgstr ""
+msgstr "სუბტიტრების გამორთვა"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 #: cms/templates/js/move-xblock-list.underscore
@@ -1924,7 +2028,7 @@ msgstr ""
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 msgid "Select"
-msgstr ""
+msgstr "არჩევა"
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
@@ -1969,6 +2073,7 @@ msgid "Your request could not be processed. Refresh the page and try again."
 msgstr ""
 
 #: common/static/common/js/discussion/utils.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "…"
 msgstr "..."
 
@@ -2153,6 +2258,7 @@ msgid "Your post will be discarded."
 msgstr "თქვენი პოსტი გაუქმდება."
 
 #: common/static/common/js/discussion/views/response_comment_show_view.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "anonymous"
 msgstr "ანონიმური"
 
@@ -2209,21 +2315,21 @@ msgstr "ჩაგდებულია მიზანში"
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s წინ"
 
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
 msgid "%s from now"
-msgstr ""
+msgstr "%s დღეიდან"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "less than a minute"
-msgstr ""
+msgstr "ერთ წუთზე ნაკლები"
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a minute"
-msgstr ""
+msgstr "დაახლოებით წუთი"
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2234,7 +2340,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about an hour"
-msgstr ""
+msgstr "დაახლოებით საათი"
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2245,7 +2351,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "a day"
-msgstr ""
+msgstr "დღე"
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2256,7 +2362,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a month"
-msgstr ""
+msgstr "დაახლოებით ერთი თვე"
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2267,7 +2373,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a year"
-msgstr ""
+msgstr "დაახლოებით ერთი წელი"
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2363,7 +2469,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid "(Optional)"
-msgstr ""
+msgstr "(არასავალდებულო)"
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid "Remove file"
@@ -2371,7 +2477,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Name"
-msgstr ""
+msgstr "კურსის სახელი"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid ""
@@ -2392,6 +2498,7 @@ msgstr "თემა"
 msgid "Select a category"
 msgstr ""
 
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "ანგარიშის პარამეტრები"
@@ -2402,7 +2509,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Certificates"
-msgstr ""
+msgstr "სერტიფიკატები"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Content"
@@ -2428,6 +2535,7 @@ msgstr ""
 msgid "Proctoring"
 msgstr ""
 
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: cms/templates/js/asset-library.underscore
 msgid "Other"
 msgstr "სხვა"
@@ -2446,7 +2554,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Details"
-msgstr ""
+msgstr "დეტალები"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "the more quickly and helpfully we can respond!"
@@ -2485,7 +2593,7 @@ msgstr ""
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
 msgid "Contact Us"
-msgstr ""
+msgstr "დაგვიკავშირდით"
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Find answers to the top questions asked by learners."
@@ -2586,6 +2694,7 @@ msgid "Country"
 msgstr "ქვეყანა"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "The country that team members primarily identify with."
 msgstr ""
 "ქვეყანა, რომელთანაც გუნდის წევრების უმეტესობა ახდენს თვითიდენტიფიცირებას."
@@ -2662,7 +2771,7 @@ msgstr "„{team}“ გუნდის წაშლა წარმატებ
 #: lms/djangoapps/teams/static/teams/js/views/manage.js
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Manage"
-msgstr ""
+msgstr "მართვა"
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js
 msgid "You are not currently a member of any team."
@@ -3047,11 +3156,11 @@ msgstr "გადახედეთ ამ მოთხოვნას"
 
 #: lms/static/js/calculator.js
 msgid "Open Calculator"
-msgstr ""
+msgstr "კალკულატორის გახსნა"
 
 #: lms/static/js/calculator.js
 msgid "Close Calculator"
-msgstr ""
+msgstr "კალკულატორის დახურვა"
 
 #: lms/static/js/ccx/schedule.js
 msgid "All subsections"
@@ -3094,20 +3203,26 @@ msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
 msgstr ""
+"სტუდენტის მომხმარებლის სახელი/ელფოსტის ველის შევსება სავალდებულოა და მათი "
+"ცარიელად დატოვება არ შეიძლება. გთხოვთ, ჩაწეროთ მომხმარებლის სახელი/ელფოსტა "
+"და დააჭიროთ ღილაკს „გამონაკლისის სიაში დამატება“."
 
 #: lms/static/js/certificates/models/certificate_invalidation.js
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
 msgstr ""
+"სტუდენტის მომხმარებლის სახელი/ელფოსტა სავალდებულოა და არ შეიძლება ცარიელი "
+"ველის დატოვება. უირადღებით შეიყვანეთ მომხმარებლის სახელი/ელფოსტა და შემდეგ "
+"დააჭირეთ ღილაკს \"სერტიფიკატის გაუქმება\"."
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
-msgstr ""
+msgstr "მსმენელები წარმატებით დაემატნენ გამონაკლისთა სიას"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is successfully added to the exception list"
-msgstr ""
+msgstr "მოსწავლე წარმატებით დაემატა გამონაკლისთა სიას"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " records are not in correct format and not added to the exception list"
@@ -3123,7 +3238,7 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner does not exist in LMS and not added to the exception list"
-msgstr ""
+msgstr "მსმენელი არ არსებობს LMS-ში და არ დაემატა გამონაკლისთა სიას"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are already white listed and not added to the exception list"
@@ -3198,13 +3313,15 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_whitelist.js
 msgid "Student Removed from certificate white list successfully."
-msgstr ""
+msgstr "სტუდენტი სერტიფიკატის თეთრი სიიდან წარმატებით წაიშალა."
 
 #: lms/static/js/certificates/views/certificate_whitelist.js
 msgid ""
 "Could not find Certificate Exception in white list. Please refresh the page "
 "and try again"
 msgstr ""
+"თეთრ სიაში გამონაკლისი სერტიფიკატი ვერ მოიძებნა. გთხოვთ, განაახლეთ გვერდი და"
+" კიდევ სცადეთ."
 
 #: lms/static/js/certificates/views/certificate_whitelist_editor.js
 msgid "<%- user %> already in exception list."
@@ -3235,7 +3352,7 @@ msgstr "ნაკლები"
 
 #: lms/static/js/customwmd.js
 msgid "HTML preview of post"
-msgstr ""
+msgstr "პოსტის წინასწარ ნახვა HTML-ში"
 
 #: lms/static/js/customwmd.js
 #: common/static/common/templates/discussion/templates.underscore
@@ -3252,11 +3369,11 @@ msgstr "თქვენი შემოწირულობის ატვი�
 
 #: lms/static/js/dashboard/legacy.js
 msgid "You will be refunded the amount you paid."
-msgstr ""
+msgstr "გადახდილი თანხა უკან დაგიბრუნდებათ."
 
 #: lms/static/js/dashboard/legacy.js
 msgid "You will not be refunded the amount you paid."
-msgstr ""
+msgstr "გადახდილი თანხა უკან არ დაგიბრუნდებათ."
 
 #: lms/static/js/dashboard/legacy.js
 msgid ""
@@ -3285,6 +3402,8 @@ msgid ""
 "The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
+"ამ კურსისთვის თანხის დაბრუნების ბოლო ვადა გავიდა, ასე რომ თანხას ვერ "
+"დაიბრუნებთ."
 
 #: lms/static/js/dashboard/legacy.js
 #: lms/static/js/learner_dashboard/views/unenroll_view.js
@@ -3375,7 +3494,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "next page"
-msgstr ""
+msgstr "შემდეგი გვერდი"
 
 #: lms/static/js/discovery/views/search_form.js
 #, javascript-format
@@ -3396,7 +3515,7 @@ msgstr "დაფიქსირდა შეცდომა, კიდევ �
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Not divided"
-msgstr ""
+msgstr "გაყოფის გარეშე"
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid ""
@@ -3406,7 +3525,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Enrollment Tracks"
-msgstr ""
+msgstr "ჩარიცხვის ბმულები"
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid ""
@@ -3418,7 +3537,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Cohorts"
-msgstr ""
+msgstr "კოჰორტები"
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid ""
@@ -3550,7 +3669,7 @@ msgstr "შენახული ჯგუფი"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Error adding learners."
-msgstr ""
+msgstr "  შეცდომა მსმენელთა დამატებისას."
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Enter a username or email."
@@ -3680,6 +3799,10 @@ msgid ""
 "'{verifiedCohortName}'. To change the configuration for verified track "
 "cohorts, contact your edX partner manager."
 msgstr ""
+"ეს კურსი დამოწმებული სერტიფიკატის მსმენელების ავტომატურ დაჯგუფებას იყენებს. "
+"თქვენ ვერ გამორთავთ ჯგუფებს და ვერ გადაარქმევთ სახელს ხელით დაყენებულ ჯგუფს "
+"„{verifiedCohortName}“. დამოწმებული სერტიფიკატის ჯგუფების კონფიგურაციის "
+"შესაცვლელად დაუკავშირდით თქვენს edX-ის პარტნიორ მენეჯერს."
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
@@ -3687,12 +3810,19 @@ msgid ""
 " the required cohort does not exist. You must create a manually-assigned "
 "cohort named '{verifiedCohortName}' for the feature to work."
 msgstr ""
+"მოცემულ კურსს დამოწმებული სერტიფიკატის მსმენელებისთვის ჩართული აქვს "
+"ავტომატური დაჯგუფება, თუმცა მოთხოვნილი ჯგუფი არ არსებობს. ფუნქციის "
+"ასამუშავებლად უნდა შექმნათ ჯგუფი „{verifiedCohortName}“, რომელსაც ხელით "
+"მიაწერთ სტუდენტებს."
 
 #: lms/static/js/groups/views/verified_track_settings_notification.js
 msgid ""
 "This course has automatic cohorting enabled for verified track learners, but"
 " cohorts are disabled. You must enable cohorts for the feature to work."
 msgstr ""
+"მოცემულ კურსს დამოწმებული სერტიფიკატის მსმენელებისთვის ჩართული აქვს "
+"ავტომატური დაჯგუფება, თუმცა ჯგუფები გამორთულია. ფუნქციის ასამუშავებლად "
+"ჯგუფები უნდა ჩართოთ."
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Allow students to generate certificates for this course?"
@@ -3823,6 +3953,7 @@ msgid "Username"
 msgstr "მომხმარებლის სახელი"
 
 #: lms/static/js/instructor_dashboard/membership.js
+#: lms/djangoapps/support/static/support/templates/manage_user.underscore
 msgid "Email"
 msgstr "ელფოსტა"
 
@@ -3832,7 +3963,7 @@ msgstr "წვდომის გაუქმება"
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Group"
-msgstr ""
+msgstr "ჯგუფი"
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "Enter username or email"
@@ -4456,15 +4587,15 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "Starts {start}"
-msgstr ""
+msgstr "დაწყება {start}"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "Started {start}"
-msgstr ""
+msgstr "დაიწყო {start}"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 msgid "Ends {end}"
-msgstr ""
+msgstr "დასრულება {end}"
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 msgid "You must select a session to access the course."
@@ -4521,11 +4652,11 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js
 msgid "Earned Certificates"
-msgstr ""
+msgstr "მიღებული სერტიფიკატები"
 
 #: lms/static/js/learner_dashboard/views/program_details_view.js
 msgid "Enrolled"
-msgstr ""
+msgstr "ჩარიცხული"
 
 #: lms/static/js/staff_debug_actions.js
 msgid "Successfully reset the attempts for user {user}"
@@ -4574,15 +4705,15 @@ msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Enter and confirm your new password."
-msgstr ""
+msgstr "შეიყვანეთ და დაადასტურეთ თქვენი ახალი პაროლი."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "New Password"
-msgstr ""
+msgstr "ახალი პაროლი"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Confirm Password"
-msgstr ""
+msgstr "დაადასტურეთ პაროლი"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Passwords do not match."
@@ -4590,7 +4721,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Reset My Password"
-msgstr ""
+msgstr "ჩემი პაროლის ჩამოყრა"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -4599,7 +4730,7 @@ msgstr "პაროლის გადაყენება"
 
 #: lms/static/js/student_account/components/PasswordResetInput.jsx
 msgid "Error: "
-msgstr ""
+msgstr "შეცდომა:"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
@@ -4660,19 +4791,19 @@ msgstr ""
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Delete My Account"
-msgstr ""
+msgstr "წაშალეთ ჩემი ანგარიში"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Password is incorrect"
-msgstr ""
+msgstr "პაროლი არასწორია"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Unable to delete account"
-msgstr ""
+msgstr "ანგარიში ვერ წაიშალა"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Please re-enter your password."
-msgstr ""
+msgstr "გთხოვთ თავიდან ჩაწეროთ პაროლი."
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -4682,7 +4813,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "A Password is required"
-msgstr ""
+msgstr "აუცილებელია პაროლი. "
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid ""
@@ -4721,7 +4852,7 @@ msgstr ""
 
 #: lms/static/js/student_account/tos_modal.js
 msgid "Terms of Service and Honor Code"
-msgstr ""
+msgstr "მომსახურების პირობები და ღირსების კოდექსი"
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Saving your email preference"
@@ -4749,7 +4880,7 @@ msgstr "დაფიქსირდა შეცდომა."
 #. profile forms.
 #: lms/static/js/student_account/views/FormView.js
 msgid "(optional)"
-msgstr ""
+msgstr "(არასავალდებულო)"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "We couldn't sign you in."
@@ -4803,6 +4934,10 @@ msgid ""
 "%(currentProvider)s account does not have a linked %(platformName)s account."
 " To link your accounts, sign in now using your %(platformName)s password."
 msgstr ""
+"თქვენ წარმატებით შეხვედით სისტემაში %(currentProvider)s, მაგრამ თქვენს "
+"%(currentProvider)s ანგარიშს არ გააჩნია დაკავშირებული %(platformName)s "
+"ანგარიში. ანგარიშების დასაკავშირებლად, შედით თქვენი %(platformName)s პაროლის"
+" გამოყენებით."
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "We couldn't create your account."
@@ -4811,11 +4946,11 @@ msgstr "თქვენი ანგარიშის შექმნა ვე
 #: lms/static/js/student_account/views/RegisterView.js
 #: lms/templates/student_account/register.underscore
 msgid "Create Account"
-msgstr ""
+msgstr "ანგარიშის შექმნა"
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "(required)"
-msgstr ""
+msgstr "(სავალდებულოა)"
 
 #: lms/static/js/student_account/views/RegisterView.js
 msgid "You've successfully signed into %(currentProvider)s."
@@ -4837,16 +4972,16 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Email Address (Sign In)"
-msgstr ""
+msgstr "ელ. ფოსტის მისამართი (შესვლისთვის)"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
-msgstr ""
+msgstr "თქვენ მიიღებთ გზავნილებს პლატფორმიდან {platform_name} ამ მისამართზე."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Recovery Email Address"
-msgstr ""
+msgstr "ელ. ფოსტა შეხსენებისთვის. "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4867,11 +5002,11 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
-msgstr ""
+msgstr "ქვეყანა ან რეგიონი სადაც ცხოვრობთ"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "The country or region where you live."
-msgstr ""
+msgstr "ქვეყანა ან რეგიონი სადაც ცხოვრობთ."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Basic Account Information"
@@ -4895,6 +5030,7 @@ msgstr "პაროლი"
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Check your email account for instructions to reset your password."
 msgstr ""
+"შეამოწმეთ თქვენი ელ. ფოსტის ანგარიში პაროლის შეცვლის ინსტრუქციებისთვის."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -5034,6 +5170,9 @@ msgid ""
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
 msgstr ""
+"ჩვენ გავაგზავნეთ გზავნილი ამ მისამართზე {email}. დააჭირეთ ბმულს მეილში, "
+"პაროლის შესაცვლელად. თუ გზავნილს არ მიიღებთ, დაუკავშირდით "
+"{anchorStart}ტექნიკურ დახმარებას{anchorEnd}."
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Link your {accountName} account"
@@ -5208,6 +5347,7 @@ msgid "Validation Error"
 msgstr "შემოწმების უზუსტობა"
 
 #: lms/static/js/views/fields.js
+#: lms/templates/learner_dashboard/program_card.underscore
 msgid "In Progress"
 msgstr "მიმდინარეობს დამუშავება"
 
@@ -5293,7 +5433,7 @@ msgstr "საერთო შეფასება"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 msgid "Bookmark this page"
-msgstr ""
+msgstr "დაამატე ის გვერდი სანიშნებში"
 
 #: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
 msgid "Thank you for setting your course goal to {goal}!"
@@ -5307,10 +5447,12 @@ msgstr ""
 msgid "There was an error updating your goal."
 msgstr ""
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
 msgstr "ყველას გახსნა"
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
 msgstr "ყველას აკეცვა"
@@ -5337,15 +5479,15 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Limited Profile"
-msgstr ""
+msgstr "შეზღუდული პროფილი"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Full Profile"
-msgstr ""
+msgstr "სრული პროფილი"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined"
-msgstr ""
+msgstr "დარეგისტრირებული"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined Date"
@@ -5353,45 +5495,53 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Location"
-msgstr ""
+msgstr "მდებარეობა"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Add Country"
-msgstr ""
+msgstr "ქვეყნის დამატება"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Add language"
-msgstr ""
+msgstr "ენის დამატება"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "About me"
-msgstr ""
+msgstr "ჩემ შესახებ"
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
+"მოუყევით სხვა მსმენელებს თქვენს შესახებ: სად ცხოვრობთ, რითი ხართ "
+"დაინტერესებულნი, რატომ სწავლობთ კურსებზე ან სწავლების მიმართ თქვენი "
+"მოლოდინების შესახებ."
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/badge_list_container.js
 msgid "Accomplishments Pagination"
-msgstr ""
+msgstr "მიღწევების გვერდები"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Account Settings page."
-msgstr ""
+msgstr "ანგარიშის პარამეტრების გვერდი."
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must specify your birth year before you can share your full profile. To "
 "specify your birth year, go to the {account_settings_page_link}"
 msgstr ""
+"სრული პროფილის გაზაირბამდე, თქვენ უნდა მიუთითოთ დაბადების წელი. დაბადების "
+"წლის კონკრეტულად დასახელებისთვის, გადადით {account_settings_page_link}-ზე."
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
 msgstr ""
+"იმისთვის, რომ სრული პროფილის გაზიარება შეძლოთ, თქვენ უნდა იყოთ 13 წელზე "
+"უფროსი. თუ 13 წელი შეგისრულდათ, დარწუნდით, რომ მითითებული გაქვთ დაბადების "
+"წელი {account_settings_page_link}-ზე."
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Profile Image"
@@ -5399,35 +5549,35 @@ msgstr "პროფილის სურათი"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Profile image for {username}"
-msgstr ""
+msgstr "{username}-ის პროფილის სურათი"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "About Me"
-msgstr ""
+msgstr "ჩემ შესახებ"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Accomplishments"
-msgstr ""
+msgstr "მიღწევები"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Profile"
-msgstr ""
+msgstr "პროფილი"
 
 #: cms/static/cms/js/main.js
 msgid "Studio's having trouble saving your work"
-msgstr ""
+msgstr "სტუდია ვერ ახრეხებს თქვენი ნაშრომის დამახსოვრებას"
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 msgid "OpenAssessment Save Error"
-msgstr ""
+msgstr "OpenAssessment-ის შენახვისას დაფიქსირდა შეცდომა"
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
-msgstr ""
+msgstr "ბმული გაიხსნება ბრაუზერის ახალ ფანჯარაში/ჩანართში."
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
-msgstr ""
+msgstr "ბმული გაიხსნება მოდალურ ფანჯარაში"
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Certificate name is required."
@@ -5488,7 +5638,7 @@ msgstr "ეს მოქმედება გაუქმებას არ �
 #: cms/static/js/views/show_textbook.js cms/static/js/views/tabs.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting"
-msgstr ""
+msgstr "მიმდინარეობს წაშლა"
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Upload signature image."
@@ -5528,6 +5678,7 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
+#: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
 msgstr "პერსონალი"
 
@@ -5563,22 +5714,23 @@ msgstr "მოძველებული პარამეტრების �
 #: cms/static/js/views/pages/group_configurations.js
 msgid "You have unsaved changes. Do you really want to leave this page?"
 msgstr ""
+"ცვლილებები არ შეგინახავთ. დარწმუნებული ხართ, რომ გსურთ ამ გვერდის დატოვება?"
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error during the upload process."
-msgstr ""
+msgstr "ატვირთვის პროცესში შეცდომა დაფიქსირდა."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while unpacking the file."
-msgstr ""
+msgstr "ფაილის ამოღებისას შეცდომა დაფიქსირდა."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while verifying the file you submitted."
-msgstr ""
+msgstr "თქვენ მიერ ატვირთული ფაილის შემოწმებისას დაფიქსირდა შეცდომა."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "Choose new file"
-msgstr ""
+msgstr "აირჩიეთ ახალი ფაილი"
 
 #: cms/static/js/features/import/factories/import.js
 msgid ""
@@ -5587,48 +5739,49 @@ msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new library to our database."
-msgstr ""
+msgstr "ჩვენს მონაცემთა ბაზაში ბიბლიოთეკის შემოტანის დროს შეცდომა დაფიქსირდა."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new course to our database."
-msgstr ""
+msgstr "ახალი კურსის ჩვენს მონაცემთა ბაზაში შემოტანისას დაფიქსირდა შეცდომა."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "Your import has failed."
-msgstr ""
+msgstr "იმპორტირება წარუმატებლად დასრულდა."
 
 #: cms/static/js/features/import/views/import.js
 msgid "Your import is in progress; navigating away will abort it."
-msgstr ""
+msgstr "მიმდინარეობს იმპორტი. გადასვლის შემთხვევაში ის შეწყდება."
 
 #: cms/static/js/features/import/views/import.js
 msgid "Error importing course"
-msgstr ""
+msgstr "კურსის იმპორტირების შეცდომა"
 
 #: cms/static/js/features/import/views/import.js
 msgid "There was an error with the upload"
-msgstr ""
+msgstr "დაფიქსირდა ატვირთვის შეცდომა"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Organization:"
-msgstr ""
+msgstr "ორგანიზაცია:"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Number:"
-msgstr ""
+msgstr "კურსის ნომერი:"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Run:"
-msgstr ""
+msgstr "კურსის მსვლელობა:"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "(Read-only)"
-msgstr ""
+msgstr "(მხოლოდ წაკითხვა)"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Re-run Course"
-msgstr ""
+msgstr "კურსის ხელახალი გაშვება"
 
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 #: cms/templates/js/show-textbook.underscore
 msgid "View Live"
 msgstr "კურსის ნახვა"
@@ -5656,19 +5809,19 @@ msgstr "ატვირთვა ვერ მოხერხდა"
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name and asset_path are both required"
-msgstr ""
+msgstr "თავის დასახელება და მასალის მისამართი სავალდებულოა"
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name is required"
-msgstr ""
+msgstr "თავის დასახელება სავალდებულოა"
 
 #: cms/static/js/models/chapter.js
 msgid "asset_path is required"
-msgstr ""
+msgstr "მასალის მისამართი სავალდებულოა"
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
-msgstr ""
+msgstr "მიუთითეთ სახელი"
 
 #: cms/static/js/models/course_update.js
 msgid "Action required: Enter a valid date."
@@ -5774,15 +5927,15 @@ msgstr "ვერ დავაწესებთ %(minimum_grade_cutoff)s%-ზ�
 
 #: cms/static/js/models/textbook.js
 msgid "Textbook name is required"
-msgstr ""
+msgstr "სავალდებულოა სახელმძღვანელოს სახელწოდება"
 
 #: cms/static/js/models/textbook.js
 msgid "Please add at least one chapter"
-msgstr ""
+msgstr "დაამატეთ სულ ცოტა ერთი თავი"
 
 #: cms/static/js/models/textbook.js
 msgid "All chapters must have a name and asset"
-msgstr ""
+msgstr "ყველა თავის უნდა ჰქონდეს სათაური და რესურსი"
 
 #: cms/static/js/models/uploads.js
 msgid ""
@@ -5790,6 +5943,7 @@ msgid ""
 "<%- (fileExtensions) %> to upload."
 msgstr ""
 
+#: cms/static/js/models/uploads.js
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/institution_login.underscore
 #: lms/templates/student_account/institution_register.underscore
@@ -5802,7 +5956,7 @@ msgstr ""
 
 #: cms/static/js/models/xblock_validation.js
 msgid "This component has validation issues."
-msgstr ""
+msgstr "კომპონენტს აქვს დამოწმების პრობლემები."
 
 #: cms/static/js/views/active_video_upload.js cms/static/js/views/assets.js
 msgid "Your file could not be uploaded"
@@ -5830,21 +5984,24 @@ msgstr "თქვენი ვიდეოს ატვირთვა არ �
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "Upload completed for video {fileName}"
-msgstr ""
+msgstr "ვიდეოს  {fileName} ატვირთვა დასრულებულია"
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "Upload failed for video {fileName}"
-msgstr ""
+msgstr "ვიდეოს  {fileName} ატვირთვა ვერ მოხერხდა"
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid ""
 "{filename} is not in a supported file format. Supported file formats are "
 "{supportedFileFormats}."
 msgstr ""
+"ფაილის {filename} ფორმატი არ არის მხარდაჭერილი. მხარდაჭერილი ფორმატებია "
+"{supportedFileFormats}."
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
 msgstr ""
+"{filename} ფაილის ზომა აღემატება დაშვებულ {maxFileSizeInGB} გიგა-ბაიტს"
 
 #: cms/static/js/views/active_video_upload_list.js
 msgid ": video upload complete."
@@ -5910,7 +6067,7 @@ msgstr "ახალი ფაილის ჩატვირთვა"
 #: cms/static/js/views/components/add_xblock.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Adding"
-msgstr ""
+msgstr "დამატება"
 
 #: cms/static/js/views/container.js
 msgid "{startTag}{requestToken}{endTag}{selector}"
@@ -5963,7 +6120,7 @@ msgstr ""
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Required"
-msgstr ""
+msgstr "სავალდებულო"
 
 #: cms/static/js/views/course_video_settings.js
 msgid "Automatic transcripts are disabled."
@@ -5979,7 +6136,7 @@ msgstr ""
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
-msgstr ""
+msgstr "ასატვირთად, გთხოვთ შეარჩიოთ PDF ფაილი."
 
 #: cms/static/js/views/export.js
 msgid "There has been an error while exporting."
@@ -5992,6 +6149,10 @@ msgid ""
 "attempting another export. Please check that all components on the page are "
 "valid and do not display any error messages."
 msgstr ""
+"სულ მცირე ერთი კომპნენტის XML ფორმატში ექსპორტირება წარუმატებლად დასრულდა. "
+"რეკომენდებულია, შეცდომის გამოსასწორებლად, ექსპორტირების მორიგ მცდელობამდე "
+"გადახვიდეთ რედაქტირების გვერდზე. გთხოვთ შეამოწმოთ, რომ გვერდზე არსებული "
+"ყველა კომპონენტი მოქმედია და არ შეიცავს შეცდომებს."
 
 #: cms/static/js/views/export.js
 msgid "Correct failed component"
@@ -6007,6 +6168,10 @@ msgid ""
 "to identify the failed component. Inspect your library to identify any "
 "problematic components and try again."
 msgstr ""
+"თქვენი ბიბლიოთეკის XML ფორმატში ექსპორტირება ვერ ხერხდება. ინფორმაციის "
+"სიმწირის გამო ვერ ვახდენთ წარუმატებელი კომპონენტის იდენტიფიცირებას. "
+"პრობლემური კომპონენტის გამოსავლენად შეამოწმეთ თქვენი ბიბლიოთეკა და სცადეთ "
+"კიდევ ერთხელ."
 
 #: cms/static/js/views/export.js
 msgid "Take me to the main library page"
@@ -6018,6 +6183,9 @@ msgid ""
 " identify the failed component. Inspect your course to identify any "
 "problematic components and try again."
 msgstr ""
+"თქვენი კურსის XML ფორმატში ექსპორტირება ვერ ხერხდება. ინფორმაციის სიმწირის "
+"გამო ვერ ვახდენთ წარუმატებელი კომპონენტის იდენტიფიცირებას. პრობლემური "
+"კომპონენტის გამოსავლენად შეამოწმეთ თქვენი კურსი და სცადეთ კიდევ ერთხელ."
 
 #: cms/static/js/views/export.js
 msgid "Take me to the main course page"
@@ -6077,29 +6245,31 @@ msgstr "ატვირთეთ ინსტრუქტორის სურ�
 msgid "Files must be in JPEG or PNG format."
 msgstr "ფაილი უნდა იყო JPEG ან PNG ფორმატის."
 
-#: cms/templates/js/license-selector.underscore
+#: cms/static/js/views/license.js cms/templates/js/license-selector.underscore
 msgid "All Rights Reserved"
 msgstr "ყველა უფლება დაცულია"
 
 #: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
-msgstr ""
+msgstr "თქვენს ნაშრომზე ყველა უფლება დაცულია."
 
 #: cms/static/js/views/license.js
 msgid "Creative Commons"
-msgstr ""
+msgstr "Creative Commons"
 
 #: cms/static/js/views/license.js
 msgid "You waive some rights for your work, such that others can use it too"
 msgstr ""
+"ნაშრომზე თქვენს გარკვეულ უფლებებზე უარის თქმით, სხვებს მისი გამოყენების "
+"უფლებას ანიჭებთ."
 
 #: cms/static/js/views/license.js
 msgid "Version"
-msgstr ""
+msgstr "ვერსია"
 
 #: cms/static/js/views/license.js
 msgid "Attribution"
-msgstr ""
+msgstr "Attribution"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6107,20 +6277,25 @@ msgid ""
 "but only if they give credit the way you request. Currently, this option is "
 "required."
 msgstr ""
+"კრედიტის თქვენი მოთხოვნის შესაბამისად  გადახდის შემთხვევაში, მიანიჭეთ სხვებს"
+" თქვენი საავტორო უფლებით დაცული ნამუშევრის კოპირების, დისტრიბუციის, ჩვენების"
+" და შესრულების უფლება. ამჟამად ეს პარამეტრია საჭრო."
 
 #: cms/static/js/views/license.js
 msgid "Noncommercial"
-msgstr ""
+msgstr "არაკომერციული"
 
 #: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
 msgstr ""
+"მიანიჭეთ სხვებს თქვენი ნამუშევრის კოპირების, დისტრიბუციის, ჩვენებისა და "
+"გადამუშავების უფლება მხოლოდ არაკომერციული მიზნებისთვის."
 
 #: cms/static/js/views/license.js
 msgid "No Derivatives"
-msgstr ""
+msgstr "გადამუშავებული ნაწარმოებების აკრძალვა"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6128,10 +6303,13 @@ msgid ""
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
 msgstr ""
+"მიანიჭეთ სხვებს თქვენი ნამუშევრის მხოლოდ ზუსტი ასლების კოპირების, "
+"დისტრიბუციის, ჩვენებისა და შესრულების, მაგრამ არა გადამუშავების უფლება. ეს "
+"პარამეტრი  \"გააზიარე მსგავსთან\" თავსებადი არ არის."
 
 #: cms/static/js/views/license.js
 msgid "Share Alike"
-msgstr ""
+msgstr "Share Alike"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6139,6 +6317,9 @@ msgid ""
 "to the license that governs your work. This option is incompatible with \"No"
 " Derivatives\"."
 msgstr ""
+"მიეცით სხვებს უფლება გაავრცელონ გადამუშავებული ნაწარმოებები მხოლოდ თქვენი "
+"ნაწარმოების იდენტური ლიცენზიით. ეს პარამეტრი „გადამუშავებული ნაწარმოებების "
+"აკრძალვასთან“ თავსებადი არ არის."
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
 #: cms/static/js/views/list_item.js
@@ -6212,6 +6393,9 @@ msgid "Publish all unpublished changes for this {item}?"
 msgstr "გსურთ {item}-ის გამოუქვეყნებელი ცვლილებების გამოქვეყნება?"
 
 #: cms/static/js/views/modals/course_outline_modals.js
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Publish"
 msgstr "გამოქვეყნება"
 
@@ -6241,7 +6425,7 @@ msgstr "საბაზისო"
 
 #: cms/static/js/views/modals/course_outline_modals.js
 msgid "Visibility"
-msgstr ""
+msgstr "ხილვადობა"
 
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js
@@ -6252,13 +6436,14 @@ msgstr ""
 msgid "Plugins"
 msgstr ""
 
+#: cms/static/js/views/modals/edit_xblock.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Unit"
 msgstr "ერთეული"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
-msgstr ""
+msgstr "კომპონენტი"
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
@@ -6286,7 +6471,7 @@ msgstr "ხელით ჩასწორება"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Sections"
-msgstr ""
+msgstr "განყოფილებები"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Subsections"
@@ -6300,6 +6485,7 @@ msgstr ""
 msgid "Components"
 msgstr ""
 
+#: cms/static/js/views/move_xblock_list.js
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Groups"
 msgstr "ჯგუფები"
@@ -6308,6 +6494,7 @@ msgstr "ჯგუფები"
 msgid "This {parentCategory} has no {childCategory}"
 msgstr ""
 
+#: cms/static/js/views/move_xblock_list.js
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/partition-group-details.underscore
 msgid "Course Outline"
@@ -6315,7 +6502,7 @@ msgstr "კურსის სტრუქტურა"
 
 #: cms/static/js/views/paged_container.js
 msgid "Date added"
-msgstr ""
+msgstr "დამატების თარიღი"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
@@ -6333,8 +6520,9 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
-msgstr ""
+msgstr "გამოქვეყნება"
 
+#: cms/static/js/views/pages/container_subviews.js
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
 #: cms/templates/js/publish-xblock.underscore
@@ -6346,26 +6534,28 @@ msgid ""
 "Are you sure you want to revert to the last published version of the unit? "
 "You cannot undo this action."
 msgstr ""
+"დარწმუნებული ბრძანდებით, რომ გსურთ ამ ერთეულის ბოლო გამოქვეყნებული ვერსიის "
+"დაბრუნება? მოქმედება გაუქმებას აღარ დაექვემდებარება."
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Discarding Changes"
-msgstr ""
+msgstr "ცვლილებების უგულვებელყოფა"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Hiding from Students"
-msgstr ""
+msgstr "დამალულია სტუდენტებისთვის"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Explicitly Hiding from Students"
-msgstr ""
+msgstr "დამალულია, განსაკუთრებით სტუდენტებისთვის"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Inheriting Student Visibility"
-msgstr ""
+msgstr "ხილვადობის მემკვიდრეობით მიღება"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Make Visible to Students"
-msgstr ""
+msgstr "გახადე ხილული სტუდენტებისთვის"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid ""
@@ -6373,10 +6563,13 @@ msgid ""
 "you made to the unit when it was hidden will now be visible to students. Do "
 "you want to proceed?"
 msgstr ""
+"თუ ერთეული უკვე იყო გამოქვეყნებული და გაშვებული სტუდენტებისთვის, ნებისმიერი "
+"ცვლილება, რომელიც თქვენ შეიტანეთ ხილვადობის დაფარვის დროს, ახლა მათთვის "
+"ხილული გახდება. გსურთ გაგრძელება?"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
-msgstr ""
+msgstr "სტუდენტებისთვის ხილვადობის მინიჭება"
 
 #: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
@@ -6388,11 +6581,11 @@ msgstr "კურსის ხელახალი ინდექსაცი�
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Hide Previews"
-msgstr ""
+msgstr "წინასწარი გადახედვის დამალვა"
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Show Previews"
-msgstr ""
+msgstr "გადახედვის ჩვენება"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -6402,6 +6595,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
 msgstr ""
+"{totalItemsCount}-დან {currentItemRange}-ის ჩვენება,  გაფილტრული "
+"{assetType}-ის მიხედვით, დაწყობილი აღმავალი {sortName}-ის მიხედვით"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -6411,6 +6606,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
 msgstr ""
+"{totalItemsCount}-დან {currentItemRange}-ის ჩვენება, გაფილტრული "
+"{assetType}-ის მიხედვით, დაწყობილი დაღმავალი {sortName}-ის მიხედვით"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -6419,6 +6616,8 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
 msgstr ""
+"{totalItemsCount}-დან {currentItemRange}-ის ჩვენება. დაწყობილია აღმავალი "
+"{sortName}-ის მიხედვით"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -6427,12 +6626,14 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
 msgstr ""
+"{totalItemsCount}-დან {currentItemRange}-ის ჩვენება. დაწყობილია დაღმავალი "
+"{sortName}-ის მიხედვით"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
 #: cms/static/js/views/paging_header.js
 msgid "{totalItems} total"
-msgstr ""
+msgstr "სულ {totalItems}"
 
 #. Translators: This refers to a content group that can be linked to a student
 #. cohort.
@@ -6527,16 +6728,21 @@ msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
 msgstr ""
+"წაშლის შემთხვევაში სახელმძღვანელო აღდგენას არ დაექვემდებარება. ასევე, კურსის"
+" ნავიგაციიდან გაქრება სახელმძღვანელოს შენიშვნების დანართი."
 
 #: cms/static/js/views/tabs.js
 msgid "Delete Page Confirmation"
-msgstr ""
+msgstr "გვერდის წაშლის დადასტურება"
 
 #: cms/static/js/views/tabs.js
 msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
+"დარწმუნებული ბრძანდებით, რომ გსურთ გვერდის წაშლა? წაშლის შემთხვევაში გვერდი "
+"აღდგენას არ დაექვემდებარება."
 
+#: cms/static/js/views/uploads.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
@@ -6544,7 +6750,7 @@ msgstr "ატვირთვა"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
-msgstr ""
+msgstr "ვწუხვართ, დაფიქსირდა შეცდომა"
 
 #: cms/static/js/views/utils/create_course_utils.js
 msgid ""
@@ -6642,7 +6848,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Duplicating"
-msgstr ""
+msgstr "ასლის შექმნა"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Undo moving"
@@ -6654,7 +6860,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
-msgstr ""
+msgstr "{xblock_type}-ის წაშლა სამუდამოა და აღდგენას არ დაექვემდებარება."
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Note that any linked translated rerun blocks mapping will be lost."
@@ -6665,31 +6871,33 @@ msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
 msgstr ""
+"ნებისმიერ მასალას, რომლისთვისაც ამ შინაარსის გავლა სავალდებულო წინაპირობას "
+"წარმოადგენს, წვდომაზე შეზღუდვები მოეხსნება."
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
-msgstr ""
+msgstr "წავშალოთ ეს {xblock_type} (და სავალდებულო პირობები)?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Yes, delete this {xblock_type}"
-msgstr ""
+msgstr "დიახ, წაშლეთ {xblock_type}"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type}?"
-msgstr ""
+msgstr "წავშალო ეს {xblock_type}?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "section"
-msgstr ""
+msgstr "განყოფილება"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "subsection"
-msgstr ""
+msgstr "ქვეგანყოფილება"
 
 #: cms/static/js/views/utils/xblock_utils.js
 #: cms/templates/js/container-access.underscore
 msgid "unit"
-msgstr ""
+msgstr "გაკვეთილი"
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes"
@@ -6715,45 +6923,47 @@ msgstr "ცვლილებების დამახსოვრება"
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Please select a file in .srt format."
-msgstr ""
+msgstr "გთხოვთ, შეარჩიოთ .srt ფორმატის ფაილი."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Error: Uploading failed."
-msgstr ""
+msgstr "ატვირთვისას დაფიქსირდა შეცდომა."
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Import failed."
-msgstr ""
+msgstr "იმპორტირებისას დაფიქსირდა შეცდომა."
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Replacing failed."
-msgstr ""
+msgstr "ჩანაცვლებისას დაფიქსირდა შეცდომა. "
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Choosing failed."
-msgstr ""
+msgstr "არჩევისას დაფიქსირდა შეცდომა. "
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Error: Connection with server failed."
-msgstr ""
+msgstr "სერვერთან დაკავშირებისას დაფიქსირდა შეცდომა."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Link types should be unique."
-msgstr ""
+msgstr "ბმულის ტიპი უნდა იყოს უნიკალური."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Links should be unique."
-msgstr ""
+msgstr "ბმულები უნდა იყოს უნიკალური"
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
-msgstr ""
+msgstr "url ფორმატი არასწორია."
 
 #: cms/static/js/views/video/translations_editor.js
 msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
 msgstr ""
+"სამწუხაროდ, თქვენს მიერ ატვირთული სუბტიტრების გარჩევის დროს დაფიქსირდა "
+"შეცდომა. გთხოვთ, შეამოწმოთ ფორმატი და ხელახლა სცადოთ."
 
 #: cms/static/js/views/video/translations_editor.js
 #: cms/static/js/views/video_transcripts.js
@@ -6772,7 +6982,7 @@ msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid "Upload translation"
-msgstr ""
+msgstr "თარგმანის ატვირთვა"
 
 #: cms/static/js/views/video_thumbnail.js
 msgid "Add Thumbnail"
@@ -6851,7 +7061,7 @@ msgstr ""
 #. `13 minutes and 45 seconds`
 #: cms/static/js/views/video_thumbnail.js
 msgid " and "
-msgstr ""
+msgstr "და"
 
 #: cms/static/js/views/video_thumbnail.js
 msgid "Video image upload started"
@@ -6916,15 +7126,16 @@ msgstr ""
 
 #: cms/static/js/views/xblock_editor.js
 msgid "Editor"
-msgstr ""
+msgstr "რედაქტორი"
 
+#: cms/static/js/views/xblock_editor.js
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
 msgstr "პარამეტრები"
 
 #: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
-msgstr ""
+msgstr "ახალი {component_type}"
 
 #: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
@@ -6958,6 +7169,32 @@ msgstr "მოქმედებები"
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Prerequisite: %(prereq_display_name)s"
+msgstr "სავალდებულო:  %(prereq_display_name)s"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Contains staff only content"
+msgstr "შეიცავს ინფორმაციას მხოლოდ თანამშრომელთათვის"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished changes to live content"
+msgstr "აქტიური ვერსიაში შეტანილი გამოუქვეყნებელი ცვლილებები"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished units will not be released"
+msgstr "გამოუქვეყნებელი ბლოკები არ გაეშვება"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Unpublished changes to content that will release in the future"
+msgstr "შინაარსის გამოუქვეყნებელი ცვლილებები, რომლებიც მომავალში გაეშვება"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr ""
 
@@ -6970,18 +7207,78 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Ungraded"
+msgstr "შეფასების გარეშე"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Onboarding Exam"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Practice proctored Exam"
+msgstr "დაკვირვების ქვეშ გამოცდის პრაქტიკის გავლა"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Proctored Exam"
+msgstr "გამოცდა დაკვირვების ქვეშ"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Timed Exam"
-msgstr ""
+msgstr "დროში შეზღუდული გამოცდა"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Collapse/Expand this %(xblock_type)s"
+msgstr "%(xblock_type)s-ის გახსნა/დახურვა"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Display Name"
+msgstr "ხილვადი სახელი"
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Proctoring Settings"
 msgstr ""
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Configure"
+msgstr "კონფიგურაცია"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Duplicate"
+msgstr "ასლის შექმნა"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Drag to reorder"
+msgstr "გადააჩოჩეთ დასახარისხებლად"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Release Status:"
+msgstr "გაშვების სტატუსი:"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Released:"
+msgstr "გაშვებულია:"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/publish-xblock.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Scheduled:"
+msgstr "დაგეგმილი:"
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
@@ -6998,8 +7295,36 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Graded as:"
+msgstr "შეფასებულია როგორც:"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Due:"
+msgstr "მდე:"
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Subsection is hidden after course end date"
 msgstr ""
+
+#: cms/templates/js/course-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "Subsection is hidden after due date"
+msgstr "ქვეთავი დამალულია დათქმული თარიღის შემდეგ"
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+msgid "You haven't added any content to this course yet."
+msgstr "ამ კურსისთვის მასალები ჯერ არ დაგიმატებიათ."
+
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
+#, python-format
+msgid "Click to add a new %(xblock_type)s"
+msgstr "დააწკაპუნეთ ახალი %(xblock_type)s-ის დასამატებლად"
 
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
@@ -7053,15 +7378,15 @@ msgstr "ძიება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
-msgstr ""
+msgstr "პასუხის დამატება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This thread is closed."
-msgstr ""
+msgstr "თემა დახურულია."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a response:"
-msgstr ""
+msgstr "პასუხის დამატება:"
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -7080,33 +7405,33 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
-msgstr ""
+msgstr "დამაგრებული"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Reported"
-msgstr ""
+msgstr "ინფორმაცია მიწოდებულია"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Closed"
-msgstr ""
+msgstr "დახურული"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr ""
+msgstr "დაკავშირებული: %(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
-msgstr ""
+msgstr "ეს პოსტი ხილულია მხოლოდ %(group_name)s ჯგუფებისთვის."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
-msgstr ""
+msgstr "ეს პოსტი ყველასთვის ხილულია."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing post"
-msgstr ""
+msgstr "პოსტის რედაქტირება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
@@ -7115,11 +7440,11 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
-msgstr ""
+msgstr "ჩაასწორეთ თქვენი პუბლიკაცია."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update post"
-msgstr ""
+msgstr "განაახლეთ პოსტი"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7130,72 +7455,72 @@ msgstr[1] ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
-msgstr ""
+msgstr "კომენტარის დამატება"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "მონიშნულია პასუხად მომხმარებელის მიერ: %(user)s, %(time_ago)s,"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr ""
+msgstr "მონიშნულია პასუხად %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "დადასტურებულია %(time_ago)s, %(user)s მიერ"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr ""
+msgstr "დადასტურებულია %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
-msgstr ""
+msgstr "რედაქტირებული პასუხი"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update response"
-msgstr ""
+msgstr "პასუხის განახლება"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr ""
+msgstr "ავტორი %(author)s, გამოქვეყნებულია %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
-msgstr ""
+msgstr "კომენტარის  რედაქტირება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update comment"
-msgstr ""
+msgstr "კომენტარის განახლება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "discussion"
-msgstr ""
+msgstr "დისკუსია"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "answered question"
-msgstr ""
+msgstr "პასუხგაცემული კითხვა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "unanswered question"
-msgstr ""
+msgstr "პასუხგაუცემელი კითხვა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
-msgstr ""
+msgstr "მიდევნებულები"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
-msgstr ""
+msgstr "გაერთიანების ჯგუფხელი"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"
-msgstr ""
+msgstr "{unread_comments_count} ახალი"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7203,15 +7528,17 @@ msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
 msgstr ""
+"%(comments_count)s %(span_sr_open)s კომენტარი (%(unread_comments_count)s "
+"წაუკითხავი კომენტარი)%(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr ""
+msgstr "%(comments_count)s %(span_sr_open)s კომენტარი %(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr ""
+msgstr "პოსტის დამატება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
@@ -7225,23 +7552,23 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
-msgstr ""
+msgstr "ყველა ჯგუფი"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr ""
+msgstr "მიყევით ამ პოსტს"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr ""
+msgstr "გამოაქვეყნეთ ანონიმურად"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
-msgstr ""
+msgstr "ანონიმურად გამოაქვეყნეთ კურსელებისთვის"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Error posting your message."
-msgstr ""
+msgstr "თქვენი შეტყობინებისას გამოქვეყნებისას დაფიქსირდა შეცდომა."
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7271,7 +7598,7 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
 msgid "All Posts"
-msgstr ""
+msgstr "ყველა პოსტი"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Return to all posts"
@@ -7279,15 +7606,15 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
-msgstr ""
+msgstr "დისკუსიის ნახვა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Load more"
-msgstr ""
+msgstr "მეტის ჩატვირთვა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr ""
+msgstr "პოსტის ტიპი"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
@@ -7297,63 +7624,63 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
+msgstr "შეკითხვა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
-msgstr ""
+msgstr "დისკუსია"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
-msgstr ""
+msgstr "დადასტურება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr ""
+msgstr "დადასტურების გაუქმება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
-msgstr ""
+msgstr "პასუხად მონიშვნა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
-msgstr ""
+msgstr "პასუხად მონიშვნის მოხსნა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
-msgstr ""
+msgstr "მიდევნება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
-msgstr ""
+msgstr "მიდევნების გაუქმება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Vote for this post,"
-msgstr ""
+msgstr "ხმა მიეცით ამ პოსტს,"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report abuse"
-msgstr ""
+msgstr "მიაწოდეთ ინფორმაცია ბოროტად გამოყენების შესახებ"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report"
-msgstr ""
+msgstr "ინფორმაციის მიწოდება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unreport"
-msgstr ""
+msgstr "ინფორმაციის მიწოდების გაუქმება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pin"
-msgstr ""
+msgstr "დამაგრება"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unpin"
-msgstr ""
+msgstr "დამაგრების მოხსნა"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
-msgstr ""
+msgstr "ღია"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
@@ -7438,7 +7765,7 @@ msgstr "სტატუსი"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
-msgstr ""
+msgstr "გადმოტვირთვის URL"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Grade"
@@ -7450,11 +7777,11 @@ msgstr "ბოლოს განახლებული"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
-msgstr ""
+msgstr "გადმოტვირთეთ მომხმარებლის სერტიფიკატი"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
-msgstr ""
+msgstr "არ არის ხელმისაწვდომი"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
@@ -7543,7 +7870,7 @@ msgstr "ბოლოს შეცვალა "
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Active"
-msgstr ""
+msgstr "აქტიური"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 #: lms/templates/ccx/schedule.underscore
@@ -7833,7 +8160,7 @@ msgstr "დააწკაპუნეთ რედაქტირების�
 
 #: lms/templates/fields/field_order_history.underscore
 msgid "Order Number"
-msgstr ""
+msgstr "შეკვეთის ნომერი"
 
 #: lms/templates/fields/field_order_history.underscore
 msgid "Date Placed"
@@ -8356,7 +8683,7 @@ msgstr[1] ""
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
-msgstr ""
+msgstr "დასრულებული"
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Remaining"
@@ -8398,7 +8725,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Learn More"
-msgstr ""
+msgstr "გაიგეთ მეტი"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Professional Opportunities"
@@ -8461,7 +8788,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore
 msgid "Upgrade to Verified"
-msgstr ""
+msgstr "განახლება დადასტურებამდე"
 
 #: lms/templates/student_account/account.underscore
 msgid "New Address"
@@ -8505,7 +8832,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
-msgstr ""
+msgstr "ანგარიშის შექმნა"
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8588,7 +8915,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
-msgstr ""
+msgstr "შესვლა"
 
 #: lms/templates/student_account/login.underscore
 msgid ""
@@ -9715,7 +10042,7 @@ msgstr ""
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enabled"
-msgstr ""
+msgstr "ჩართულია"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Enable Now"
@@ -9837,7 +10164,7 @@ msgstr ""
 
 #: cms/templates/js/course-video-transcript-preferences.underscore
 msgid "Transcript Languages"
-msgstr ""
+msgstr "სუბტიტრების ენა"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore
 #: cms/templates/js/metadata-dict-entry.underscore
@@ -9860,7 +10187,7 @@ msgstr ""
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore
 msgid "Change"
-msgstr ""
+msgstr "შეცვლა"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore
 msgid "Press change to change selected transcript provider."
@@ -9943,7 +10270,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Date"
-msgstr ""
+msgstr "თარიღი"
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Post"
@@ -10243,7 +10570,7 @@ msgstr "ვიდეოს ID"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Transcripts"
-msgstr ""
+msgstr "სუბტიტრები"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Video Status"
@@ -10600,6 +10927,9 @@ msgid ""
 "exam. The videos are then reviewed to ensure that learners follow all "
 "examination rules."
 msgstr ""
+"დაკვირვების ქვეშ გამოცდები დროში შეზღუდულია და მის განმავლობაში გამოსაცდელზე"
+" ვიდეო დაკვირვება მიმდინარეობს. შემდეგ ეს ვიდეოჩანაწერები გადამოწმდება, რომ "
+"დავრწმუნდეთ, რომ გამოცდის წესები არ დარღვეულა."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
@@ -10667,7 +10997,7 @@ msgstr ""
 
 #: cms/templates/js/transcript-organization-credentials.underscore
 msgid "Account"
-msgstr ""
+msgstr "ანგარიში"
 
 #: cms/templates/js/transcript-organization-credentials.underscore
 msgid ""
@@ -10954,66 +11284,3 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "არსებული სუბტიტრების გამოყენება"
-
-#~ msgid "Prerequisite: %(prereq_display_name)s"
-#~ msgstr "სავალდებულო:  %(prereq_display_name)s"
-
-#~ msgid "Contains staff only content"
-#~ msgstr "შეიცავს ინფორმაციას მხოლოდ თანამშრომელთათვის"
-
-#~ msgid "Unpublished changes to live content"
-#~ msgstr "აქტიური ვერსიაში შეტანილი გამოუქვეყნებელი ცვლილებები"
-
-#~ msgid "Unpublished units will not be released"
-#~ msgstr "გამოუქვეყნებელი ბლოკები არ გაეშვება"
-
-#~ msgid "Unpublished changes to content that will release in the future"
-#~ msgstr "შინაარსის გამოუქვეყნებელი ცვლილებები, რომლებიც მომავალში გაეშვება"
-
-#~ msgid "Ungraded"
-#~ msgstr "შეფასების გარეშე"
-
-#~ msgid "Practice proctored Exam"
-#~ msgstr "დაკვირვების ქვეშ გამოცდის პრაქტიკის გავლა"
-
-#~ msgid "Proctored Exam"
-#~ msgstr "გამოცდა დაკვირვების ქვეშ"
-
-#~ msgid "Collapse/Expand this %(xblock_type)s"
-#~ msgstr "%(xblock_type)s-ის გახსნა/დახურვა"
-
-#~ msgid "Display Name"
-#~ msgstr "სახელი"
-
-#~ msgid "Configure"
-#~ msgstr "კონფიგურაცია"
-
-#~ msgid "Duplicate"
-#~ msgstr "ასლის შექმნა"
-
-#~ msgid "Drag to reorder"
-#~ msgstr "გადააჩოჩეთ დასახარისხებლად"
-
-#~ msgid "Release Status:"
-#~ msgstr "გაშვების სტატუსი:"
-
-#~ msgid "Released:"
-#~ msgstr "გაშვებულია:"
-
-#~ msgid "Scheduled:"
-#~ msgstr "დაგეგმილი:"
-
-#~ msgid "Graded as:"
-#~ msgstr "შეფასებულია როგორც:"
-
-#~ msgid "Due:"
-#~ msgstr "მდე:"
-
-#~ msgid "Subsection is hidden after due date"
-#~ msgstr "ქვეთავი დამალულია დათქმული თარიღის შემდეგ"
-
-#~ msgid "You haven't added any content to this course yet."
-#~ msgstr "ამ კურსისთვის მასალები ჯერ არ დაგიმატებიათ."
-
-#~ msgid "Click to add a new %(xblock_type)s"
-#~ msgstr "დააწკაპუნეთ ახალი %(xblock_type)s-ის დასამატებლად"
