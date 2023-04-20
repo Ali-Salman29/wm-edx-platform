@@ -178,7 +178,7 @@ class Command(BaseCommand):
         locales = list(set(locales) - set([base_lang]))
         langs = ','.join(locales)
         
-        execute(f'tx pull --keep-new-files --mode=onlytranslated -l {langs} -d')
+        execute(f'tx pull --keep-new-files --mode=reviewed -l {langs} -d')
         execute(f'mv -v .tx/config .tx/config-lilac; mv -v .tx/config-edx .tx/config;')
 
         self.rename_version_files_and_remove_errors(locales)
