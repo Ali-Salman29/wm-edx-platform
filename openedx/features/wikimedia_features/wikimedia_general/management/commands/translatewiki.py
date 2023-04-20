@@ -223,7 +223,6 @@ class Command(BaseCommand):
             # an error occurred, print the error message
             error_msg = result.stderr.decode('utf-8')
             files_mapping = self.get_line_number_from_output(error_msg)
-            import pdb; pdb.set_trace();
             for file_path, line_numbers in files_mapping.items():
                 self.get_paragraphs_from_lines(file_path, line_numbers)
         else:
