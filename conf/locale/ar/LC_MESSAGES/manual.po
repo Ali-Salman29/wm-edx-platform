@@ -47,7 +47,7 @@ msgid "View Certificate"
 msgstr "معاينة شهادة التخرج"
 
 msgid "Your final grade:"
-msgstr "درجتك النهائية: "
+msgstr "درجتك النهائية:"
 
 msgid "Course Handouts"
 msgstr "النشرة"
