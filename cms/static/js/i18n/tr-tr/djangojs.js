@@ -1775,7 +1775,6 @@
     "The organization that this signatory belongs to, as it should appear on certificates.": "Bu imza sahibine ait olan kurum, sertifikalarda g\u00f6r\u00fcnmeli.",
     "The page \"{route}\" could not be found.": "\"{route}\" sayfas\u0131 bulunamad\u0131.",
     "The post you selected has been deleted.": "Se\u00e7ti\u011finiz ileti silindi.",
-    "The published branch version, {published}, was reset to the draft branch version, {draft}.": "{published} adl\u0131 yay\u0131nlanan geli\u015ftirme dal\u0131 s\u00fcr\u00fcm\u00fc, {draft} olan taslak dal s\u00fcr\u00fcm\u00fcne d\u00f6nd\u00fcr\u00fcld\u00fc.",
     "The raw error message is:": "\u0130\u015flenmemi\u015f hata mesaj\u0131:",
     "The refund deadline for this course has passed, so you will not receive a refund.": "Bu ders i\u00e7in iadenin son g\u00fcn\u00fc ge\u00e7ti, bu y\u00fczden iade alamayacaks\u0131n\u0131z.",
     "The selected content group does not exist": "Se\u00e7ili i\u00e7erik grubu bulunmuyor",
@@ -2413,7 +2412,6 @@
     "{browse_span_start}Browse teams in other topics{span_end} or {search_span_start}search teams{span_end} in this topic. If you still can't find a team to join, {create_span_start}create a new team in this topic{span_end}.": "{browse_span_start}Di\u011fer konulardaki tak\u0131mlara g\u00f6zat{span_end} ya da bu konudaki {search_span_start}tak\u0131mlar\u0131 ara{span_end}. E\u011fer halen kat\u0131lacak bir tak\u0131m bulamad\u0131ysan\u0131z, {create_span_start}bu konuda yeni bir tak\u0131m olu\u015fturun{span_end}.  ",
     "{categoryText} in {parentDisplayname}": "{parentDisplayname} i\u00e7inde {categoryText}",
     "{display_name} Settings": "{display_name} Ayarlar\u0131",
-    "{download_link_start}Download this image (right-click or option-click, save as){link_end} and then {upload_link_start}upload{link_end} it to your backpack.": "{download_link_start}Bu g\u00f6rseli indirin (sa\u011f-t\u0131k ya da option-t\u0131k, farkl\u0131 kaydet){link_end} ve sonras\u0131nda onu s\u0131rt \u00e7antan\u0131za {upload_link_start}y\u00fckleyin{link_end}.",
     "{earned}/{possible} point (graded)": [
       "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lan)",
       "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lan)"

@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-04-20 16:16+0000\n"
+"POT-Creation-Date: 2023-04-20 16:56+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Waheed Ahmed <waheed@edx.org>, 2019\n"
 "Language-Team: Catalan (http://app.transifex.com/open-edx/edx-platform/language/ca/)\n"
@@ -66,9 +66,6 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
-"Això pot passar a causa d'un error amb el nostre servidor o la vostra "
-"connexió a Internet. Intenteu actualitzar la pàgina o assegureu-vos que "
-"esteu connectat."
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 #: cms/static/js/certificates/views/signatory_details.js
@@ -83,7 +80,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
 #: lms/static/js/ccx/schedule.js lms/static/js/views/fields.js
 msgid "Saving"
-msgstr "Guardant"
+msgstr ""
 
 #: cms/static/js/certificates/views/signatory_editor.js
 #: cms/static/js/views/asset.js cms/static/js/views/list_item.js
@@ -108,7 +105,7 @@ msgstr "Guardant"
 #: common/static/common/templates/discussion/templates.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Delete"
-msgstr "Esborrar"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -147,7 +144,7 @@ msgstr "Cancel·lar"
 #: cms/static/js/models/active_video_upload.js cms/static/js/views/assets.js
 #: cms/static/js/views/video_thumbnail.js lms/static/js/views/image_field.js
 msgid "Uploading"
-msgstr "S'està carregant"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -165,11 +162,6 @@ msgstr "S'està carregant"
 msgid "Close"
 msgstr "Tancar"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/assets.js
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/asset-library.underscore
 #: cms/templates/js/course-instructor-details.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
@@ -178,7 +170,6 @@ msgstr "Tancar"
 msgid "Name"
 msgstr "Nom"
 
-#: cms/static/js/views/assets.js lms/static/js/Markdown.Editor.js
 #: cms/templates/js/asset-upload-modal.underscore
 msgid "Choose File"
 msgstr "Escull arxiu"
@@ -194,21 +185,10 @@ msgstr "Escull arxiu"
 msgid "OK"
 msgstr "D'acord"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/course_video_settings.js
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "None"
 msgstr "Cap"
 
-#: cms/static/js/views/course_video_settings.js
-#: cms/static/js/views/metadata.js
-#: cms/static/js/views/previous_video_upload.js
-#: cms/static/js/views/video_transcripts.js
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
-#: lms/static/js/views/image_field.js
 #: cms/templates/js/video/metadata-translations-item.underscore
 #: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore
 msgid "Remove"
@@ -219,28 +199,22 @@ msgstr "Eliminar"
 #: cms/static/js/views/manage_users_and_roles.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Ok"
-msgstr "D'acord"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 #: lms/static/js/instructor_dashboard/util.js
 msgid "Unknown"
-msgstr "Desconegut"
+msgstr ""
 
 #: cms/static/js/views/manage_users_and_roles.js
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
 msgid "Are you sure?"
-msgstr "Estàs Segur/a?"
+msgstr ""
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Carregar fitxer"
+msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/modals/base_modal.js
-#: cms/static/js/views/modals/course_outline_modals.js
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/course_info_handouts.underscore
@@ -254,13 +228,8 @@ msgstr "Carregar fitxer"
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore
 msgid "Save"
-msgstr "Desa"
+msgstr "Guardar"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: cms/static/js/views/modals/course_outline_modals.js
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Advanced"
 msgstr "Avançat"
@@ -269,14 +238,14 @@ msgstr "Avançat"
 #: cms/static/js/views/video/translations_editor.js
 #: cms/static/js/views/video_transcripts.js lms/static/js/views/image_field.js
 msgid "Removing"
-msgstr "Eliminant"
+msgstr ""
 
 #: cms/static/js/views/validation.js
 #: lms/static/js/discussions_management/views/divided_discussions_course_wide.js
 #: lms/static/js/discussions_management/views/divided_discussions_inline.js
 #: lms/static/js/views/fields.js
 msgid "Your changes have been saved."
-msgstr "Els canvis s'han guardat"
+msgstr ""
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
@@ -284,7 +253,7 @@ msgstr "Els canvis s'han guardat"
 #: cms/static/js/views/xblock_validation.js
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Warning"
-msgstr "Avís"
+msgstr ""
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -300,69 +269,69 @@ msgstr "Avís"
 #: lms/static/js/verify_student/views/step_view.js
 #: lms/static/js/views/fields.js
 msgid "Error"
-msgstr "Error"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/library_content/public/js/library_content_edit.js
 #: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js
 msgid "Updating with latest library content"
-msgstr "Actualitzar amb contingut de biblioteca més recent"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Loading..."
-msgstr "Carregant...."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Selected blocks"
-msgstr "Blocs seleccionats"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
 msgid "Unable to update settings"
-msgstr "No es pot actualitzar la configuració"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js
 msgid "Creating missing groups"
-msgstr "Creant grups que falten"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "{start_strong}{total}{end_strong} words submitted in total."
-msgstr "{start_strong}{total}{end_strong} paraules enviades en total."
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "text_word_{uniqueId} title_word_{uniqueId}"
-msgstr "text_word_{uniqueId} title_word_{uniqueId}"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "title_word_{uniqueId}"
-msgstr "paraula_títol_{uniqueId}"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/assets/word_cloud/src/js/word_cloud_main.js
 msgid "text_word_{uniqueId}"
-msgstr "paraula_text_{uniqueId}"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Show Annotations"
-msgstr "Mostrar anotacions"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Hide Annotations"
-msgstr "Ocultar anotacions"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Expand Instructions"
-msgstr "Expandir instruccions"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Collapse Instructions"
-msgstr "Col·lapsar instruccions"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Commentary"
-msgstr "Comentaris"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/annotatable/display.js
 msgid "Reply to Annotation"
-msgstr "Respondre anotació"
+msgstr ""
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
@@ -419,8 +388,6 @@ msgstr[1] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
-"El procés d'avaluació encara s'està executant. Actualitza la pàgina per a "
-"veure les actualitzacions."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "Could not grade your answer. The submission was aborted."
@@ -453,7 +420,7 @@ msgstr ""
 #. associated status.;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{label}: {status}"
-msgstr "{label}: {status}"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "This problem has been reset."
@@ -472,71 +439,71 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paragraph"
-msgstr "Paràgraf"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Preformatted"
-msgstr "Pre-formatejat"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 3"
-msgstr "Títol 3"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 4"
-msgstr "Títol 4"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 5"
-msgstr "Títol 5"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 6"
-msgstr "Títol 6"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Add to Dictionary"
-msgstr "Afegir al diccionari"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align center"
-msgstr "Alinear al centre"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align left"
-msgstr "Alinear a l'esquerra"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Align right"
-msgstr "Alinear a la dreta"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Alignment"
-msgstr "Alineaci"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Alternative source"
-msgstr "Font alternativa"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -554,13 +521,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Background color"
-msgstr "Color de fons"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -573,31 +540,31 @@ msgstr "Cita"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Blocks"
-msgstr "blocs"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Body"
-msgstr "Cos"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Bold"
-msgstr "Negreta"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Border color"
-msgstr "Color del marge"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Border"
-msgstr "Marge"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -627,7 +594,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cell properties"
-msgstr "Propietats de les cel·les"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -651,13 +618,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Center"
-msgstr "Centre"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Circle"
-msgstr "Cercle"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -673,10 +640,6 @@ msgstr ""
 msgid "Code block"
 msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Code"
 msgstr "Codi"
@@ -685,7 +648,7 @@ msgstr "Codi"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Color"
-msgstr "Color"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -703,7 +666,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Column"
-msgstr "Columna"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -715,13 +678,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Copy row"
-msgstr "Copiar fila"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Copy"
-msgstr "opiar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -751,7 +714,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Cut"
-msgstr "Tallar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -763,25 +726,25 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Default"
-msgstr "Per defecte"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete column"
-msgstr "Esborrar columna"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete row"
-msgstr "Esborrar fila"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Delete table"
-msgstr "Esborrar taula"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -790,19 +753,19 @@ msgstr "Esborrar taula"
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Description"
-msgstr "Descripció"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Dimensions"
-msgstr "Dimensions"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Disc"
-msgstr "Disc"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -814,13 +777,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Document properties"
-msgstr "Propietats del document"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Edit HTML"
-msgstr "Editar HTML"
+msgstr ""
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -836,7 +799,7 @@ msgstr "Editar HTML"
 #: cms/templates/js/xblock-string-field-editor.underscore
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit"
-msgstr "Editar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -848,7 +811,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Emoticons"
-msgstr "Emoticones"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -860,37 +823,37 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "File"
-msgstr "Arxiu"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find and replace"
-msgstr "Trobar i reemplaçar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find next"
-msgstr "Trobar següent"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find previous"
-msgstr "Trobar anterior"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Find"
-msgstr "Trobar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Finish"
-msgstr "Acabar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -902,7 +865,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Font Sizes"
-msgstr "Tamanys de lletra"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -914,18 +877,14 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Formats"
-msgstr "Formats"
+msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/static/common/templates/image-modal.underscore
 msgid "Fullscreen"
 msgstr "Pantalla complerta"
@@ -934,7 +893,7 @@ msgstr "Pantalla complerta"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "General"
-msgstr "General"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -946,19 +905,19 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 1"
-msgstr "Títol 1"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 2"
-msgstr "Títol 2"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Header 3"
-msgstr "Títol 3"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -995,19 +954,19 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Headers"
-msgstr "Capçaleres"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 1"
-msgstr "Títol 1"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Heading 2"
-msgstr "Títol 2"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1019,13 +978,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Height"
-msgstr "Alçada"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Horizontal line"
-msgstr "Línea horitzontal"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1049,13 +1008,13 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Ignore"
-msgstr "Ignorar"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Image description"
-msgstr "Descripció de la imatge"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1133,7 +1092,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Insert"
-msgstr "Insereix"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1217,7 +1176,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Middle"
-msgstr "Mig"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1231,11 +1190,6 @@ msgstr ""
 msgid "New window"
 msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: lms/static/js/demographics_collection/Wizard.jsx
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
 #: common/static/common/templates/discussion/templates.underscore
@@ -1308,7 +1262,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Poster"
-msgstr "Cartell"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1322,10 +1276,6 @@ msgstr ""
 msgid "Prev"
 msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js lms/static/js/customwmd.js
 #: cms/templates/js/asset-library.underscore
 msgid "Preview"
 msgstr "Previsualitzar"
@@ -1334,7 +1284,7 @@ msgstr "Previsualitzar"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Print"
-msgstr "Imprimir"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1360,10 +1310,6 @@ msgstr ""
 msgid "Replace with"
 msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video-transcripts.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
@@ -1582,13 +1528,13 @@ msgstr ""
 #: cms/templates/js/signatory-details.underscore
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Title"
-msgstr "Títol"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Tools"
-msgstr "Eines"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1638,10 +1584,6 @@ msgstr ""
 msgid "Vertical space"
 msgstr ""
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_item.underscore
 msgid "View"
@@ -1663,7 +1605,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Width"
-msgstr "Amplada"
+msgstr ""
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1714,11 +1656,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "incorrect"
-msgstr "incorrecte"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "correct"
-msgstr "correcte"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "answer"
@@ -1737,7 +1679,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 msgid "Explanation"
-msgstr "Explicació"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
@@ -1748,18 +1690,18 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 msgid "Bookmarked"
-msgstr "Marcadors"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
 msgid "Play"
-msgstr "Iniciar"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
 msgid "Pause"
-msgstr "Pausa"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Mute"
@@ -1772,12 +1714,12 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Exit full browser"
-msgstr "Surt del navegador complet"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Fill browser"
-msgstr "Navegador complet"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
@@ -1792,42 +1734,42 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js
 msgid "Volume"
-msgstr "Volum"
+msgstr ""
 
 #. Translators: Volume level equals 0%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Muted"
-msgstr "Mut"
+msgstr ""
 
 #. Translators: Volume level in range ]0,20]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Very low"
-msgstr "Molt baix"
+msgstr ""
 
 #. Translators: Volume level in range ]20,40]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Low"
-msgstr "Baix"
+msgstr ""
 
 #. Translators: Volume level in range ]40,60]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Average"
-msgstr "Mig"
+msgstr ""
 
 #. Translators: Volume level in range ]60,80]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Loud"
-msgstr "Alt"
+msgstr ""
 
 #. Translators: Volume level in range ]80,99]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Very loud"
-msgstr "Molt alt"
+msgstr ""
 
 #. Translators: Volume level equals 100%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 msgid "Maximum"
-msgstr "Màxim"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
 msgid "This browser cannot play .mp4, .ogg, or .webm files."
@@ -1855,11 +1797,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video ended"
-msgstr "Video finalitzat"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "Video position"
-msgstr "Posició del vídeo"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/06_video_progress_slider.js
 msgid "%(value)s hour"
@@ -1910,7 +1852,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/09_poster.js
 msgid "Play video"
-msgstr "Reprodueix el vídeo"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/09_skip_control.js
 msgid "Do not show again"
@@ -1969,7 +1911,6 @@ msgstr ""
 msgid "Turn off transcripts"
 msgstr ""
 
-#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 #: cms/templates/js/move-xblock-list.underscore
 msgid "View child items"
 msgstr "Mostra elements secundaris"
@@ -1984,20 +1925,19 @@ msgstr ""
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 msgid "Select"
-msgstr "Selecciona"
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Required field."
-msgstr "Camp requerit."
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces in this field."
-msgstr "Si us plau, no facis servir espais en aquest camp."
+msgstr ""
 
 #: common/static/common/js/components/utils/view_utils.js
 msgid "Please do not use any spaces or special characters in this field."
 msgstr ""
-"Si us plau, no facis servir espais o caràcters especials en aquest camp."
 
 #: common/static/common/js/components/views/paginated_view.js
 #: common/static/common/js/components/views/paging_footer.js
@@ -2027,7 +1967,6 @@ msgid "Your request could not be processed. Refresh the page and try again."
 msgstr ""
 
 #: common/static/common/js/discussion/utils.js
-#: common/static/common/templates/discussion/templates.underscore
 msgid "…"
 msgstr "..."
 
@@ -2116,7 +2055,7 @@ msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Show Discussion"
-msgstr "Mostrar debat"
+msgstr ""
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js
 msgid "Hide Discussion"
@@ -2212,7 +2151,6 @@ msgid "Your post will be discarded."
 msgstr ""
 
 #: common/static/common/js/discussion/views/response_comment_show_view.js
-#: common/static/common/templates/discussion/templates.underscore
 msgid "anonymous"
 msgstr "anònim"
 
@@ -2230,7 +2168,7 @@ msgstr "Segur que vols esborrar aquesta resposta?"
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "The email address you've provided isn't formatted correctly."
-msgstr "L'adreça de correu que heu proporcionat no té el format correcte."
+msgstr ""
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s must have at least %(count)d characters."
@@ -2268,21 +2206,21 @@ msgstr ""
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
 msgid "%s ago"
-msgstr "fa %s"
+msgstr ""
 
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
 msgid "%s from now"
-msgstr "%s des d'ara"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "less than a minute"
-msgstr "menys d'un minut"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a minute"
-msgstr "aproximadament un minut"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2293,7 +2231,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about an hour"
-msgstr "aproximadament una hora"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2304,7 +2242,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "a day"
-msgstr "un dia"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2315,7 +2253,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a month"
-msgstr "aproximadament un mes"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2326,7 +2264,7 @@ msgstr[1] ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 msgid "about a year"
-msgstr "aproximadament un any"
+msgstr ""
 
 #: common/static/js/src/jquery.timeago.locale.js
 #, javascript-format
@@ -2420,7 +2358,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid "(Optional)"
-msgstr "(Opcional)"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx
 msgid "Remove file"
@@ -2428,7 +2366,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Name"
-msgstr "Nom del curs"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid ""
@@ -2449,7 +2387,6 @@ msgstr ""
 msgid "Select a category"
 msgstr ""
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
 msgstr "Configuració del compte"
@@ -2460,7 +2397,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Certificates"
-msgstr "Certificats"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Course Content"
@@ -2486,7 +2423,6 @@ msgstr ""
 msgid "Proctoring"
 msgstr ""
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 #: cms/templates/js/asset-library.underscore
 msgid "Other"
 msgstr "Altres"
@@ -2505,7 +2441,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Details"
-msgstr "Detalls"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "the more quickly and helpfully we can respond!"
@@ -2544,7 +2480,7 @@ msgstr ""
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 #: lms/djangoapps/support/static/support/jsx/success.jsx
 msgid "Contact Us"
-msgstr "Contacteu amb nosaltres"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx
 msgid "Find answers to the top questions asked by learners."
@@ -2582,7 +2518,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js
 msgid "name"
-msgstr "nom"
+msgstr ""
 
 #. Translators: This refers to the number of teams (a count of how many teams
 #. there are)
@@ -2593,9 +2529,8 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Teams"
-msgstr "Equips"
+msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
@@ -2604,7 +2539,7 @@ msgstr "Crear"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Update"
-msgstr "Actualització"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Name (Required) *"
@@ -2630,7 +2565,6 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid ""
 "The language that team members primarily use to communicate with each other."
@@ -2641,9 +2575,8 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Country"
-msgstr "País"
+msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "The country that team members primarily identify with."
 msgstr ""
@@ -2762,8 +2695,6 @@ msgid ""
 "will be available to another learner."
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js
-#: lms/static/js/verify_student/views/reverify_view.js
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Confirm"
 msgstr "Confirmar"
@@ -2802,7 +2733,6 @@ msgstr ""
 msgid "My Teams"
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Browse"
 msgstr "Navega"
@@ -2832,7 +2762,6 @@ msgid ""
 "would like to learn with friends you know."
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
 msgid "Edit Team"
 msgstr "Edita l'equip"
@@ -2845,7 +2774,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Membership"
-msgstr "Pertinença"
+msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2878,7 +2807,6 @@ msgstr ""
 msgid "See all teams you belong to."
 msgstr ""
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore
 msgid "All Topics"
 msgstr "Tots els temes"
@@ -2958,7 +2886,7 @@ msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Image Description"
-msgstr "Descripció de la imatge "
+msgstr ""
 
 #: lms/static/js/Markdown.Editor.js
 msgid ""
@@ -2986,7 +2914,7 @@ msgstr ""
 msgid "Markdown Editing Help"
 msgstr "Ajuda d'edició amb etiquetes"
 
-#: lms/static/js/Markdown.Editor.js cms/templates/js/asset-library.underscore
+#: cms/templates/js/asset-library.underscore
 msgid "URL"
 msgstr "URL"
 
@@ -3090,11 +3018,11 @@ msgstr ""
 
 #: lms/static/js/calculator.js
 msgid "Open Calculator"
-msgstr "Obrir la calculadora"
+msgstr ""
 
 #: lms/static/js/calculator.js
 msgid "Close Calculator"
-msgstr "Tancar la calculadora"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "All subsections"
@@ -3104,7 +3032,7 @@ msgstr ""
 msgid "All units"
 msgstr ""
 
-#: lms/static/js/ccx/schedule.js lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
 msgid "Click to change"
 msgstr "Feu clic per canviar"
 
@@ -3114,7 +3042,7 @@ msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Save changes"
-msgstr "Guardar els canvis"
+msgstr ""
 
 #: lms/static/js/ccx/schedule.js
 msgid "Please enter valid start date and time."
@@ -3257,14 +3185,12 @@ msgstr ""
 msgid "There has been an error processing your survey."
 msgstr ""
 
-#: lms/static/js/courseware/credit_progress.js
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/discovery/facet.underscore
 #: lms/templates/edxnotes/note-item.underscore
 msgid "More"
 msgstr "Més"
 
-#: lms/static/js/courseware/credit_progress.js
 #: lms/templates/discovery/facet.underscore
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Less"
@@ -3277,7 +3203,7 @@ msgstr ""
 #: lms/static/js/customwmd.js
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Your question or idea (required)"
-msgstr "La vostra pregunta o idea (obligatori)"
+msgstr ""
 
 #: lms/static/js/dashboard/donation.js
 msgid "Please enter a valid donation amount."
@@ -3412,7 +3338,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "next page"
-msgstr "Pàgina següent"
+msgstr ""
 
 #: lms/static/js/discovery/views/search_form.js
 #, javascript-format
@@ -3426,7 +3352,6 @@ msgstr[1] ""
 msgid "We couldn't find any results for \"%s\"."
 msgstr ""
 
-#: lms/static/js/discovery/views/search_form.js
 #: openedx/features/course_search/static/course_search/templates/search_error.underscore
 msgid "There was an error, try searching again."
 msgstr "S'ha produït un error, proveu de tornar a cercar."
@@ -3443,7 +3368,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid "Enrollment Tracks"
-msgstr "Seguiment d'inscripcions"
+msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js
 msgid ""
@@ -3501,7 +3426,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Hide notes"
-msgstr "Amaga les notes"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Notes visible"
@@ -3509,7 +3434,7 @@ msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Show notes"
-msgstr "Mostra notes"
+msgstr ""
 
 #: lms/static/js/edxnotes/views/notes_visibility_factory.js
 msgid "Notes hidden"
@@ -3535,7 +3460,6 @@ msgstr ""
 msgid "No results found for \"{query_string}\". Please try searching again."
 msgstr ""
 
-#: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
 msgstr "Resultats de la cerca"
@@ -3572,7 +3496,6 @@ msgstr ""
 msgid "Choose one"
 msgstr ""
 
-#: lms/static/js/groups/views/cohort_editor.js
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Selected tab"
 msgstr "Pestanya seleccionada"
@@ -3663,7 +3586,6 @@ msgstr ""
 msgid "You currently have no cohorts configured"
 msgstr ""
 
-#: lms/static/js/groups/views/cohorts.js
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Add Cohort"
 msgstr "Afegeix cohort"
@@ -3777,8 +3699,6 @@ msgstr ""
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 
-#: lms/static/js/instructor_dashboard/data_download.js
-#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js
 #: cms/templates/js/move-xblock-modal.underscore
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore
 msgid "Loading"
@@ -3906,7 +3826,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js
 #: lms/static/js/views/fields.js
 msgid "Success"
-msgstr "Éxit"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js
 msgid "All accounts were created successfully."
@@ -4101,7 +4021,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js
 msgid "Send to:"
-msgstr "Enviar a:"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js
 msgid "Please enter a student email address or username."
@@ -4385,7 +4305,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/util.js
 msgid "Message:"
-msgstr "Missatge:"
+msgstr ""
 
 #: lms/static/js/instructor_dashboard/util.js
 msgid "No tasks currently running."
@@ -4433,18 +4353,16 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 msgid "You must select a session to access the course."
-msgstr "Heu de seleccionar una sessió per accedir al curs."
+msgstr ""
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 msgid "There was an error. Please reload the page and try again."
 msgstr ""
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Change Session"
 msgstr "Canvi de sessió"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 msgid "Select Session"
 msgstr "Selecciona la sessió"
@@ -4550,7 +4468,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "Reset My Password"
-msgstr "Restablir la meva contrasenya"
+msgstr ""
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -4681,7 +4599,7 @@ msgstr ""
 
 #: lms/static/js/student_account/tos_modal.js
 msgid "Terms of Service and Honor Code"
-msgstr "Termes de Servei i Codi d'Honor"
+msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Saving your email preference"
@@ -4720,7 +4638,6 @@ msgstr ""
 msgid "An error occurred when signing you in to %s."
 msgstr ""
 
-#: lms/static/js/student_account/views/LoginView.js
 #: lms/templates/verify_student/intro_step.underscore
 msgid "Check Your Email"
 msgstr "Comprova el teu correu"
@@ -4766,7 +4683,6 @@ msgstr ""
 msgid "We couldn't create your account."
 msgstr ""
 
-#: lms/static/js/student_account/views/RegisterView.js
 #: lms/templates/student_account/register.underscore
 msgid "Create Account"
 msgstr "Crear compte"
@@ -4813,7 +4729,7 @@ msgstr ""
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Full Name"
-msgstr "Nom complet"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -4843,7 +4759,6 @@ msgid ""
 "username."
 msgstr ""
 
-#: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
 msgid "Password"
 msgstr "Clau de pas"
@@ -4888,16 +4803,16 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Gender"
-msgstr "Gènere"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Year of Birth"
-msgstr "Any de naixement"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Preferred Language"
-msgstr "Idioma preferit"
+msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -5044,7 +4959,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Professional Education"
-msgstr "Educació professional"
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate upgrade"
@@ -5052,7 +4967,7 @@ msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate"
-msgstr "Certificat verificat"
+msgstr ""
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Checkout"
@@ -5142,7 +5057,6 @@ msgstr ""
 msgid "Validation Error"
 msgstr ""
 
-#: lms/static/js/views/fields.js
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "In Progress"
 msgstr "En progrés"
@@ -5169,7 +5083,7 @@ msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "Image"
-msgstr "Imatge"
+msgstr ""
 
 #: lms/static/js/views/image_field.js
 msgid "An error has occurred. Refresh the page, and then try again."
@@ -5223,7 +5137,7 @@ msgstr ""
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
 msgid "Bookmark this page"
-msgstr "Marqueu aquesta pàgina"
+msgstr ""
 
 #: openedx/features/course_experience/static/course_experience/js/CourseGoals.js
 msgid "Thank you for setting your course goal to {goal}!"
@@ -5237,12 +5151,10 @@ msgstr ""
 msgid "There was an error updating your goal."
 msgstr ""
 
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Expand All"
 msgstr "Expandeix-ho tot"
 
-#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Collapse All"
 msgstr "Col·lapsar tot"
@@ -5265,39 +5177,39 @@ msgstr[1] ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Profile Visibility:"
-msgstr "Visibilitat del perfil:"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Limited Profile"
-msgstr "Perfil limitat"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Full Profile"
-msgstr "Perfil complet"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined"
-msgstr "Inscripció"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Joined Date"
-msgstr "Data d'inscripció"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Location"
-msgstr "Ubicació"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Add Country"
-msgstr "Afegir país"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "Add language"
-msgstr "Afegir idioma"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid "About me"
-msgstr "Quant a mi"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js
 msgid ""
@@ -5311,37 +5223,31 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Account Settings page."
-msgstr "Pàgina de configuració del compte"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must specify your birth year before you can share your full profile. To "
 "specify your birth year, go to the {account_settings_page_link}"
 msgstr ""
-"Heu d'especificar el vostre any de naixement abans de poder compartir el "
-"vostre perfil complet. Per especificar el vostre any de naixement, aneu a "
-"{account_settings_page_link}"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid ""
 "You must be over 13 to share a full profile. If you are over 13, make sure "
 "that you have specified a birth year on the {account_settings_page_link}"
 msgstr ""
-"Per compartir un perfil complet, heu de tenir més de 13 anys. Si tens més de"
-" 13 anys, assegureu-vos que heu especificat un any de naixement a "
-"{account_settings_page_link}"
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Profile Image"
-msgstr "Imatge de perfil"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js
 msgid "Profile image for {username}"
-msgstr "Imatge de perfil de {username}"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "About Me"
-msgstr "Quant a Mi"
+msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Accomplishments"
@@ -5349,23 +5255,23 @@ msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_view.js
 msgid "Profile"
-msgstr "Perfil"
+msgstr ""
 
 #: cms/static/cms/js/main.js
 msgid "Studio's having trouble saving your work"
-msgstr "L'Studio té problemes guardant la teva feina."
+msgstr ""
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js
 msgid "OpenAssessment Save Error"
-msgstr "OpenAssessment Guardar Error"
+msgstr ""
 
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
-msgstr "Aquest enllaç s'obrirà en una nova finestra/pestanya del navegador"
+msgstr ""
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
-msgstr "Aquest enllaç s'obrirà en una finestra modal"
+msgstr ""
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Certificate name is required."
@@ -5426,7 +5332,7 @@ msgstr "Aquesta acció no es pot desfer."
 #: cms/static/js/views/show_textbook.js cms/static/js/views/tabs.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting"
-msgstr "Esborrant"
+msgstr ""
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Upload signature image."
@@ -5465,7 +5371,6 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
-#: common/static/common/templates/discussion/templates.underscore
 msgid "Staff"
 msgstr "Personal"
 
@@ -5502,78 +5407,72 @@ msgstr "Teniu canvis sense desar. Segur que voleu deixar aquesta pàgina?"
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error during the upload process."
-msgstr "S'ha produït un error durant el procés de càrrega."
+msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while unpacking the file."
-msgstr "S'ha produït un error en desempaquetar el fitxer."
+msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while verifying the file you submitted."
-msgstr "S'ha produït un error en verificar el fitxer que heu enviat."
+msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid "Choose new file"
-msgstr "Trieu un fitxer nou"
+msgstr ""
 
 #: cms/static/js/features/import/factories/import.js
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
 msgstr ""
-"El format del fitxer no és compatible. Carregueu un fitxer amb una extensió "
-"{ext}."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new library to our database."
 msgstr ""
-"S'ha produït un error en importar la nova biblioteca a la nostra base de "
-"dades."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "There was an error while importing the new course to our database."
 msgstr ""
-"S'ha produït un error en importar el nou curs a la nostra base de dades."
 
 #: cms/static/js/features/import/factories/import.js
 msgid "Your import has failed."
-msgstr "La importació ha fallat."
+msgstr ""
 
 #: cms/static/js/features/import/views/import.js
 msgid "Your import is in progress; navigating away will abort it."
-msgstr "La vostra importació està en curs; navegar lluny ho anul·larà."
+msgstr ""
 
 #: cms/static/js/features/import/views/import.js
 msgid "Error importing course"
-msgstr "S'ha produït un error en importar el curs"
+msgstr ""
 
 #: cms/static/js/features/import/views/import.js
 msgid "There was an error with the upload"
-msgstr "Hi ha hagut un error durant la càrrega"
+msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Organization:"
-msgstr "Organització:"
+msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Number:"
-msgstr "Número de curs:"
+msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Run:"
-msgstr "Curs en funcionament:"
+msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "(Read-only)"
-msgstr "(Només llegir)"
+msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Re-run Course"
-msgstr "Tornar a fer funcionar un Curs"
+msgstr ""
 
-#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 #: cms/templates/js/show-textbook.underscore
 msgid "View Live"
-msgstr "Mostra en viu"
+msgstr "Veure en directe"
 
 #: cms/static/js/maintenance/force_publish_course.js
 msgid "Internal Server Error."
@@ -5598,19 +5497,19 @@ msgstr "Ha fallat la càrrega"
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name and asset_path are both required"
-msgstr "El nom del capítol i l'asset_path són obligatoris"
+msgstr ""
 
 #: cms/static/js/models/chapter.js
 msgid "Chapter name is required"
-msgstr "El nom del capítol és obligatori"
+msgstr ""
 
 #: cms/static/js/models/chapter.js
 msgid "asset_path is required"
-msgstr "asset_path és obligatori"
+msgstr ""
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
-msgstr "Has d'especificar un nom"
+msgstr ""
 
 #: cms/static/js/models/course_update.js
 msgid "Action required: Enter a valid date."
@@ -5718,15 +5617,15 @@ msgstr ""
 
 #: cms/static/js/models/textbook.js
 msgid "Textbook name is required"
-msgstr "El nom del llibre de text és obligatori"
+msgstr ""
 
 #: cms/static/js/models/textbook.js
 msgid "Please add at least one chapter"
-msgstr "Afegiu com a mínim un capítol"
+msgstr ""
 
 #: cms/static/js/models/textbook.js
 msgid "All chapters must have a name and asset"
-msgstr "Tots els capítols han de tenir un nom i un actiu"
+msgstr ""
 
 #: cms/static/js/models/uploads.js
 msgid ""
@@ -5734,7 +5633,6 @@ msgid ""
 "<%- (fileExtensions) %> to upload."
 msgstr ""
 
-#: cms/static/js/models/uploads.js
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/institution_login.underscore
 #: lms/templates/student_account/institution_register.underscore
@@ -5743,11 +5641,11 @@ msgstr "o"
 
 #: cms/static/js/models/xblock_validation.js
 msgid "This unit has validation issues."
-msgstr "Aquesta unitat té problemes de validació."
+msgstr ""
 
 #: cms/static/js/models/xblock_validation.js
 msgid "This component has validation issues."
-msgstr "Aquest component té problemes de validació."
+msgstr ""
 
 #: cms/static/js/views/active_video_upload.js cms/static/js/views/assets.js
 msgid "Your file could not be uploaded"
@@ -5860,7 +5758,7 @@ msgstr "Carrega un altre fitxer"
 #: cms/static/js/views/components/add_xblock.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Adding"
-msgstr "S'afegeix"
+msgstr ""
 
 #: cms/static/js/views/container.js
 msgid "{startTag}{requestToken}{endTag}{selector}"
@@ -5929,7 +5827,7 @@ msgstr ""
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
-msgstr "Si us plau, seleccioneu un fitxer PDF per pujar-lo."
+msgstr ""
 
 #: cms/static/js/views/export.js
 msgid "There has been an error while exporting."
@@ -6037,31 +5935,29 @@ msgstr "Carrega la imatge del instructor."
 msgid "Files must be in JPEG or PNG format."
 msgstr "Els fitxers han d'estar en format JPEG o PNG."
 
-#: cms/static/js/views/license.js cms/templates/js/license-selector.underscore
+#: cms/templates/js/license-selector.underscore
 msgid "All Rights Reserved"
 msgstr "Tots els drets reservats"
 
 #: cms/static/js/views/license.js
 msgid "You reserve all rights for your work"
-msgstr "Vostè es reserva tots els drets per al seu treball"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Creative Commons"
-msgstr "Creative Commons"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "You waive some rights for your work, such that others can use it too"
 msgstr ""
-"Vostè renúncia a alguns drets pel seu treball, de manera que els altres "
-"també ho poden utilitzar"
 
 #: cms/static/js/views/license.js
 msgid "Version"
-msgstr "Versió"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Attribution"
-msgstr "Atribució"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6069,26 +5965,20 @@ msgid ""
 "but only if they give credit the way you request. Currently, this option is "
 "required."
 msgstr ""
-"Permetre que altres copiïn, distribueixin, mostrin i realitzin el vostre "
-"treball protegit per drets d'autor, però només si donen crèdit de la manera "
-"que sol·liciteu. Actualment, aquesta opció és obligatòria."
 
 #: cms/static/js/views/license.js
 msgid "Noncommercial"
-msgstr "Nocomercial"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid ""
 "Allow others to copy, distribute, display and perform your work - and "
 "derivative works based upon it - but for noncommercial purposes only."
 msgstr ""
-"Permetre que altres copiïn, distribueixin, mostrin i realitzeu el vostre "
-"treball i els treballs derivats en funció d'ell, però només amb finalitats "
-"no comercials."
 
 #: cms/static/js/views/license.js
 msgid "No Derivatives"
-msgstr "Sense Derivats"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6096,13 +5986,10 @@ msgid ""
 "of your work, not derivative works based upon it. This option is "
 "incompatible with \"Share Alike\"."
 msgstr ""
-"Permetre que altres copien, distribueixin, mostrin i realitzin només còpies "
-"literals del vostre treball, i no obres derivades basades en ell. Aquesta "
-"opció és incompatible amb \"Compartir per igual\"."
 
 #: cms/static/js/views/license.js
 msgid "Share Alike"
-msgstr "Compartir per igual"
+msgstr ""
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -6110,9 +5997,6 @@ msgid ""
 "to the license that governs your work. This option is incompatible with \"No"
 " Derivatives\"."
 msgstr ""
-"Permetre que altres distribueixin treballs derivats només sota una llicència"
-" idèntica a la llicència que regeix el vostre treball. Aquesta opció és "
-"incompatible amb \"Sense derivats\"."
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
 #: cms/static/js/views/list_item.js
@@ -6184,9 +6068,6 @@ msgid "Publish all unpublished changes for this {item}?"
 msgstr "Publica tots els canvis no publicats per a aquest {item}?"
 
 #: cms/static/js/views/modals/course_outline_modals.js
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/publish-xblock.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Publish"
 msgstr "Publica"
 
@@ -6227,26 +6108,25 @@ msgstr ""
 msgid "Plugins"
 msgstr ""
 
-#: cms/static/js/views/modals/edit_xblock.js
 #: lms/templates/ccx/schedule.underscore
 msgid "Unit"
 msgstr "Unitat"
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
-msgstr "Component"
+msgstr ""
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move"
-msgstr "Moure"
+msgstr ""
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Choose a location to move your component to"
-msgstr "Trieu una ubicació per moure el component a"
+msgstr ""
 
 #: cms/static/js/views/modals/move_xblock_modal.js
 msgid "Move: {displayName}"
-msgstr "Moure: {displayName}"
+msgstr ""
 
 #: cms/static/js/views/modals/validation_error_modal.js
 msgid "Validation Error While Saving"
@@ -6262,30 +6142,28 @@ msgstr "Canvia manualment"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Sections"
-msgstr "Seccions"
+msgstr ""
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Subsections"
-msgstr "Subseccions"
+msgstr ""
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Units"
-msgstr "Unitats"
+msgstr ""
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "Components"
-msgstr "Components"
+msgstr ""
 
-#: cms/static/js/views/move_xblock_list.js
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Groups"
 msgstr "Grups"
 
 #: cms/static/js/views/move_xblock_list.js
 msgid "This {parentCategory} has no {childCategory}"
-msgstr "Aquesta {parentCategory} no té {childCategory}"
+msgstr ""
 
-#: cms/static/js/views/move_xblock_list.js
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/partition-group-details.underscore
 msgid "Course Outline"
@@ -6293,7 +6171,7 @@ msgstr "Esquema del curs"
 
 #: cms/static/js/views/paged_container.js
 msgid "Date added"
-msgstr "Data Afegida"
+msgstr ""
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
@@ -6311,9 +6189,8 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
-msgstr "Publicant"
+msgstr ""
 
-#: cms/static/js/views/pages/container_subviews.js
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore
 #: cms/templates/js/publish-xblock.underscore
@@ -6325,28 +6202,26 @@ msgid ""
 "Are you sure you want to revert to the last published version of the unit? "
 "You cannot undo this action."
 msgstr ""
-"Estàs segur que vols tornar a l'última versió publicada de la unitat? No "
-"podeu desfer aquesta acció."
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Discarding Changes"
-msgstr "Descartant els canvis"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Hiding from Students"
-msgstr "Ocultar-ho als estudiants"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Explicitly Hiding from Students"
-msgstr "Ocultar explícitament als estudiants"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Inheriting Student Visibility"
-msgstr "Herència de visibilitat dels estudiants"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Make Visible to Students"
-msgstr "Feu que siguin visibles per als estudiants"
+msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid ""
@@ -6354,13 +6229,10 @@ msgid ""
 "you made to the unit when it was hidden will now be visible to students. Do "
 "you want to proceed?"
 msgstr ""
-"Si la unitat anteriorment es va publicar i es va alliberar als estudiants, "
-"els canvis que hàgiu fet a la unitat quan estigués oculta ara seran visibles"
-" per als estudiants. Voleu continuar?"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
-msgstr "Fer visible als estudiants"
+msgstr ""
 
 #: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
@@ -6372,11 +6244,11 @@ msgstr "Hi ha hagut errors reindexant el curs."
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Hide Previews"
-msgstr "Amaga les visualitzacions prèvies"
+msgstr ""
 
 #: cms/static/js/views/pages/paged_container.js
 msgid "Show Previews"
-msgstr "Mostra les visualitzacions prèvies"
+msgstr ""
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -6386,8 +6258,6 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
 msgstr ""
-"Es mostra {currentItemRange} de {totalItemsCount}, filtrat per {assetType}, "
-"ordenat per {sortName} ascendent"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -6397,8 +6267,6 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
 msgstr ""
-"S'està mostrant {currentItemRange} de {totalItemsCount}, filtrat per "
-"{assetType}, ordenat per {sortName} de descens"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
@@ -6407,8 +6275,6 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
 msgstr ""
-"S'està mostrant {currentItemRange} de {totalItemsCount}, ordenat per "
-"{sortName} ascendent"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, sorted by Date Added descending"
@@ -6417,14 +6283,12 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
 msgstr ""
-"Es mostra {currentItemRange} de {totalItemsCount}, ordenat per {sortName} "
-"que descendeix"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
 #. "Showing 0-9 out of 25 total".
 #: cms/static/js/views/paging_header.js
 msgid "{totalItems} total"
-msgstr "{totalItems} total"
+msgstr ""
 
 #. Translators: This refers to a content group that can be linked to a student
 #. cohort.
@@ -6519,22 +6383,16 @@ msgid ""
 "Deleting a textbook cannot be undone and once deleted any reference to it in"
 " your courseware's navigation will also be removed."
 msgstr ""
-"Esborrar un llibre de text no es pot desfer i un cop esborrat qualsevol "
-"referència a ell en el navegador de materials del curs també seran "
-"eliminats."
 
 #: cms/static/js/views/tabs.js
 msgid "Delete Page Confirmation"
-msgstr "Suprimeix la confirmació de la pàgina"
+msgstr ""
 
 #: cms/static/js/views/tabs.js
 msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr ""
-"Esteu segur que voleu eliminar aquesta pàgina? Aquesta acció no es pot "
-"desfer."
 
-#: cms/static/js/views/uploads.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
@@ -6542,7 +6400,7 @@ msgstr "Pujar"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
-msgstr "Ho sentim, hi ha hagut un error"
+msgstr ""
 
 #: cms/static/js/views/utils/create_course_utils.js
 msgid ""
@@ -6558,23 +6416,21 @@ msgstr ""
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Success! \"{displayName}\" has been moved."
-msgstr "Èxit! S'ha mogut \"{displayName}\"."
+msgstr ""
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
 msgstr ""
-"Moure cancel·lat. \"{sourceDisplayName}\" s'ha mogut de nou a la seva "
-"ubicació original."
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Undo move"
-msgstr "Desfés el moviment"
+msgstr ""
 
 #: cms/static/js/views/utils/move_xblock_utils.js
 msgid "Take me to the new location"
-msgstr "Porta'm a la nova ubicació"
+msgstr ""
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid "Updating"
@@ -6642,19 +6498,19 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Duplicating"
-msgstr "Duplicar"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Undo moving"
-msgstr "Desfés en moviment"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Moving"
-msgstr "Moure"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Deleting this {xblock_type} is permanent and cannot be undone."
-msgstr "Si suprimiu {xblock_type}, és permanent i no es pot desfer."
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Note that any linked translated rerun blocks mapping will be lost."
@@ -6665,30 +6521,27 @@ msgid ""
 "Any content that has listed this content as a prerequisite will also have "
 "access limitations removed."
 msgstr ""
-"Qualsevol contingut que hagi inclòs aquest contingut com a requisit previ "
-"també es suprimirà les limitacions d'accés."
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type} (and prerequisite)?"
-msgstr "Voleu eliminar aquest {xblock_type} (i requisit previ)?"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Yes, delete this {xblock_type}"
-msgstr "Sí, elimineu aquest {xblock_type}"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Delete this {xblock_type}?"
-msgstr "Voleu eliminar aquest {xblock_type}?"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "section"
-msgstr "secció"
+msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "subsection"
-msgstr "subsecció"
+msgstr ""
 
-#: cms/static/js/views/utils/xblock_utils.js
 #: cms/templates/js/container-access.underscore
 msgid "unit"
 msgstr "unitat"
@@ -6718,68 +6571,64 @@ msgstr "Guardar canvis"
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Please select a file in .srt format."
-msgstr "Seleccioneu un fitxer en format .srt."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Error: Uploading failed."
-msgstr "Error: la càrrega ha fallat."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Import failed."
-msgstr "Error: la importació ha fallat."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Replacing failed."
-msgstr "Error: la substitució ha fallat."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Choosing failed."
-msgstr "Error: l'elecció ha fallat."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Error: Connection with server failed."
-msgstr "Error: la connexió amb el servidor ha fallat."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Link types should be unique."
-msgstr "Els tipus de vincle han de ser únics."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Links should be unique."
-msgstr "Els enllaços han de ser únics."
+msgstr ""
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js
 msgid "Incorrect url format."
-msgstr "Format d'URL incorrecte."
+msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
 msgstr ""
-"Perdoni, hi ha hagut un error analitzant els subtítols que ha pujat. Si us "
-"plau, reviseu el format i torneu-ho a provar."
 
 #: cms/static/js/views/video/translations_editor.js
 #: cms/static/js/views/video_transcripts.js
 msgid "Are you sure you want to remove this transcript?"
-msgstr "Esteu segur que voleu eliminar aquesta transcripció?"
+msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
 msgstr ""
-"Si elimineu aquesta transcripció, la transcripció no estarà disponible per a"
-" aquest component."
 
 #: cms/static/js/views/video/translations_editor.js
 msgid "Remove Transcript"
-msgstr "Elimina la transcripció"
+msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid "Upload translation"
-msgstr "Pujar traducció"
+msgstr ""
 
 #: cms/static/js/views/video_thumbnail.js
 msgid "Add Thumbnail"
@@ -6933,16 +6782,15 @@ msgstr ""
 
 #: cms/static/js/views/xblock_editor.js
 msgid "Editor"
-msgstr "Editor"
+msgstr ""
 
-#: cms/static/js/views/xblock_editor.js
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Settings"
 msgstr "Configuració"
 
 #: cms/static/js/views/xblock_outline.js
 msgid "New {component_type}"
-msgstr "Nou {component_type}"
+msgstr ""
 
 #: cms/static/js/xblock_asides/structured_tags.js
 msgid "Updating Tags"
@@ -6976,80 +6824,8 @@ msgstr "Accions"
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-#, python-format
-msgid "Prerequisite: %(prereq_display_name)s"
-msgstr "Requisit previ: %(prereq_display_name)s"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Contains staff only content"
-msgstr "Conté només contingut del personal"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Unpublished changes to live content"
-msgstr "Canvis no publicats al contingut en directe"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Unpublished units will not be released"
-msgstr "No es publicaran unitats no publicades"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Unpublished changes to content that will release in the future"
-msgstr "Canvis no publicats al contingut que es publicaran en el futur"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
-msgstr "L'accés a aquesta unitat està restringit a: {selectedGroupsLabel}"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid ""
-"Access to some content in this unit is restricted to specific groups of "
-"learners"
-msgstr ""
-"L'accés a algun contingut d'aquesta unitat està restringit a grups "
-"específics d'estudiants"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Ungraded"
-msgstr "Sense calificar"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Onboarding Exam"
 msgstr ""
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Practice proctored Exam"
-msgstr "Pràctica exàmens supervisats"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Proctored Exam"
-msgstr "Exàmen supervisat"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Timed Exam"
-msgstr "Examen temporal"
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/xblock-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-#, python-format
-msgid "Collapse/Expand this %(xblock_type)s"
-msgstr "Contraure / Expandir això %(xblock_type)s"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Display Name"
-msgstr "Mostra el Nom"
 
 #: cms/templates/js/course-outline.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
@@ -7057,83 +6833,11 @@ msgid "Proctoring Settings"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Configure"
-msgstr "Configura"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Duplicate"
-msgstr "Duplicar"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Drag to reorder"
-msgstr "Arrossegueu per reordenar"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Release Status:"
-msgstr "Estat de publicació:"
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/publish-xblock.underscore
-#: cms/templates/js/xblock-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Released:"
-msgstr "Publicat:"
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/publish-xblock.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Scheduled:"
-msgstr "Programat:"
-
-#: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
 #: lms/templates/ccx/schedule.underscore
 #: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
 msgid "Unscheduled"
 msgstr "No planificat"
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/highlights-editor.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Section Highlights"
-msgstr "Secció destacada"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Graded as:"
-msgstr "Qualificats com:"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Due:"
-msgstr "Venciment:"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Subsection is hidden after course end date"
-msgstr "La subsecció està oculta després de la data de finalització del curs"
-
-#: cms/templates/js/course-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "Subsection is hidden after due date"
-msgstr "La subsecció està oculta després de la data de venciment"
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/xblock-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-msgid "You haven't added any content to this course yet."
-msgstr "Encara no heu afegit cap contingut a aquest curs."
-
-#: cms/templates/js/course-outline.underscore
-#: cms/templates/js/xblock-outline.underscore
-#: themes/edx-platform/wikilearn/cms/templates/js/course-outline.underscore
-#, python-format
-msgid "Click to add a new %(xblock_type)s"
-msgstr "Feu clic per afegir-ne un de nou %(xblock_type)s"
 
 #: cms/templates/js/paging-header.underscore
 #: common/static/common/templates/components/paging-footer.underscore
@@ -7187,15 +6891,15 @@ msgstr "Cerca"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Response"
-msgstr "Afegiu una resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This thread is closed."
-msgstr "Aquest fil està tancat."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a response:"
-msgstr "Afegiu una resposta:"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -7205,56 +6909,55 @@ msgstr "Enviar"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
-msgstr "debat publicat %(time_ago)s per %(author)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr "pregunta publicada %(time_ago)s per %(author)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
-msgstr "Fixat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Reported"
-msgstr "Reportat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Closed"
-msgstr "Tancat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr "Relacionat amb: %(courseware_title_linked)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
-msgstr "Aquesta publicació només és visible per %(group_name)s."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
-msgstr "Aquesta publicació és visible per a tothom."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing post"
-msgstr "Editant publicació"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
-"Afegiu un títol clar i descriptiu per fomentar la participació. (Obligatori)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
-msgstr "Editeu la publicació a continuació."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update post"
-msgstr "Actualitza la publicació"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7265,72 +6968,72 @@ msgstr[1] ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
-msgstr "Afegir un comentari"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr "marcat com a resposta %(time_ago)s per %(user)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr "marcat com a resposta %(time_ago)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr "assignat %(time_ago)s per %(user)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr "assignat %(time_ago)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
-msgstr "Editant resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update response"
-msgstr "Actualitza resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr "publicat %(time_ago)s per %(author)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
-msgstr "Editant comentari"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Update comment"
-msgstr "Actualitzar comentari"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "discussion"
-msgstr "debat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "answered question"
-msgstr "va respondre la pregunta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "unanswered question"
-msgstr "pregunta sense resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Following"
-msgstr "Següent"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Community TA"
-msgstr "Comunitat TA"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "{unread_comments_count} new"
-msgstr "{unread_comments_count} nou"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
@@ -7338,76 +7041,70 @@ msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
 msgstr ""
-"%(comments_count)s %(span_sr_open)scomentaris (%(unread_comments_count)s "
-"sense llegir comments)%(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr "%(comments_count)s %(span_sr_open)scomentaris %(span_close)s"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr "Afegeix una publicació"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
-msgstr "Visible per"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
 "students or specify a single group."
 msgstr ""
-"Els administradors de discussió, els moderadors i els TA poden fer visibles "
-"els seus missatges a tots els estudiants o especificar un sol grup."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "All Groups"
-msgstr "Tots els grups"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr "seguiu aquesta publicació"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr "publica de forma anònima"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
-msgstr "publica anònimament als companys"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Error posting your message."
-msgstr "S'ha produït un error en publicar el missatge."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
-msgstr "Aquesta publicació serà visible només a %(group_name)s."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post will be visible to everyone."
-msgstr "Aquesta publicació serà visible per a tothom."
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
-msgstr "Àrea del tema"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
 msgstr ""
-"Afegiu la vostra publicació a un tema rellevant per ajudar-los a trobar-lo. "
-"(Obligatori)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
-msgstr "(Comunitat TA)"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Staff)"
-msgstr "(Personal)"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore
@@ -7420,83 +7117,81 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "View discussion"
-msgstr "Veure debat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Load more"
-msgstr "Carrega més"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr "Tipus de publicació"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
 msgstr ""
-"Les preguntes generen problemes que necessiten respostes. Les discussions "
-"comparteixen idees i comencen converses. (Required)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr "Pregunta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
-msgstr "Debat"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
-msgstr "Aprovar"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr "Desaprovar"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
-msgstr "Marcar com a resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unmark as Answer"
-msgstr "Desmarcar com a Resposta"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
-msgstr "Seguir"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
-msgstr "No seguir"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Vote for this post,"
-msgstr "Vota per a aquesta publicació,"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report abuse"
-msgstr "Informar d'un abús"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Report"
-msgstr "Informar"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unreport"
-msgstr "No informar"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pin"
-msgstr "Pin"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unpin"
-msgstr "Torneu a apuntar"
+msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Open"
-msgstr "Obrir"
+msgstr ""
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore
 msgid "Discussion Home"
@@ -7581,7 +7276,7 @@ msgstr "Estat"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
-msgstr "URL de descàrrega"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Grade"
@@ -7593,11 +7288,11 @@ msgstr "Darrera actualització"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
-msgstr "Baixeu el certificat de l'usuari"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
-msgstr "No disponible"
+msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
@@ -8559,7 +8254,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Learn More"
-msgstr "Apreneu més"
+msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore
 msgid "Additional Professional Opportunities"
@@ -8578,8 +8273,6 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
-"Per completar el programa, heu de guanyar un certificat verificat per a cada"
-" curs."
 
 #: lms/templates/learner_dashboard/program_details_view.underscore
 msgid "Upgrade All Remaining Courses ("
@@ -8650,7 +8343,7 @@ msgstr "Hi ha hagut un error. Torna a carregar la pàgina."
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need help signing in?"
-msgstr "Necessites ajuda per iniciar sessió?"
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Forgot my password"
@@ -8658,7 +8351,7 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
-msgstr "Altres problemes d'inici de sessió"
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Sign in with your company or school"
@@ -8666,11 +8359,11 @@ msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
-msgstr "Necessiteu més ajuda per iniciar la sessió?"
+msgstr ""
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
-msgstr "Crear un compte"
+msgstr ""
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/login.underscore
@@ -8806,13 +8499,10 @@ msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
 msgstr ""
-"Introduïu la vostra adreça de correu electrònic d'inici de sessió o "
-"recuperació a continuació i us enviarem un correu electrònic amb "
-"instruccions."
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr "Recuperar la meva contrasenya"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
@@ -10131,7 +9821,7 @@ msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Date"
-msgstr "Data"
+msgstr ""
 
 #: cms/templates/js/course_info_update.underscore
 msgid "Post"
@@ -10601,17 +10291,12 @@ msgid ""
 "incorrect, nor the score received, until after the course end date has "
 "passed."
 msgstr ""
-"Els aprenents no veuen si les seves respostes a les avaluacions eren "
-"correctes o incorrectes, ni la puntuació rebuda, fins que hagi passat la "
-"data de finalització del curs."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
 msgstr ""
-"Si el curs no té data de finalització, els estudiants sempre veuen les "
-"puntuacions quan envien respostes a les avaluacions."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
@@ -10814,9 +10499,6 @@ msgid ""
 "exam. The videos are then reviewed to ensure that learners follow all "
 "examination rules."
 msgstr ""
-"Els exàmens supervisats són cronometrats i graven el vídeo de cada alumne "
-"que pren l'examen. Els vídeos es revisen per garantir que els alumnes "
-"segueixin totes les regles d'examen."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Onboarding"
@@ -11191,3 +10873,85 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "Utilitzeu l'actual Transcripció"
+
+#~ msgid "Prerequisite: %(prereq_display_name)s"
+#~ msgstr "Requisit previ: %(prereq_display_name)s"
+
+#~ msgid "Contains staff only content"
+#~ msgstr "Conté només contingut del personal"
+
+#~ msgid "Unpublished changes to live content"
+#~ msgstr "Canvis no publicats al contingut en directe"
+
+#~ msgid "Unpublished units will not be released"
+#~ msgstr "No es publicaran unitats no publicades"
+
+#~ msgid "Unpublished changes to content that will release in the future"
+#~ msgstr "Canvis no publicats al contingut que es publicaran en el futur"
+
+#~ msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
+#~ msgstr "L'accés a aquesta unitat està restringit a: {selectedGroupsLabel}"
+
+#~ msgid ""
+#~ "Access to some content in this unit is restricted to specific groups of "
+#~ "learners"
+#~ msgstr ""
+#~ "L'accés a algun contingut d'aquesta unitat està restringit a grups "
+#~ "específics d'estudiants"
+
+#~ msgid "Ungraded"
+#~ msgstr "Sense calificar"
+
+#~ msgid "Practice proctored Exam"
+#~ msgstr "Pràctica exàmens supervisats"
+
+#~ msgid "Proctored Exam"
+#~ msgstr "Exàmen supervisat"
+
+#~ msgid "Timed Exam"
+#~ msgstr "Examen temporal"
+
+#~ msgid "Collapse/Expand this %(xblock_type)s"
+#~ msgstr "Contraure / Expandir això %(xblock_type)s"
+
+#~ msgid "Display Name"
+#~ msgstr "Mostra el Nom"
+
+#~ msgid "Configure"
+#~ msgstr "Configura"
+
+#~ msgid "Duplicate"
+#~ msgstr "Duplicar"
+
+#~ msgid "Drag to reorder"
+#~ msgstr "Arrossegueu per reordenar"
+
+#~ msgid "Release Status:"
+#~ msgstr "Estat de publicació:"
+
+#~ msgid "Released:"
+#~ msgstr "Publicat:"
+
+#~ msgid "Scheduled:"
+#~ msgstr "Programat:"
+
+#~ msgid "Section Highlights"
+#~ msgstr "Secció destacada"
+
+#~ msgid "Graded as:"
+#~ msgstr "Qualificats com:"
+
+#~ msgid "Due:"
+#~ msgstr "Venciment:"
+
+#~ msgid "Subsection is hidden after course end date"
+#~ msgstr "La subsecció està oculta després de la data de finalització del curs"
+
+#~ msgid "Subsection is hidden after due date"
+#~ msgstr "La subsecció està oculta després de la data de venciment"
+
+#~ msgid "You haven't added any content to this course yet."
+#~ msgstr "Encara no heu afegit cap contingut a aquest curs."
+
+#~ msgid "Click to add a new %(xblock_type)s"
+#~ msgstr "Feu clic per afegir-ne un de nou %(xblock_type)s"
