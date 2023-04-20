@@ -5,10 +5,10 @@ msgid "Don't forget to add a calendar reminder!"
 msgstr "لا تنس إضافة تنبيه لمذكرتك"
 
 msgid "Course starts in {time_remaining_string} on {course_start_date}."
-msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_start_date}."
+msgstr "يبدأ المساق بعد {time_remaining_string} في {course_start_date}."
 
 msgid "Course starts in {time_remaining_string} at {course_start_time}."
-msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_start_time}."
+msgstr "يبدأ المساق بعد {time_remaining_string} في {course_start_time}."
 
 msgid "To earn a certificate, you must complete all requirements before this date."
 msgstr "لاستحقاق شهادة التخرج، يتوجب  اتمام  جميع المهام قبل هذا التاريخ"
@@ -27,3 +27,39 @@ msgstr "نتائج البحث"
 
 msgid "post anonymously"
 msgstr "نشر بشكل مجهول"
+
+msgid "Course End"
+msgstr "نهاية المساق"
+
+msgid "View all course dates"
+msgstr "إظهار كل تواريخ المساق"
+
+msgid "Course page automatically created."
+msgstr "تم إنشاء صفحة المساق تلقائيًا."
+
+msgid "Due Next"
+msgstr "التالي"
+
+msgid "Course Progress for '{username}' ({email})"
+msgstr "حالة تقدم المتعلم: '{username}' ({email})"
+
+msgid "View Certificate"
+msgstr "معاينة شهادة التخرج"
+
+msgid "Your final grade:"
+msgstr "درجتك النهائية:"
+
+msgid "Course Handouts"
+msgstr "النشرة"
+
+msgid "After this date, course content will be archived."
+msgstr "سيتم أرشفة محتوى المادة بعد هذا التاريخ."
+
+msgid "({number} Question)"
+msgid_plural "({number} Questions)"
+msgstr[0] "({number} سؤال)"
+msgstr[1] "({number} سؤال)"
+msgstr[2] "({number} سؤال)"
+msgstr[3] "({number} سؤال)"
+msgstr[4] "({number} سؤال)"
+msgstr[5] "({number} سؤال)"
