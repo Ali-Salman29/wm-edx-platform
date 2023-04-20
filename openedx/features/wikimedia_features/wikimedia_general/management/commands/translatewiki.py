@@ -164,13 +164,13 @@ class Command(BaseCommand):
 
     def get_line_number_from_output(self, output):
         output_mappings = {}
-        pattern = r"(/edx/app/edxapp/edx-platform/)(.+)(:\d+)"
+        pattern = r"(/conf/locale/)(.+)(:\d+)"
         
         for output_line in output.split('\n'):
             match = re.search(pattern, output_line)
             if match:
                 # Extract the matched substring
-                file_name, line_number = match.group(2), int(match.group(3)[1:])
+                file_name, line_number = match.group(1) + match.group(2), int(match.group(3)[1:])
                 if file_name in output_mappings:
                     output_mappings[file_name].append(line_number)
                 else:
