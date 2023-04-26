@@ -1,0 +1,20 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == 2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= 99) ? 4 : 5 ) ) ) );\n"
+"X-POT-Import-Date: 2023-03-29 06:30:20+0000\n"
+
+msgid "Expand All"
+msgstr "تكبير جميع الأقسام"
+
+msgid "Search Results"
+msgstr "بحث في النتائج"
+
+msgid "post anonymously"
+msgstr "نشر بشكل مجهول"
+
+msgid "Course End"
+msgstr "نهاية المساق"

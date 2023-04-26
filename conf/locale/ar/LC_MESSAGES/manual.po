@@ -1,3 +1,11 @@
+#
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == 2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= 99) ? 4 : 5 ) ) ) );\n"
+
 msgid "Course Starts"
 msgstr "بداية المساق"
 
@@ -10,7 +18,8 @@ msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_
 msgid "Course starts in {time_remaining_string} at {course_start_time}."
 msgstr "يبدأ المساق بتاريخ {time_remaining_string} في {course_start_time}."
 
-msgid "To earn a certificate, you must complete all requirements before this date."
+msgid ""
+"To earn a certificate, you must complete all requirements before this date."
 msgstr "لاستحقاق شهادة التخرج، يتوجب  اتمام  جميع المهام قبل هذا التاريخ"
 
 msgid "Important Dates"
@@ -24,9 +33,6 @@ msgstr "تكبير جميع الأقسام"
 
 msgid "Search Results"
 msgstr "نتائج البحث"
-
-msgid "post anonymously"
-msgstr "نشر بشكل مجهول"
 
 msgid "Course End"
 msgstr "نهاية المساق"
@@ -68,5 +74,5 @@ msgid ""
 "The page that you were looking for was not found. Go back to the "
 "{link_start}homepage{link_end} ."
 msgstr ""
-"لا يمكن العثور على الصفحة المطلوبة، العودة إلى "
-"{link_start}الصفحة الرئيسية{link_end} ."
+"لا يمكن العثور على الصفحة المطلوبة، العودة إلى {link_start}الصفحة "
+"الرئيسية{link_end} ."
