@@ -357,12 +357,15 @@ class Command(BaseCommand):
             for source_file, files in merge_scheme.items():
                 if os.path.exists(f'{edx_dir}/{source_file}'):
                     for filename in files:
-                        log.info(f'Updating {edx_dir}/{filename} from {edx_dir}/{source_file}')
-                        command = pomerge_command.format(
-                            from_path=f'{edx_dir}/{source_file}',
-                            to_path=f'{edx_dir}/{filename}',
-                        )
-                        execute(command)
+                        if os.path.exists(f'{edx_dir}/{filename}'):
+                            log.info(f'Updating {edx_dir}/{filename} from {edx_dir}/{source_file}')
+                            command = pomerge_command.format(
+                                from_path=f'{edx_dir}/{source_file}',
+                                to_path=f'{edx_dir}/{filename}',
+                            )
+                            execute(command)
+                        else:
+                            log.info(f'Unable to find destination path: {edx_dir}/{filename}')
                 else:
                     log.info(f'Unable to find source path: {edx_dir}/{source_file}')
 
