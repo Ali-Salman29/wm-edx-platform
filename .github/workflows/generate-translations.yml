@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          ref: master
 
       - name: Set up python
         uses: actions/setup-python@v2
@@ -43,7 +41,7 @@ jobs:
         with:
           repository: wikimedia/wikilearn-edx-theme
           path: ./themes
-          ref: develop
+          ref: alisalman/course-filters
           token: ${{ secrets.THEME_ACCESS_TOKEN }}
 
       - name: Checkout master as feature branch does not exist
@@ -156,7 +154,6 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v4
         with:
-          base: master
           branch: 'gitflow/auto-generated-translations'
           commit-message: 'Add changed translation files'
           add-paths: |
