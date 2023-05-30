@@ -370,7 +370,7 @@ msgstr ""
 
 #: openedx/features/wikimedia_features/admin_dashboard/admin_task/api.py
 msgid "progress"
-msgstr ""
+msgstr "ilerleme"
 
 #: openedx/features/wikimedia_features/meta_translations/views.py
 msgid "Select Base Course"
@@ -659,7 +659,7 @@ msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html
 msgid "View all course dates"
-msgstr ""
+msgstr "Tüm ders tarihlerini görüntüle"
 
 #: openedx/features/wikimedia_features/wikimedia_general/templates/wikimedia_general/wikimedia_progress_fragment.html
 msgid "Problem Score"

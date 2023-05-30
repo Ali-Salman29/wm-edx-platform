@@ -1,11 +1,10 @@
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: Translatewiki\n"
 "POT-Creation-Date: 2022-10-18 04:22:59.511105\n"
-"PO-Revision-Date: 2023-05-29 05:43:30.315268\n"
+"PO-Revision-Date: 2023-05-30 09:50:20.184698\n"
 "Last-Translator: \n"
 "Language-Team: Translatewiki\n"
 "Language: en\n"
@@ -726,4 +725,22 @@ msgstr ""
 
 #: themes/edx-platform/wikilearn/lms/templates/index.html
 msgid "Unlock The World’s Knowledge"
+msgstr ""
+
+#: themes/edx-platform/wikilearn/lms/templates/courseware/courses.html
+msgid "What to study next?"
+msgstr ""
+
+#: lms/templates/logout.html
+#, python-brace-format
+msgid ""
+"If you are not redirected within 5 seconds, {start_anchor}click here to go "
+"to the home page{end_anchor}."
+msgstr ""
+
+#: lms/templates/logout.html
+#, python-brace-format
+msgid ""
+"{start_anchor}Click here{end_anchor} to delete your single signed on (SSO) "
+"session."
 msgstr ""
