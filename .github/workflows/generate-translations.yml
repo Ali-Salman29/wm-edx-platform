@@ -91,6 +91,8 @@ jobs:
         id: merge-translations-translatewiki
         run: |
           export NO_PREREQ_INSTALL='true'
+          touch $(pwd)/lms/devstack.yml
+          touch $(pwd)/cms/devstack.yml
           export LMS_CFG=$(pwd)/lms/devstack.yml
           export STUDIO_CFG=$(pwd)/cms/devstack.yml
 
