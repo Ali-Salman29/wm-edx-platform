@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-05-30 09:47+0000\n"
+"POT-Creation-Date: 2023-05-31 03:52+0000\n"
 "PO-Revision-Date: 2019-01-20 20:43+0000\n"
 "Last-Translator: Cátia Lopes <catia.lopes@bridgelk.com>, 2019\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/open-edx/teams/6205/pt_PT/)\n"
@@ -253,6 +253,40 @@ msgstr "ID. do Vídeo"
 msgid "Pending"
 msgstr "Pendente"
 
+#: cms/envs/bok_choy.py lms/envs/bok_choy.py lms/envs/test.py
+msgid "édX"
+msgstr ""
+
+#: cms/envs/bok_choy.py lms/envs/bok_choy.py lms/envs/test.py
+msgid "Open édX Platform"
+msgstr ""
+
+#: cms/envs/common.py lms/envs/common.py
+msgid "Your Platform Name Here"
+msgstr ""
+
+#: cms/envs/common.py lms/envs/common.py
+msgid "Your Platform Description Here"
+msgstr ""
+
+#: cms/envs/common.py lms/djangoapps/instructor/views/api.py
+#: lms/envs/common.py
+msgid "Language"
+msgstr "Idioma"
+
+#: cms/envs/common.py lms/envs/common.py
+msgid "Enrollment Type"
+msgstr ""
+
+#: cms/envs/common.py common/lib/xmodule/xmodule/course_module.py
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py lms/envs/common.py
+msgid "Self Paced"
+msgstr "Ritmo Próprio Indiviual"
+
+#: cms/envs/common.py lms/envs/common.py
+msgid "Instructor Led"
+msgstr ""
+
 #: cms/templates/admin/base_site.html lms/templates/admin/base_site.html
 msgid "Django site admin"
 msgstr "Administrador do site Django"
@@ -310,7 +344,7 @@ msgstr ""
 msgid "You're enrolled as a verified student"
 msgstr "Matriculou-se como um estudante verificado"
 
-#: common/djangoapps/course_modes/helpers.py
+#: common/djangoapps/course_modes/helpers.py lms/envs/common.py
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Verified"
 msgstr "Verificado"
@@ -3594,11 +3628,6 @@ msgid ""
 msgstr ""
 "A nota mínima que um estudante deve obter para receber créditos no curso, "
 "como um decimal entre 0,0 e 1,0. Por exemplo: para 75%, digite 0,75."
-
-#: common/lib/xmodule/xmodule/course_module.py
-#: common/lib/xmodule/xmodule/modulestore/inheritance.py
-msgid "Self Paced"
-msgstr "Ritmo Próprio Indiviual"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -7463,10 +7492,6 @@ msgid "Email"
 msgstr "Email"
 
 #: lms/djangoapps/instructor/views/api.py
-msgid "Language"
-msgstr "Idioma"
-
-#: lms/djangoapps/instructor/views/api.py
 msgid "Location"
 msgstr "Local"
 
@@ -8819,6 +8844,212 @@ msgstr "A sua verificação de ID de {platform_name} foi aprovada!"
 #, python-brace-format
 msgid "Your {platform_name} Verification Has Been Denied"
 msgstr "A sua verificação {platform_name} foi negada"
+
+#: lms/envs/common.py
+msgid "Read access"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Write access"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Know your email address"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Know your name and username"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Retrieve your course certificates"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Retrieve your grades for your enrolled courses"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Retrieve your third-party authentication username mapping"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Know your user identifier"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Audit"
+msgstr "Exame"
+
+#. Translators: This is the website name of www.facebook.com.  Please
+#. translate this the way that Facebook advertises in your language.
+#: lms/envs/common.py
+msgid "Facebook"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Like {platform_name} on Facebook"
+msgstr ""
+
+#. Translators: This is the website name of www.twitter.com.  Please
+#. translate this the way that Twitter advertises in your language.
+#: lms/envs/common.py
+msgid "Twitter"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Follow {platform_name} on Twitter"
+msgstr ""
+
+#. Translators: This is the website name of www.linkedin.com.  Please
+#. translate this the way that LinkedIn advertises in your language.
+#: lms/envs/common.py
+msgid "LinkedIn"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Follow {platform_name} on LinkedIn"
+msgstr ""
+
+#. Translators: This is the website name of www.instagram.com.  Please
+#. translate this the way that Instagram advertises in your language.
+#: lms/envs/common.py
+msgid "Instagram"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Follow {platform_name} on Instagram"
+msgstr ""
+
+#. Translators: This is the website name of www.tumblr.com.  Please
+#. translate this the way that Tumblr advertises in your language.
+#: lms/envs/common.py
+msgid "Tumblr"
+msgstr ""
+
+#. Translators: This is the website name of www.meetup.com.  Please
+#. translate this the way that MeetUp advertises in your language.
+#: lms/envs/common.py
+msgid "Meetup"
+msgstr ""
+
+#. Translators: This is the website name of www.reddit.com.  Please
+#. translate this the way that Reddit advertises in your language.
+#: lms/envs/common.py
+msgid "Reddit"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Subscribe to the {platform_name} subreddit"
+msgstr ""
+
+#. Translators: This is the website name of https://vk.com.  Please
+#. translate this the way that VK advertises in your language.
+#: lms/envs/common.py
+msgid "VK"
+msgstr ""
+
+#. Translators: This is the website name of http://www.weibo.com.  Please
+#. translate this the way that Weibo advertises in your language.
+#: lms/envs/common.py
+msgid "Weibo"
+msgstr ""
+
+#. Translators: This is the website name of www.youtube.com.  Please
+#. translate this the way that YouTube advertises in your language.
+#: lms/envs/common.py
+msgid "Youtube"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Subscribe to the {platform_name} YouTube channel"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Kosovo"
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid "Welcome to {platform_name}."
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid ""
+"You have left the {start_bold}{enterprise_name}{end_bold} website and are "
+"now on the {platform_name} site. {enterprise_name} has partnered with "
+"{platform_name} to offer you high-quality, always available learning "
+"programs to help you advance your knowledge and career. {line_break}Please "
+"note that {platform_name} has a different {privacy_policy_link_start}Privacy"
+" Policy{privacy_policy_link_end} from {enterprise_name}."
+msgstr ""
+
+#: lms/envs/common.py
+#, python-brace-format
+msgid ""
+"{start_bold}{enterprise_name}{end_bold} has partnered with "
+"{start_bold}{platform_name}{end_bold} to offer you high-quality learning "
+"opportunities from the world's best institutions and universities."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Professional"
+msgstr "Profissional"
+
+#: lms/envs/common.py
+msgid "No-Id-Professional"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Credit"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Honor"
+msgstr "Honra"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Master's"
+msgstr "Mestrado"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html
+msgid "Executive Education"
+msgstr "Educação Executiva"
+
+#: lms/envs/common.py
+msgid "Course Type"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Enrollment Open"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Enrollment Open In Coming Three Months"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Enrollment Open After Three Months"
+msgstr ""
+
+#: lms/templates/courseware/course_about.html
+msgid "Prerequisites"
+msgstr "Pré-requisitos"
+
+#: lms/envs/common.py
+msgid "No Prerequisites"
+msgstr ""
+
+#: lms/envs/common.py
+msgid "Require Prerequisites"
+msgstr ""
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html
 msgid "Please correct the errors below."
@@ -14063,6 +14294,42 @@ msgstr "O curso já está no estado publicado."
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "Formato incorreto para o campo ' {name} '. {detailed_message}"
 
+#: cms/envs/bok_choy.py cms/envs/test.py
+msgid "Your Platform 𝓢𝓽𝓾𝓭𝓲𝓸"
+msgstr ""
+
+#: cms/envs/bok_choy.py cms/envs/test.py
+msgid "𝓢𝓽𝓾𝓭𝓲𝓸"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Your Contact Mailing Address Here"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Your Platform Studio"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Studio"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Enrollment open"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Enrollment open in coming 3 months"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Enrollment open after 3 months"
+msgstr ""
+
+#: cms/envs/common.py
+msgid "Course Paced"
+msgstr ""
+
 #: cms/lib/xblock/tagging/tagging.py
 msgid "Dictionary with the available tags"
 msgstr "Dicionário com os separadores disponíveis"
@@ -17164,10 +17431,6 @@ msgid "Estimated Effort"
 msgstr "Esforço estimado"
 
 #: lms/templates/courseware/course_about.html
-msgid "Prerequisites"
-msgstr "Pré-requisitos"
-
-#: lms/templates/courseware/course_about.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before "
@@ -19225,26 +19488,6 @@ msgstr "Informação da Matrícula"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Number of enrollees (admins, staff, and students) by track"
 msgstr "Número de inscritos (administradores, equipa e estudantes) por modo"
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "Audit"
-msgstr "Exame"
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "Honor"
-msgstr "Honra"
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "Professional"
-msgstr "Profissional"
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "Executive Education"
-msgstr "Educação Executiva"
-
-#: lms/templates/instructor/instructor_dashboard_2/course_info.html
-msgid "Master's"
-msgstr "Mestrado"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Basic Course Information"
@@ -25884,6 +26127,9 @@ msgstr ""
 msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr "Clique no botão \"Começar o Exame Vigiado\" para continuar."
 
+#~ msgid "Organization"
+#~ msgstr "Organização"
+
 #~ msgid "Ready"
 #~ msgstr "Concluído"
 
@@ -26710,9 +26956,6 @@ msgstr "Clique no botão \"Começar o Exame Vigiado\" para continuar."
 #~ msgstr ""
 #~ "O nome público apresentado para o novo curso. (Este nome é muitas vezes "
 #~ "igual ao nome do curso original)."
-
-#~ msgid "Organization"
-#~ msgstr "Organização"
 
 #~ msgid "e.g. UniversityX or OrganizationX"
 #~ msgstr "ex.: UniversidadeX ou OrganizaçãoX"

@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-05-30 09:47+0000\n"
+"POT-Creation-Date: 2023-05-31 03:51+0000\n"
 "PO-Revision-Date: 2014-06-11 15:18+0000\n"
 "Last-Translator: Angelos Chraniotis, 2023\n"
 "Language-Team: Greek (http://app.transifex.com/open-edx/edx-platform/language/el/)\n"
@@ -7318,12 +7318,12 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr ""
+msgstr "Προτάθηκε %(time_ago)s από τον χρήστη %(user)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr ""
+msgstr "Προτάθηκε %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
@@ -7483,11 +7483,11 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
-msgstr "Εγκρίνω"
+msgstr "Προτείνω"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unendorse"
-msgstr "Δεν εγκρίνω"
+msgstr "Δεν προτείνω"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Mark as Answer"
