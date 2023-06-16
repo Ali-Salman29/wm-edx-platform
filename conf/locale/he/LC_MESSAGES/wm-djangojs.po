@@ -95,8 +95,7 @@ msgstr "לערוך בבלוק הקורס הבסיסי?"
 
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Note that any linked translated rerun blocks mapping will be lost."
-msgstr ""
-"נא לשים לב לכך שכל מיפוי בלוקים של שידור חוזר מתורגם מקושר ילך לאיבוד."
+msgstr "נא לשים לב לכך שכל מיפוי בלוקים של שידור חוזר מתורגם מקושר ילך לאיבוד."
 
 #: cms/static/js/views/utils/wiki_utils.js
 msgid ""
@@ -121,4 +120,20 @@ msgstr "מיפוי בלוקים בקורס"
 #: lms/templates/student_account/login.underscore
 #, python-format
 msgid "%(providerName)s account"
+msgstr ""
+
+#: cms/static/js/features_jsx/studio/WikiCourseListing.jsx
+msgid "Search Course by Name"
+msgstr ""
+
+#: lms/static/js/courses.js
+msgid "Show All Courses"
+msgstr ""
+
+#: themes/edx-platform/wikilearn/lms/templates/discovery/course_card.underscore
+msgid "Learn More >"
+msgstr ""
+
+#: lms/static/js/courses.js
+msgid "What to study next?"
 msgstr ""

@@ -127,3 +127,19 @@ msgstr "Correspondance des blocs de cours"
 #, python-format
 msgid "%(providerName)s account"
 msgstr "compte de %(providerName)s"
+
+#: cms/static/js/features_jsx/studio/WikiCourseListing.jsx
+msgid "Search Course by Name"
+msgstr ""
+
+#: lms/static/js/courses.js
+msgid "Show All Courses"
+msgstr ""
+
+#: themes/edx-platform/wikilearn/lms/templates/discovery/course_card.underscore
+msgid "Learn More >"
+msgstr ""
+
+#: lms/static/js/courses.js
+msgid "What to study next?"
+msgstr ""
